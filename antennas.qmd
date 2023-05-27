@@ -1,0 +1,21 @@
+---
+title: "Antennas"
+format: html
+editor: source
+---
+
+## Antennas
+
+### MyAntennas 80-10 End-fed Half-wave (EFHW)
+
+This antenna is mounted in an inverted L configuration. The leg with the transformer is mounted at about 6 m on a mast near the corner of my back porch. The antenna crosses the yard to an apex about 15 m below a branch in a tree, then comes down to a base mounting point about 1.5 m above the ground.
+
+### DX Commander vertical
+
+This antenna has resonant elements for 30, 20, 17, 15, 12, and 10 m. It is mounted in my backyard.
+
+### Comet VHF/UHF
+
+This antenna is mounted on an extendable fiberglass mast. The EFHW transformer is mounted below it.
+
+### VHF/UHF J-pole

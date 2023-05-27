@@ -1,0 +1,66 @@
+---
+title: "Rigs"
+format: html
+editor: source
+---
+
+## HF
+
+### FlexRadio 6400
+
+![Flex-6400](https://edge.flexradio.com/www/offload/20221117142900/FlexRadio_products-2020_6400_45-left_9040-2400x2400px__08082.1594670218.1280.1280__62153.1668463138.1280.1280.jpg){.fig-center}
+
+I acquired this radio used in the summer of 2021. It has the internal antenna tuning unit (ATU).
+
+It connects to an SPE Expert Linear 1K amplifier on the Input 1 port.
+
+### ICOM IC-7300
+
+![ICOM IC-7300](https://www.icomamerica.com/en/products/7300/ProductHeader.jpg){.fig-center}
+
+This radio was new when I bought it in the summer of 2016.
+
+It also connects to the SPE Expert Linear 1K amplifier on the Input 2 port.
+
+### ICOM IC-705
+
+![ICOM IC-705](https://www.icomamerica.com/en/products/705/ProductHeader.jpg){.fig-center}
+
+I bought this radio new in the fall of 2020. This radio currently sits on my desk in my upstairs office.
+
+### Elecraft KX2
+
+![Elecraft KX2](https://cdn.shopify.com/s/files/1/2029/4979/products/kx2-product-hero_530x@2x.jpg?v=1549861527){.fig-center}
+
+I bought the Elecraft KX2 used in the summer of 2022.
+
+## VHF/UHF mobile
+
+### ICOM IC-705
+
+The IC-705 is also capable of VHF and UHF operations at up to 10 W.
+
+### Kenwood TM-710GA
+
+![Kenwood TM-710G](https://kasc.kenwood.com/files/website/categories/11/comm/amateur-vhf_uhf_mobiles2.png){.fig-center}
+
+This VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016.
+It is installed in our Kia Forte.
+I usually beacon APRS packets when I am mobile under the callsign W3TM-1.
+
+```{=html}
+<iframe width="600" height="480" src="https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-1&timerange=3600&tail=3600" title="W3TM-1 tracks from APRS.fi">
+```
+
+### Yaesu FTM-400XDR
+
+![Yaesu FTM-400XDR](https://www.yaesu.com/ProductImages/FTM-400DRXDR_thumb.jpg){.fig-center}
+
+I bought the FTM-400 new in the box from K3ARL in the summer of 2022. 
+He had bought it as a gift for his business partner and friend, Eric Brooks N3EB.
+Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio.
+N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.
+
+### Kenwood TM-2
+
+The Kenwood TM-XXX is a mobile radio, but I use it in my home shack to support my [W3TM-11 I-Gate](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-11&timerange=3600&tail=3600).

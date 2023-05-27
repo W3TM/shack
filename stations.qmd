@@ -1,0 +1,67 @@
+---
+title: "Stations"
+format: html
+editor: source
+---
+
+This page describes various stations that I use.
+
+## Home
+
+### Shack
+
+#### APRS I-Gate
+
+#### HF 1
+
+My primary HF station uses the FlexRadio 6400 transceiver.
+The Flex drives an SPE Expert Linear 1K amplifier.
+The radio has an X microphone.
+An Acer laptop running SmartSDR 3.x.x is used to control the radio.
+
+#### HF 2
+
+### Office
+
+
+### Office HF/VHF/UHF
+
+### Allstar node
+
+## Mobile
+
+### Kia Forte
+
+### Honda CRV
+
+## Portable
+
+### VHF/UHF Go-box
+
+I have a Tytera TYT-8600 radio in a small go-box configuration with an included 12 Ah Bioenno $LiFePO_4$ battery.
+
+## Remote
+
+One technical challenge I enjoy involves remote operations.
+
+### Flex-6400
+
+The Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio's software.
+
+I especially enjoy using the [Mac OS](https://roskosch.de/smartsdr-for-mac/) and [iOS](https://roskosch.de/smartsdr-features/) SmartSDR clients.
+They work extremely well.
+
+### ICOM IC-705
+
+The same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control.
+The application runs on [MacOS](https://roskosch.de/sdr-control/), [iPad](https://roskosch.de/sdr-control-ios/), and [iPhone](https://roskosch.de/sdr-control-mobile/).
+
+I have successfully used SDR-Control to access my IC-705, and have tested it with another operator's IC-7610.
+
+### ICOM IC-7300
+
+The IC-7300 does not have the network circuitry needed to permit "out-of-the-box" control like the IC-705 or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.
+
+However, I do use and enjoy remote control of my IC-7300 using the [RemoteTx.net service](https://remotetx.net).
+This service allows me to access my IC-7300 from a web browser.
+

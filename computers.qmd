@@ -1,0 +1,23 @@
+---
+title: "Computers"
+format: html
+editor: source
+---
+
+Computers are an integral part of amateur radio.
+Here are some descriptions of the computers I use in my operations.
+
+## Windows
+
+I have an Acer laptop in my home shack that is the main control computer for the Flex-6400 and logging computer for the Flex-6400 and the IC-7300.
+
+I have an Evolve III netbook that I use for portable operations and to retrieve Winlink messages when I am at home using the IC-705 and the W3SWL-10 VHF Winlink node.
+
+## Mac
+
+## iOS
+
+## Android
+
+## Raspberry Pi
+

@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "This document describes my amateur radio gear and activities.\nIts primary purpose for now is to explore how to use the Quarto book format."
+  },
+  {
+    "objectID": "rigs.html#hf",
+    "href": "rigs.html#hf",
+    "title": "2  Rigs",
+    "section": "2.1 HF",
+    "text": "2.1 HF\n\n2.1.1 FlexRadio 6400\n\n\n\nFlex-6400\n\n\nI acquired this radio used in the summer of 2021. It has the internal antenna tuning unit (ATU).\nIt connects to an SPE Expert Linear 1K amplifier on the Input 1 port.\n\n\n2.1.2 ICOM IC-7300\n\n\n\nICOM IC-7300\n\n\nThis radio was new when I bought it in the summer of 2016.\nIt also connects to the SPE Expert Linear 1K amplifier on the Input 2 port.\n\n\n2.1.3 ICOM IC-705\n\n\n\nICOM IC-705\n\n\nI bought this radio new in the fall of 2020. This radio currently sits on my desk in my upstairs office.\n\n\n2.1.4 Elecraft KX2\n\n\n\nElecraft KX2\n\n\nI bought the Elecraft KX2 used in the summer of 2022."
+  },
+  {
+    "objectID": "rigs.html#vhfuhf-mobile",
+    "href": "rigs.html#vhfuhf-mobile",
+    "title": "2  Rigs",
+    "section": "2.2 VHF/UHF mobile",
+    "text": "2.2 VHF/UHF mobile\n\n2.2.1 ICOM IC-705\nThe IC-705 is also capable of VHF and UHF operations at up to 10 W.\n\n\n2.2.2 Kenwood TM-710GA\n\n\n\nKenwood TM-710G\n\n\nThis VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016. It is installed in our Kia Forte. I usually beacon APRS packets when I am mobile under the callsign W3TM-1.\n\n</section>\n<section id=\"yaesu-ftm-400xdr\" class=\"level3\" data-number=\"2.2.3\">\n<h3 data-number=\"2.2.3\"><span class=\"header-section-number\">2.2.3</span> Yaesu FTM-400XDR</h3>\n<div class=\"quarto-figure quarto-figure-center\">\n<figure>\n<p><img src=\"https://www.yaesu.com/ProductImages/FTM-400DRXDR_thumb.jpg\" class=\"fig-center img-fluid\" /></p>\n<p><figcaption>Yaesu FTM-400XDR</figcaption></p>\n</figure>\n</div>\n<p>I bought the FTM-400 new in the box from K3ARL in the summer of 2022. He had bought it as a gift for his business partner and friend, Eric Brooks N3EB. Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio. N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.</p>\n</section>\n<section id=\"kenwood-tm-2\" class=\"level3\" data-number=\"2.2.4\">\n<h3 data-number=\"2.2.4\"><span class=\"header-section-number\">2.2.4</span> Kenwood TM-2</h3>\n<p>The Kenwood TM-XXX is a mobile radio, but I use it in my home shack to support my <a href=\"https://aprs.fi/#!mt=roadmap&amp;z=11&amp;call=a%2FW3TM-11&amp;timerange=3600&amp;tail=3600\">W3TM-11 I-Gate</a>.</p>\n<div id=\"quarto-navigation-envelope\" class=\"hidden\">\n<p><span class=\"hidden\" data-render-id=\"quarto-int-sidebar-title\">W3TM</span> <span class=\"hidden\" data-render-id=\"quarto-int-navbar-title\">W3TM</span> <span class=\"hidden\" data-render-id=\"quarto-int-next\"><span class=\"chapter-number\">3</span>  <span class=\"chapter-title\">Antennas</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-prev\"><span class=\"chapter-number\">1</span>  <span class=\"chapter-title\">About</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/index.html\"><span class=\"chapter-number\">1</span>  <span class=\"chapter-title\">About</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/rigs.html\"><span class=\"chapter-number\">2</span>  <span class=\"chapter-title\">Rigs</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/antennas.html\"><span class=\"chapter-number\">3</span>  <span class=\"chapter-title\">Antennas</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/stations.html\"><span class=\"chapter-number\">4</span>  <span class=\"chapter-title\">Stations</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/computers.html\"><span class=\"chapter-number\">5</span>  <span class=\"chapter-title\">Computers</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/engagement.html\"><span class=\"chapter-number\">6</span>  <span class=\"chapter-title\">Engagement</span></span></p>\n</div>\n<div id=\"quarto-meta-markdown\" class=\"hidden\">\n<p><span class=\"hidden\" data-render-id=\"quarto-metatitle\">W3TM - <span class=\"chapter-number\">2</span>  <span class=\"chapter-title\">Rigs</span></span> <span class=\"hidden\" data-render-id=\"quarto-twittercardtitle\">W3TM - <span class=\"chapter-number\">2</span>  <span class=\"chapter-title\">Rigs</span></span> <span class=\"hidden\" data-render-id=\"quarto-ogcardtitle\">W3TM - <span class=\"chapter-number\">2</span>  <span class=\"chapter-title\">Rigs</span></span> <span class=\"hidden\" data-render-id=\"quarto-metasitename\">W3TM</span></p>\n</div>\n</section>\n</section>\n\n</main> <!-- /main -->\n<script id = \"quarto-html-after-body\" type=\"application/javascript\">\nwindow.document.addEventListener(\"DOMContentLoaded\", function (event) {\n  const toggleBodyColorMode = (bsSheetEl) => {\n    const mode = bsSheetEl.getAttribute(\"data-mode\");\n    const bodyEl = window.document.querySelector(\"body\");\n    if (mode === \"dark\") {\n      bodyEl.classList.add(\"quarto-dark\");\n      bodyEl.classList.remove(\"quarto-light\");\n    } else {\n      bodyEl.classList.add(\"quarto-light\");\n      bodyEl.classList.remove(\"quarto-dark\");\n    }\n  }\n  const toggleBodyColorPrimary = () => {\n    const bsSheetEl = window.document.querySelector(\"link#quarto-bootstrap\");\n    if (bsSheetEl) {\n      toggleBodyColorMode(bsSheetEl);\n    }\n  }\n  toggleBodyColorPrimary();  \n  const icon = \"\";\n  const anchorJS = new window.AnchorJS();\n  anchorJS.options = {\n    placement: 'right',\n    icon: icon\n  };\n  anchorJS.add('.anchored');\n  const clipboard = new window.ClipboardJS('.code-copy-button', {\n    target: function(trigger) {\n      return trigger.previousElementSibling;\n    }\n  });\n  clipboard.on('success', function(e) {\n    // button target\n    const button = e.trigger;\n    // don't keep focus\n    button.blur();\n    // flash \"checked\"\n    button.classList.add('code-copy-button-checked');\n    var currentTitle = button.getAttribute(\"title\");\n    button.setAttribute(\"title\", \"Copied!\");\n    let tooltip;\n    if (window.bootstrap) {\n      button.setAttribute(\"data-bs-toggle\", \"tooltip\");\n      button.setAttribute(\"data-bs-placement\", \"left\");\n      button.setAttribute(\"data-bs-title\", \"Copied!\");\n      tooltip = new bootstrap.Tooltip(button, \n        { trigger: \"manual\", \n          customClass: \"code-copy-button-tooltip\",\n          offset: [0, -8]});\n      tooltip.show();    \n    }\n    setTimeout(function() {\n      if (tooltip) {\n        tooltip.hide();\n        button.removeAttribute(\"data-bs-title\");\n        button.removeAttribute(\"data-bs-toggle\");\n        button.removeAttribute(\"data-bs-placement\");\n      }\n      button.setAttribute(\"title\", currentTitle);\n      button.classList.remove('code-copy-button-checked');\n    }, 1000);\n    // clear code selection\n    e.clearSelection();\n  });\n  function tippyHover(el, contentFn) {\n    const config = {\n      allowHTML: true,\n      content: contentFn,\n      maxWidth: 500,\n      delay: 100,\n      arrow: false,\n      appendTo: function(el) {\n          return el.parentElement;\n      },\n      interactive: true,\n      interactiveBorder: 10,\n      theme: 'quarto',\n      placement: 'bottom-start'\n    };\n    window.tippy(el, config); \n  }\n  const noterefs = window.document.querySelectorAll('a[role=\"doc-noteref\"]');\n  for (var i=0; i<noterefs.length; i++) {\n    const ref = noterefs[i];\n    tippyHover(ref, function() {\n      // use id or data attribute instead here\n      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');\n      try { href = new URL(href).hash; } catch {}\n      const id = href.replace(/^#\\/?/, \"\");\n      const note = window.document.getElementById(id);\n      return note.innerHTML;\n    });\n  }\n  const findCites = (el) => {\n    const parentEl = el.parentElement;\n    if (parentEl) {\n      const cites = parentEl.dataset.cites;\n      if (cites) {\n        return {\n          el,\n          cites: cites.split(' ')\n        };\n      } else {\n        return findCites(el.parentElement)\n      }\n    } else {\n      return undefined;\n    }\n  };\n  var bibliorefs = window.document.querySelectorAll('a[role=\"doc-biblioref\"]');\n  for (var i=0; i<bibliorefs.length; i++) {\n    const ref = bibliorefs[i];\n    const citeInfo = findCites(ref);\n    if (citeInfo) {\n      tippyHover(citeInfo.el, function() {\n        var popup = window.document.createElement('div');\n        citeInfo.cites.forEach(function(cite) {\n          var citeDiv = window.document.createElement('div');\n          citeDiv.classList.add('hanging-indent');\n          citeDiv.classList.add('csl-entry');\n          var biblioDiv = window.document.getElementById('ref-' + cite);\n          if (biblioDiv) {\n            citeDiv.innerHTML = biblioDiv.innerHTML;\n          }\n          popup.appendChild(citeDiv);\n        });\n        return popup.innerHTML;\n      });\n    }\n  }\n});\n</script>\n<nav class=\"page-navigation\">\n  <div class=\"nav-page nav-page-previous\">\n      <a  href=\"/index.html\" class=\"pagination-link\">\n        <i class=\"bi bi-arrow-left-short\"></i> <span class=\"nav-page-text\"><span class='chapter-number'>1</span>  <span class='chapter-title'>About</span></span>\n      </a>          \n  </div>\n  <div class=\"nav-page nav-page-next\">\n      <a  href=\"/antennas.html\" class=\"pagination-link\">\n        <span class=\"nav-page-text\"><span class='chapter-number'>3</span>  <span class='chapter-title'>Antennas</span></span> <i class=\"bi bi-arrow-right-short\"></i>\n      </a>\n  </div>\n</nav>\n</div> <!-- /content -->\n\n</body>\n\n</html>"
+  },
+  {
+    "objectID": "antennas.html#antennas",
+    "href": "antennas.html#antennas",
+    "title": "3  Antennas",
+    "section": "3.1 Antennas",
+    "text": "3.1 Antennas\n\n3.1.1 MyAntennas 80-10 End-fed Half-wave (EFHW)\nThis antenna is mounted in an inverted L configuration. The leg with the transformer is mounted at about 6 m on a mast near the corner of my back porch. The antenna crosses the yard to an apex about 15 m below a branch in a tree, then comes down to a base mounting point about 1.5 m above the ground.\n\n\n3.1.2 DX Commander vertical\nThis antenna has resonant elements for 30, 20, 17, 15, 12, and 10 m. It is mounted in my backyard.\n\n\n3.1.3 Comet VHF/UHF\nThis antenna is mounted on an extendable fiberglass mast. The EFHW transformer is mounted below it.\n\n\n3.1.4 VHF/UHF J-pole"
+  },
+  {
+    "objectID": "stations.html#home",
+    "href": "stations.html#home",
+    "title": "4  Stations",
+    "section": "4.1 Home",
+    "text": "4.1 Home\n\n4.1.1 Shack\n\n4.1.1.1 APRS I-Gate\n\n\n4.1.1.2 HF 1\nMy primary HF station uses the FlexRadio 6400 transceiver. The Flex drives an SPE Expert Linear 1K amplifier. The radio has an X microphone. An Acer laptop running SmartSDR 3.x.x is used to control the radio.\n\n\n4.1.1.3 HF 2\n\n\n\n4.1.2 Office\n\n\n4.1.3 Office HF/VHF/UHF\n\n\n4.1.4 Allstar node"
+  },
+  {
+    "objectID": "stations.html#mobile",
+    "href": "stations.html#mobile",
+    "title": "4  Stations",
+    "section": "4.2 Mobile",
+    "text": "4.2 Mobile\n\n4.2.1 Kia Forte\n\n\n4.2.2 Honda CRV"
+  },
+  {
+    "objectID": "stations.html#portable",
+    "href": "stations.html#portable",
+    "title": "4  Stations",
+    "section": "4.3 Portable",
+    "text": "4.3 Portable\n\n4.3.1 VHF/UHF Go-box\nI have a Tytera TYT-8600 radio in a small go-box configuration with an included 12 Ah Bioenno \\(LiFePO_4\\) battery."
+  },
+  {
+    "objectID": "stations.html#remote",
+    "href": "stations.html#remote",
+    "title": "4  Stations",
+    "section": "4.4 Remote",
+    "text": "4.4 Remote\nOne technical challenge I enjoy involves remote operations.\n\n4.4.1 Flex-6400\nThe Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio’s software.\nI especially enjoy using the Mac OS and iOS SmartSDR clients. They work extremely well.\n\n\n4.4.2 ICOM IC-705\nThe same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control. The application runs on MacOS, iPad, and iPhone.\nI have successfully used SDR-Control to access my IC-705, and have tested it with another operator’s IC-7610.\n\n\n4.4.3 ICOM IC-7300\nThe IC-7300 does not have the network circuitry needed to permit “out-of-the-box” control like the IC-705 or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.\nHowever, I do use and enjoy remote control of my IC-7300 using the RemoteTx.net service. This service allows me to access my IC-7300 from a web browser."
+  },
+  {
+    "objectID": "computers.html#windows",
+    "href": "computers.html#windows",
+    "title": "5  Computers",
+    "section": "5.1 Windows",
+    "text": "5.1 Windows\nI have an Acer laptop in my home shack that is the main control computer for the Flex-6400 and logging computer for the Flex-6400 and the IC-7300.\nI have an Evolve III netbook that I use for portable operations and to retrieve Winlink messages when I am at home using the IC-705 and the W3SWL-10 VHF Winlink node."
+  },
+  {
+    "objectID": "computers.html#mac",
+    "href": "computers.html#mac",
+    "title": "5  Computers",
+    "section": "5.2 Mac",
+    "text": "5.2 Mac"
+  },
+  {
+    "objectID": "computers.html#ios",
+    "href": "computers.html#ios",
+    "title": "5  Computers",
+    "section": "5.3 iOS",
+    "text": "5.3 iOS"
+  },
+  {
+    "objectID": "computers.html#android",
+    "href": "computers.html#android",
+    "title": "5  Computers",
+    "section": "5.4 Android",
+    "text": "5.4 Android"
+  },
+  {
+    "objectID": "computers.html#raspberry-pi",
+    "href": "computers.html#raspberry-pi",
+    "title": "5  Computers",
+    "section": "5.5 Raspberry Pi",
+    "text": "5.5 Raspberry Pi"
+  },
+  {
+    "objectID": "engagement.html#organizations",
+    "href": "engagement.html#organizations",
+    "title": "6  Engagement",
+    "section": "6.1 Organizations",
+    "text": "6.1 Organizations\n\n6.1.1 American Radio Relay League (ARRL)\nI am an active member of the ARRL.\n\n\n6.1.2 Amateur Radio Emergency Service (ARES)\nI participate in the weekly ARES net on the W3YA 146.85 repeater as a participating station and as a net control station.\nIn addition, I enjoy providing communications for various special events via the ARES organization.\n\n\n6.1.3 Nittany Amateur Radio Club (NARC)\nI have been a member of NARC since 2016. I help maintain the club’s station on top of Pine Grove Mountain, and I have served on the Board of Directors since 2020.\n\n\n6.1.4 Penn State Amateur Radio Club (PSARC)\n\n\n6.1.5 Quarter Century Wireless Association (QCWA)\nOur local QCQA Chapter 203 has a weekly net on Sunday nights at 8:30 PM local time on the W3YA 146.85 MHz repeater. I am one of the net control stations."
+  },
+  {
+    "objectID": "engagement.html#other-activities",
+    "href": "engagement.html#other-activities",
+    "title": "6  Engagement",
+    "section": "6.2 Other activities",
+    "text": "6.2 Other activities\n\n6.2.1 Automatic Packet Reporting System (APRS)\nI operate a receive-only VHF (144.390 MHz) I-Gate under the callsign W3TM-11.\n\n\n6.2.2 Volunteer Examiner\nI am a registered Volunteer Examiner (VE) for W5YI and for the ARRL."
+  },
+  {
+    "objectID": "engagement.html#events",
+    "href": "engagement.html#events",
+    "title": "6  Engagement",
+    "section": "6.3 Events",
+    "text": "6.3 Events\n\n6.3.1 Field Day\nFor the last several years, I have helped organize the NARC Field Day operation.\n\n\n\nNARC Field Day 2022\n\n\nIn the summer of 2020, during the height of COVID-19 pandemic restrictions, I operated from my backyard.\n\n\n\nField Day from home 2020\n\n\n\n\n6.3.2 Winter Field Day\n\n\n6.3.3 Jamboree on the Air (JOTA)\n\n\n6.3.4 Birthplace of Memorial Day W3M\n\n\n6.3.5 Flight 93 20th Anniversary N3M\nSeveral hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.\n\n\n\nN3M special event operation\n\n\n\n\n6.3.6 Penn State Dance Marathon K3T\n\n\n6.3.7 Pride K3P"
+  }
+]

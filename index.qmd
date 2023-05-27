@@ -1,52 +1,9 @@
 ---
-title: "Shack"
-author: "Rick Gilmore W3TM"
+title: "About"
 format: html
-editor: visual
+editor: source
 ---
 
-## Purpose
+This document describes my amateur radio gear and activities.
 
-This document describes the W3TM shack.
-
-## Rigs
-
-### FlexRadio 6400
-
-I acquired this radio used in the summer of 2021.
-It has the internal antenna tuning unit (ATU).
-
-It connects to an SPE Expert Linear 1K amplifier.
-
-### ICOM IC-7300
-
-This radio was new when I bought it in the summer of 2016.
-
-It also connects to the SPE Expert Linear 1K amplifier.
-
-### ICOM IC-705
-
-I bought this radio new in the fall of 2020.
-This radio currently sits on my desk in my upstairs office.
-
-## Antennas
-
-### MyAntennas 80-10 End-fed Half-wave (EFHW)
-
-This antenna is mounted in an inverted L configuration.
-The leg with the transformer is mounted at about 6 m on a mast near the corner of my back porch.
-The antenna crosses the yard to an apex about 15 m below a branch in a tree, then comes down to a base mounting point about 1.5 m above the ground.
-
-### DX Commander vertical
-
-This antenna has resonant elements for 30, 20, 17, 15, 12, and 10 m.
-It is mounted in my backyard.
-
-### Comet VHF/UHF
-
-This antenna is mounted on an extendable fiberglass mast.
-The EFHW transformer is mounted below it.
-
-### VHF/UHF J-pole
-
-
+Its primary purpose for now is to explore how to use the [Quarto](https://quarto.or) book format.

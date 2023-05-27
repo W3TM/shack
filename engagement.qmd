@@ -1,0 +1,68 @@
+---
+title: "Engagement"
+format: html
+editor: source
+---
+
+Amateur radio has so many ways to be "radio-active". Here are some of the ways I enjoy engaging in our amazing hobby.
+
+## Organizations
+
+### American Radio Relay League (ARRL)
+
+I am an active member of the [ARRL](https://arrl.org).
+
+### Amateur Radio Emergency Service (ARES)
+
+I participate in the weekly ARES net on the W3YA 146.85 repeater as a participating station and as a net control station.
+
+In addition, I enjoy providing communications for various special events via the ARES organization.
+
+### Nittany Amateur Radio Club (NARC)
+
+I have been a member of NARC since 2016. I help maintain the club's station on top of Pine Grove Mountain, and I have served on the Board of Directors since 2020.
+
+### Penn State Amateur Radio Club (PSARC)
+
+### Quarter Century Wireless Association (QCWA)
+
+Our local QCQA Chapter 203 has a weekly net on Sunday nights at 8:30 PM local time on the W3YA 146.85 MHz repeater. I am one of the net control stations. 
+
+## Other activities
+
+### Automatic Packet Reporting System (APRS)
+
+I operate a receive-only VHF (144.390 MHz) I-Gate under the callsign [W3TM-11](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-11&timerange=3600&tail=3600).
+
+### Volunteer Examiner
+
+I am a registered Volunteer Examiner (VE) for W5YI and for the ARRL.
+
+## Events
+
+### Field Day
+
+For the last several years, I have helped organize the NARC Field Day operation.
+
+![NARC Field Day 2022](img/narc-field-day-2022.jpeg){.fig-center}
+
+In the summer of 2020, during the height of COVID-19 pandemic restrictions, I operated from my backyard.
+
+![Field Day from home 2020](img/k3rog-field-day-2020.jpeg){.fig-center}
+
+### Winter Field Day
+
+### Jamboree on the Air (JOTA)
+
+### Birthplace of Memorial Day W3M
+
+### Flight 93 20th Anniversary N3M
+
+Several hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.
+
+![N3M special event operation](img/n3m-2021.jpeg)
+
+### Penn State Dance Marathon K3T
+
+### Pride K3P
+
