@@ -1,0 +1,45 @@
+---
+title: "Workbench"
+format: html
+editor: source
+---
+
+Inspired by the [Ham Radio Workbench](https://www.hamradioworkbench.com) podcast bunch, here are a number of projects that are on my workbench.
+Really, some of these are aspirational.
+And some aren't really things that go on a workbench.
+
+## Kit-building
+
+### QRP-Labs QDX
+
+## Remote operations
+
+The [ICOM IC-7300](rigs.qmd#icom-ic-7300) connects via USB to the Acer laptop for logging and digital modes.
+This unfortunately precludes the use of the RemoteTx.net service.
+That service requires that the rig be connected to a Raspberry Pi via USB.
+So, I want to get a USB/printer switch so that I can decide whether to control the rig remotely via RemoteTx.net or use it locally.
+
+## Modes and skills
+
+### Morse code
+
+### Unusual digital modes
+
+### More contesting
+
+### Rapid Activation and Deployment Amateur Radio (RADAR)
+
+
+
+
+## Station enhancements
+
+### NodeRed
+
+I was experimenting with NodeRed in the Winter of 2022-23, but have taken my server offline temporarily.
+
+### Grounding
+
+I plan to install a new/improved Earth ground for my electrical service.
+Once that is done, then I will tie my RF/antenna ground to it.
+

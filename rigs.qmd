@@ -6,13 +6,17 @@ editor: source
 
 ## HF
 
+### Yaesu-Musen FRG-7
+
+![Yaesu-Musen FRG-7 Receiver](https://www.radiomasterlist.com/im/yaesu-frg-7.webp)
+
 ### FlexRadio 6400
 
 ![Flex-6400](https://edge.flexradio.com/www/offload/20221117142900/FlexRadio_products-2020_6400_45-left_9040-2400x2400px__08082.1594670218.1280.1280__62153.1668463138.1280.1280.jpg){.fig-center}
 
 I acquired this radio used in the summer of 2021. It has the internal antenna tuning unit (ATU).
 
-It connects to an SPE Expert Linear 1K amplifier on the Input 1 port.
+It connects to an [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k) on the Input 1 port.
 
 ### ICOM IC-7300
 
@@ -20,7 +24,7 @@ It connects to an SPE Expert Linear 1K amplifier on the Input 1 port.
 
 This radio was new when I bought it in the summer of 2016.
 
-It also connects to the SPE Expert Linear 1K amplifier on the Input 2 port.
+It also connects to the [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k) on the Input 2 port.
 
 ### ICOM IC-705
 
@@ -48,10 +52,6 @@ This VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016.
 It is installed in our Kia Forte.
 I usually beacon APRS packets when I am mobile under the callsign W3TM-1.
 
-```{=html}
-<iframe width="600" height="480" src="https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-1&timerange=3600&tail=3600" title="W3TM-1 tracks from APRS.fi">
-```
-
 ### Yaesu FTM-400XDR
 
 ![Yaesu FTM-400XDR](https://www.yaesu.com/ProductImages/FTM-400DRXDR_thumb.jpg){.fig-center}
@@ -61,6 +61,51 @@ He had bought it as a gift for his business partner and friend, Eric Brooks N3EB
 Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio.
 N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.
 
-### Kenwood TM-2
+### Kenwood TM-281A
 
-The Kenwood TM-XXX is a mobile radio, but I use it in my home shack to support my [W3TM-11 I-Gate](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-11&timerange=3600&tail=3600).
+![Kenwood TM-281A](https://www.eectwowayradio.com/Uploads/15845181065e71d3ceed1f62037.jpg){.fig-center}
+
+The Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my [W3TM-11 I-Gate](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-11&timerange=3600&tail=3600).
+
+## HTs
+
+### ICOM ID-51A
+
+![ICOM ID-51A](https://icomamerica.com/en/products/ID51APlus2/ProductHeader.jpg)
+
+### Yaesu FT-70D
+
+![Yaesu FT-70D](https://www.yaesu.com/ProductImages/FT-70DR_thumb.jpg){.img-center}
+
+### Kenwood TH-72
+
+![Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/images/image_product01_big.jpg)
+
+I bought the [Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/) used several years ago.
+
+### RFinder B1+
+
+![RFinder B1-Plus](https://s82g3y-xx73bzq18ulv.cloudmaestro.com/-3_2ewbAV/media/catalog/product/cache/dfaec006bd6782dbad92b9435baa8bcf/m/i/vmicrosoftteams-image_60_.png.pagespeed.ic.G3yEzXICho.webp)
+
+## Hotspots
+
+### ClearNode
+
+![ClearNode Allstar hotspot/node](https://www.node-ventures.com/wp-content/uploads/2023/02/CN_1_med.jpg)
+
+I run a UHF [ClearNode](https://node-ventures.com) Allstar hotspot.
+My Allstar node number is 51401.
+
+### OpenSpot
+
+![OpenSpot](https://sharkrf-web.b-cdn.net/wp-content/uploads/2016/06/openspot01.jpg)
+
+I own but do not have deployed an original [OpenSpot](https://www.sharkrf.com/products/openspot-legacy/)
+
+![OpenSpot2](https://www.sharkrf.com/products/openspot2/)
+
+I also own, but do not currently have deployed an [OpenSpot2](https://www.sharkrf.com/products/openspot2/).
+
+
+## APRS trackers
+

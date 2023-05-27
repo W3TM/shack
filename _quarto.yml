@@ -10,12 +10,18 @@ book:
   chapters:
     - index.qmd
     - rigs.qmd
+    - amplifiers.qmd
     - antennas.qmd
-    - stations.qmd
     - computers.qmd
+    - power.qmd
+    - stations.qmd
     - engagement.qmd
+    - workbench.qmd
 
 format:
   html:
     theme: cosmo
+    number-sections: false
+    fig-align: center
+    
     

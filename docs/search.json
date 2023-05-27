@@ -1,114 +1,212 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#ham-radio-bio",
+    "href": "index.html#ham-radio-bio",
     "title": "About",
-    "section": "",
-    "text": "This document describes my amateur radio gear and activities.\nIts primary purpose for now is to explore how to use the Quarto book format."
+    "section": "Ham radio bio",
+    "text": "Ham radio bio\nI’ve wanted to be a ham since I was a teen.\nI started out as a shortwave listener with a long wire strung from my parents’ roof on our house in southwest Denver running to Yaesu FRG-7 receiver. Hearing the English language broadcast from Radio Tirana in Albania was one of the highlights.\nIn the spring of 1993, I got the ham bug again and studied for an passed my Technician Plus exam, including the 5 wpm code requirement. My callsign was N3QLO. But I had just gotten married and just started graduate school. So, I made one contact on a Radio Shack HT and largely forgot about ham radio. In fact, when my license renewal rolled around in 2003, I didn’t even bother to renew.\nThirteen years later, I’d gotten tenure, my kids were teens or out of the house, and I had a little more time and energy. I passed my Technician and General license exams in the summer of 2016, secured the vanity callsign K3ROG, and joined the Nittany Amateur Radio Club. This time, I made time for ham radio, and I’ve been rolling ever since. With the help of some study partners and my Elmer K3YV, I upgraded to Extra a year later.\nIn the winter of 2023, I changed callsigns again to W3TM, mostly on a lark. I saw that a callsign that was both phonetically short and CW-short was available, and so I decided to enter the callsign lottery when it became available. My understanding was that the chances were slim I would get the callsign, but I thought I would go for it anyway. Sure enough, there was only one other ham who was eligible, and I won the coin toss at the FCC. Ok, maybe they have a more sophisticated system of choosing randomly, but however it went down, whiskey-three-tango-mike was now my new call. And that call will remain until I am a silent key."
   },
   {
     "objectID": "rigs.html#hf",
     "href": "rigs.html#hf",
-    "title": "2  Rigs",
-    "section": "2.1 HF",
-    "text": "2.1 HF\n\n2.1.1 FlexRadio 6400\n\n\n\nFlex-6400\n\n\nI acquired this radio used in the summer of 2021. It has the internal antenna tuning unit (ATU).\nIt connects to an SPE Expert Linear 1K amplifier on the Input 1 port.\n\n\n2.1.2 ICOM IC-7300\n\n\n\nICOM IC-7300\n\n\nThis radio was new when I bought it in the summer of 2016.\nIt also connects to the SPE Expert Linear 1K amplifier on the Input 2 port.\n\n\n2.1.3 ICOM IC-705\n\n\n\nICOM IC-705\n\n\nI bought this radio new in the fall of 2020. This radio currently sits on my desk in my upstairs office.\n\n\n2.1.4 Elecraft KX2\n\n\n\nElecraft KX2\n\n\nI bought the Elecraft KX2 used in the summer of 2022."
+    "title": "Rigs",
+    "section": "HF",
+    "text": "HF\n\nYaesu-Musen FRG-7\n\n\n\nYaesu-Musen FRG-7 Receiver\n\n\n\n\nFlexRadio 6400\n\n\n\nFlex-6400\n\n\nI acquired this radio used in the summer of 2021. It has the internal antenna tuning unit (ATU).\nIt connects to an SPE Expert Linear 1K amplifier on the Input 1 port.\n\n\nICOM IC-7300\n\n\n\nICOM IC-7300\n\n\nThis radio was new when I bought it in the summer of 2016.\nIt also connects to the SPE Expert Linear 1K amplifier on the Input 2 port.\n\n\nICOM IC-705\n\n\n\nICOM IC-705\n\n\nI bought this radio new in the fall of 2020. This radio currently sits on my desk in my upstairs office.\n\n\nElecraft KX2\n\n\n\nElecraft KX2\n\n\nI bought the Elecraft KX2 used in the summer of 2022."
   },
   {
     "objectID": "rigs.html#vhfuhf-mobile",
     "href": "rigs.html#vhfuhf-mobile",
-    "title": "2  Rigs",
-    "section": "2.2 VHF/UHF mobile",
-    "text": "2.2 VHF/UHF mobile\n\n2.2.1 ICOM IC-705\nThe IC-705 is also capable of VHF and UHF operations at up to 10 W.\n\n\n2.2.2 Kenwood TM-710GA\n\n\n\nKenwood TM-710G\n\n\nThis VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016. It is installed in our Kia Forte. I usually beacon APRS packets when I am mobile under the callsign W3TM-1.\n\n</section>\n<section id=\"yaesu-ftm-400xdr\" class=\"level3\" data-number=\"2.2.3\">\n<h3 data-number=\"2.2.3\"><span class=\"header-section-number\">2.2.3</span> Yaesu FTM-400XDR</h3>\n<div class=\"quarto-figure quarto-figure-center\">\n<figure>\n<p><img src=\"https://www.yaesu.com/ProductImages/FTM-400DRXDR_thumb.jpg\" class=\"fig-center img-fluid\" /></p>\n<p><figcaption>Yaesu FTM-400XDR</figcaption></p>\n</figure>\n</div>\n<p>I bought the FTM-400 new in the box from K3ARL in the summer of 2022. He had bought it as a gift for his business partner and friend, Eric Brooks N3EB. Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio. N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.</p>\n</section>\n<section id=\"kenwood-tm-2\" class=\"level3\" data-number=\"2.2.4\">\n<h3 data-number=\"2.2.4\"><span class=\"header-section-number\">2.2.4</span> Kenwood TM-2</h3>\n<p>The Kenwood TM-XXX is a mobile radio, but I use it in my home shack to support my <a href=\"https://aprs.fi/#!mt=roadmap&amp;z=11&amp;call=a%2FW3TM-11&amp;timerange=3600&amp;tail=3600\">W3TM-11 I-Gate</a>.</p>\n<div id=\"quarto-navigation-envelope\" class=\"hidden\">\n<p><span class=\"hidden\" data-render-id=\"quarto-int-sidebar-title\">W3TM</span> <span class=\"hidden\" data-render-id=\"quarto-int-navbar-title\">W3TM</span> <span class=\"hidden\" data-render-id=\"quarto-int-next\"><span class=\"chapter-number\">3</span>  <span class=\"chapter-title\">Antennas</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-prev\"><span class=\"chapter-number\">1</span>  <span class=\"chapter-title\">About</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/index.html\"><span class=\"chapter-number\">1</span>  <span class=\"chapter-title\">About</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/rigs.html\"><span class=\"chapter-number\">2</span>  <span class=\"chapter-title\">Rigs</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/antennas.html\"><span class=\"chapter-number\">3</span>  <span class=\"chapter-title\">Antennas</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/stations.html\"><span class=\"chapter-number\">4</span>  <span class=\"chapter-title\">Stations</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/computers.html\"><span class=\"chapter-number\">5</span>  <span class=\"chapter-title\">Computers</span></span> <span class=\"hidden\" data-render-id=\"quarto-int-sidebar:/engagement.html\"><span class=\"chapter-number\">6</span>  <span class=\"chapter-title\">Engagement</span></span></p>\n</div>\n<div id=\"quarto-meta-markdown\" class=\"hidden\">\n<p><span class=\"hidden\" data-render-id=\"quarto-metatitle\">W3TM - <span class=\"chapter-number\">2</span>  <span class=\"chapter-title\">Rigs</span></span> <span class=\"hidden\" data-render-id=\"quarto-twittercardtitle\">W3TM - <span class=\"chapter-number\">2</span>  <span class=\"chapter-title\">Rigs</span></span> <span class=\"hidden\" data-render-id=\"quarto-ogcardtitle\">W3TM - <span class=\"chapter-number\">2</span>  <span class=\"chapter-title\">Rigs</span></span> <span class=\"hidden\" data-render-id=\"quarto-metasitename\">W3TM</span></p>\n</div>\n</section>\n</section>\n\n</main> <!-- /main -->\n<script id = \"quarto-html-after-body\" type=\"application/javascript\">\nwindow.document.addEventListener(\"DOMContentLoaded\", function (event) {\n  const toggleBodyColorMode = (bsSheetEl) => {\n    const mode = bsSheetEl.getAttribute(\"data-mode\");\n    const bodyEl = window.document.querySelector(\"body\");\n    if (mode === \"dark\") {\n      bodyEl.classList.add(\"quarto-dark\");\n      bodyEl.classList.remove(\"quarto-light\");\n    } else {\n      bodyEl.classList.add(\"quarto-light\");\n      bodyEl.classList.remove(\"quarto-dark\");\n    }\n  }\n  const toggleBodyColorPrimary = () => {\n    const bsSheetEl = window.document.querySelector(\"link#quarto-bootstrap\");\n    if (bsSheetEl) {\n      toggleBodyColorMode(bsSheetEl);\n    }\n  }\n  toggleBodyColorPrimary();  \n  const icon = \"\";\n  const anchorJS = new window.AnchorJS();\n  anchorJS.options = {\n    placement: 'right',\n    icon: icon\n  };\n  anchorJS.add('.anchored');\n  const clipboard = new window.ClipboardJS('.code-copy-button', {\n    target: function(trigger) {\n      return trigger.previousElementSibling;\n    }\n  });\n  clipboard.on('success', function(e) {\n    // button target\n    const button = e.trigger;\n    // don't keep focus\n    button.blur();\n    // flash \"checked\"\n    button.classList.add('code-copy-button-checked');\n    var currentTitle = button.getAttribute(\"title\");\n    button.setAttribute(\"title\", \"Copied!\");\n    let tooltip;\n    if (window.bootstrap) {\n      button.setAttribute(\"data-bs-toggle\", \"tooltip\");\n      button.setAttribute(\"data-bs-placement\", \"left\");\n      button.setAttribute(\"data-bs-title\", \"Copied!\");\n      tooltip = new bootstrap.Tooltip(button, \n        { trigger: \"manual\", \n          customClass: \"code-copy-button-tooltip\",\n          offset: [0, -8]});\n      tooltip.show();    \n    }\n    setTimeout(function() {\n      if (tooltip) {\n        tooltip.hide();\n        button.removeAttribute(\"data-bs-title\");\n        button.removeAttribute(\"data-bs-toggle\");\n        button.removeAttribute(\"data-bs-placement\");\n      }\n      button.setAttribute(\"title\", currentTitle);\n      button.classList.remove('code-copy-button-checked');\n    }, 1000);\n    // clear code selection\n    e.clearSelection();\n  });\n  function tippyHover(el, contentFn) {\n    const config = {\n      allowHTML: true,\n      content: contentFn,\n      maxWidth: 500,\n      delay: 100,\n      arrow: false,\n      appendTo: function(el) {\n          return el.parentElement;\n      },\n      interactive: true,\n      interactiveBorder: 10,\n      theme: 'quarto',\n      placement: 'bottom-start'\n    };\n    window.tippy(el, config); \n  }\n  const noterefs = window.document.querySelectorAll('a[role=\"doc-noteref\"]');\n  for (var i=0; i<noterefs.length; i++) {\n    const ref = noterefs[i];\n    tippyHover(ref, function() {\n      // use id or data attribute instead here\n      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');\n      try { href = new URL(href).hash; } catch {}\n      const id = href.replace(/^#\\/?/, \"\");\n      const note = window.document.getElementById(id);\n      return note.innerHTML;\n    });\n  }\n  const findCites = (el) => {\n    const parentEl = el.parentElement;\n    if (parentEl) {\n      const cites = parentEl.dataset.cites;\n      if (cites) {\n        return {\n          el,\n          cites: cites.split(' ')\n        };\n      } else {\n        return findCites(el.parentElement)\n      }\n    } else {\n      return undefined;\n    }\n  };\n  var bibliorefs = window.document.querySelectorAll('a[role=\"doc-biblioref\"]');\n  for (var i=0; i<bibliorefs.length; i++) {\n    const ref = bibliorefs[i];\n    const citeInfo = findCites(ref);\n    if (citeInfo) {\n      tippyHover(citeInfo.el, function() {\n        var popup = window.document.createElement('div');\n        citeInfo.cites.forEach(function(cite) {\n          var citeDiv = window.document.createElement('div');\n          citeDiv.classList.add('hanging-indent');\n          citeDiv.classList.add('csl-entry');\n          var biblioDiv = window.document.getElementById('ref-' + cite);\n          if (biblioDiv) {\n            citeDiv.innerHTML = biblioDiv.innerHTML;\n          }\n          popup.appendChild(citeDiv);\n        });\n        return popup.innerHTML;\n      });\n    }\n  }\n});\n</script>\n<nav class=\"page-navigation\">\n  <div class=\"nav-page nav-page-previous\">\n      <a  href=\"/index.html\" class=\"pagination-link\">\n        <i class=\"bi bi-arrow-left-short\"></i> <span class=\"nav-page-text\"><span class='chapter-number'>1</span>  <span class='chapter-title'>About</span></span>\n      </a>          \n  </div>\n  <div class=\"nav-page nav-page-next\">\n      <a  href=\"/antennas.html\" class=\"pagination-link\">\n        <span class=\"nav-page-text\"><span class='chapter-number'>3</span>  <span class='chapter-title'>Antennas</span></span> <i class=\"bi bi-arrow-right-short\"></i>\n      </a>\n  </div>\n</nav>\n</div> <!-- /content -->\n\n</body>\n\n</html>"
+    "title": "Rigs",
+    "section": "VHF/UHF mobile",
+    "text": "VHF/UHF mobile\n\nICOM IC-705\nThe IC-705 is also capable of VHF and UHF operations at up to 10 W.\n\n\nKenwood TM-710GA\n\n\n\nKenwood TM-710G\n\n\nThis VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016. It is installed in our Kia Forte. I usually beacon APRS packets when I am mobile under the callsign W3TM-1.\n\n\nYaesu FTM-400XDR\n\n\n\nYaesu FTM-400XDR\n\n\nI bought the FTM-400 new in the box from K3ARL in the summer of 2022. He had bought it as a gift for his business partner and friend, Eric Brooks N3EB. Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio. N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.\n\n\nKenwood TM-281A\n\n\n\nKenwood TM-281A\n\n\nThe Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my W3TM-11 I-Gate."
   },
   {
-    "objectID": "antennas.html#antennas",
-    "href": "antennas.html#antennas",
-    "title": "3  Antennas",
-    "section": "3.1 Antennas",
-    "text": "3.1 Antennas\n\n3.1.1 MyAntennas 80-10 End-fed Half-wave (EFHW)\nThis antenna is mounted in an inverted L configuration. The leg with the transformer is mounted at about 6 m on a mast near the corner of my back porch. The antenna crosses the yard to an apex about 15 m below a branch in a tree, then comes down to a base mounting point about 1.5 m above the ground.\n\n\n3.1.2 DX Commander vertical\nThis antenna has resonant elements for 30, 20, 17, 15, 12, and 10 m. It is mounted in my backyard.\n\n\n3.1.3 Comet VHF/UHF\nThis antenna is mounted on an extendable fiberglass mast. The EFHW transformer is mounted below it.\n\n\n3.1.4 VHF/UHF J-pole"
+    "objectID": "rigs.html#hts",
+    "href": "rigs.html#hts",
+    "title": "Rigs",
+    "section": "HTs",
+    "text": "HTs\n\nICOM ID-51A\n\n\n\nICOM ID-51A\n\n\n\n\nYaesu FT-70D\n\n\n\nYaesu FT-70D\n\n\n\n\nKenwood TH-72\n\n\n\nKenwood TH-72A\n\n\nI bought the Kenwood TH-72A used several years ago.\n\n\nRFinder B1+\n\n\n\nRFinder B1-Plus"
   },
   {
-    "objectID": "stations.html#home",
-    "href": "stations.html#home",
-    "title": "4  Stations",
-    "section": "4.1 Home",
-    "text": "4.1 Home\n\n4.1.1 Shack\n\n4.1.1.1 APRS I-Gate\n\n\n4.1.1.2 HF 1\nMy primary HF station uses the FlexRadio 6400 transceiver. The Flex drives an SPE Expert Linear 1K amplifier. The radio has an X microphone. An Acer laptop running SmartSDR 3.x.x is used to control the radio.\n\n\n4.1.1.3 HF 2\n\n\n\n4.1.2 Office\n\n\n4.1.3 Office HF/VHF/UHF\n\n\n4.1.4 Allstar node"
+    "objectID": "rigs.html#hotspots",
+    "href": "rigs.html#hotspots",
+    "title": "Rigs",
+    "section": "Hotspots",
+    "text": "Hotspots\n\nClearNode\n\n\n\nClearNode Allstar hotspot/node\n\n\nI run a UHF ClearNode Allstar hotspot. My Allstar node number is 51401.\n\n\nOpenSpot\n\n\n\nOpenSpot\n\n\nI own but do not have deployed an original OpenSpot\n\n\n\nOpenSpot2\n\n\nI also own, but do not currently have deployed an OpenSpot2."
   },
   {
-    "objectID": "stations.html#mobile",
-    "href": "stations.html#mobile",
-    "title": "4  Stations",
-    "section": "4.2 Mobile",
-    "text": "4.2 Mobile\n\n4.2.1 Kia Forte\n\n\n4.2.2 Honda CRV"
+    "objectID": "rigs.html#aprs-trackers",
+    "href": "rigs.html#aprs-trackers",
+    "title": "Rigs",
+    "section": "APRS trackers",
+    "text": "APRS trackers"
   },
   {
-    "objectID": "stations.html#portable",
-    "href": "stations.html#portable",
-    "title": "4  Stations",
-    "section": "4.3 Portable",
-    "text": "4.3 Portable\n\n4.3.1 VHF/UHF Go-box\nI have a Tytera TYT-8600 radio in a small go-box configuration with an included 12 Ah Bioenno \\(LiFePO_4\\) battery."
+    "objectID": "amplifiers.html#spe-expert-linear-1k",
+    "href": "amplifiers.html#spe-expert-linear-1k",
+    "title": "Amplifiers",
+    "section": "SPE Expert Linear 1K",
+    "text": "SPE Expert Linear 1K\n\n\n\nSPE Expert Linear 1K\n\n\nI bought this amplifier used in the summer of 2021.\nInput 1 connects to the Flex-6400, and Input 2 connects to the ICOM IC-7300."
   },
   {
-    "objectID": "stations.html#remote",
-    "href": "stations.html#remote",
-    "title": "4  Stations",
-    "section": "4.4 Remote",
-    "text": "4.4 Remote\nOne technical challenge I enjoy involves remote operations.\n\n4.4.1 Flex-6400\nThe Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio’s software.\nI especially enjoy using the Mac OS and iOS SmartSDR clients. They work extremely well.\n\n\n4.4.2 ICOM IC-705\nThe same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control. The application runs on MacOS, iPad, and iPhone.\nI have successfully used SDR-Control to access my IC-705, and have tested it with another operator’s IC-7610.\n\n\n4.4.3 ICOM IC-7300\nThe IC-7300 does not have the network circuitry needed to permit “out-of-the-box” control like the IC-705 or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.\nHowever, I do use and enjoy remote control of my IC-7300 using the RemoteTx.net service. This service allows me to access my IC-7300 from a web browser."
+    "objectID": "amplifiers.html#vhf-amplifier",
+    "href": "amplifiers.html#vhf-amplifier",
+    "title": "Amplifiers",
+    "section": "VHF amplifier",
+    "text": "VHF amplifier\nThis amplifier is part of an integrated “accessory” bench I built for the IC-705."
+  },
+  {
+    "objectID": "antennas.html#home",
+    "href": "antennas.html#home",
+    "title": "Antennas",
+    "section": "Home",
+    "text": "Home\n\nMyAntennas 75-10 End-fed Half-wave (EFHW) 2K plus\n\n\n\nMyAntennas 75-10m End-fed Half-wave 2K plus antenna\n\n\nI bought this antenna in the summer of 2022. This antenna is mounted in an inverted L configuration. The leg with the transformer is mounted at about 6 m on a mast near the corner of my back porch. The antenna crosses the yard to an apex about 15 m below a branch in a tree, then comes down to a base mounting point about 3 m above the ground.\nThis connects to the Antenna 1 input on the SPE Expert Linear 1K amplifier.\n\n\nDX Commander vertical\nI bought this antenna in 2021.\nThis antenna has resonant elements for 30, 20, 17, 15, 12, and 10 m. It is mounted in my backyard.\nThis connects to the Antenna 2 input on the SPE Expert Linear 1K amplifier.\nI use the amplifier to switch between the two antennas.\n\n\nComet VHF/UHF\nThis antenna is mounted on an extendable fiberglass mast. The EFHW transformer for the HF antenna above is mounted below it.\n\n\nVHF/UHF J-pole\nThis antenna provides input to my W3TM-11 APRS I-Gate.\n\n\nMagnetic Loop\n\n\n\nW6LVP magnetic loop antenna\n\n\nI have a W6LVP receive-only magnetic loop installed indoors. I bought this antenna used.\n\n\nParadan Dual Antenna Disconnector\nThe EFHW 75-10 and the DX Commander are connected to an automatic disconnect actuator by Paradan. This is not the same as air-gapping the antennas, but it does give some additional protection. The unit grounds both antennas when the power to the Flex or IC-7300 is shut off.\nA workbench project is to buy a second one of these units for the VHF/UHF antennas.\n\n\nDoublet\nMy first antenna was a doublet cut to a length that fit in my backyard, just shy of the length needed for resonant operation on 75 m.\nThis antenna is currently out of service.\n\n\nHyPower 20m/40m fan dipole\nThis antenna is currently out of service."
+  },
+  {
+    "objectID": "antennas.html#mobile",
+    "href": "antennas.html#mobile",
+    "title": "Antennas",
+    "section": "Mobile",
+    "text": "Mobile\nI have antennas mounted on both of our vehicles."
+  },
+  {
+    "objectID": "antennas.html#portable",
+    "href": "antennas.html#portable",
+    "title": "Antennas",
+    "section": "Portable",
+    "text": "Portable\n\nChameleon Tactical Delta Loop\n\n\n\nChameleon Antennas Tactical Delta Loop (CHA TDL)\n\n\nThis antenna is also known as CHA TDL. I have the parts in a tripod bag I bought on Amazon.\n\n\nChameleon Antennas Modular Portable Antenna System Lite\nI also have the Lite version of the CHA MPAS System.\n\n\nPackTenna EFHW\nI have a Packtenna EFHW cut for 20 m. This is a QRP-only antenna.\n\n\nEnd-fed Random Wire\nI have a ~10 m random wire and a counterpoise of similar length. These have spade connectors that connect to an LDG RU-9:1 Unun.\nThis antenna is normally part of my set of portable wire antennas, but as of 2023-05-27, I have installed this antenna on my back porch so that I can use the Elecraft KX2 and Yaesu FRG-7 out there."
   },
   {
     "objectID": "computers.html#windows",
     "href": "computers.html#windows",
-    "title": "5  Computers",
-    "section": "5.1 Windows",
-    "text": "5.1 Windows\nI have an Acer laptop in my home shack that is the main control computer for the Flex-6400 and logging computer for the Flex-6400 and the IC-7300.\nI have an Evolve III netbook that I use for portable operations and to retrieve Winlink messages when I am at home using the IC-705 and the W3SWL-10 VHF Winlink node."
+    "title": "Computers",
+    "section": "Windows",
+    "text": "Windows\nI have an Acer laptop in my home shack that is the main control computer for the Flex-6400 and logging computer for the Flex-6400 and the IC-7300.\nI have an Evolve III netbook that I use for portable operations and to retrieve Winlink messages when I am at home using the IC-705 and the W3SWL-10 VHF Winlink node."
   },
   {
-    "objectID": "computers.html#mac",
-    "href": "computers.html#mac",
-    "title": "5  Computers",
-    "section": "5.2 Mac",
-    "text": "5.2 Mac"
+    "objectID": "computers.html#mac-os",
+    "href": "computers.html#mac-os",
+    "title": "Computers",
+    "section": "Mac OS",
+    "text": "Mac OS\n\nMac mini\nMy W3TM-11 APRS I-Gate runs on a repurposed Mac Mini running Ubuntu 19.04 and the direwolf software TNC. It’s not fast, but it is extremely stable. Go Linux! I connect to it via VNC or local keyboard and mouse.\n\n\nMacbook Pro\nI bought a Macbook Pro in the summer of 2020 when my Penn State-issued laptop broke.\nI use it for personal activities, including amateur radio. It runs the SDR-Control software."
   },
   {
     "objectID": "computers.html#ios",
     "href": "computers.html#ios",
-    "title": "5  Computers",
-    "section": "5.3 iOS",
-    "text": "5.3 iOS"
+    "title": "Computers",
+    "section": "iOS",
+    "text": "iOS\nI use my iPad to connect to my Flex-6400, my IC-705, and when I am connected to the NARC clubhouse station’s VPN, the club’s Flex-6400M and IC-7610. I can also use my iPhone for these purposes, but I prefer the larger iPad screen.\nThe SmartSDR and SDR-Control applications contain PSK31, RTTY, and FT8 clients."
   },
   {
     "objectID": "computers.html#android",
     "href": "computers.html#android",
-    "title": "5  Computers",
-    "section": "5.4 Android",
-    "text": "5.4 Android"
+    "title": "Computers",
+    "section": "Android",
+    "text": "Android\nI have a small Lenovo tablet that I use for APRSDroid and NanoVNA connectivity."
   },
   {
     "objectID": "computers.html#raspberry-pi",
     "href": "computers.html#raspberry-pi",
-    "title": "5  Computers",
-    "section": "5.5 Raspberry Pi",
-    "text": "5.5 Raspberry Pi"
+    "title": "Computers",
+    "section": "Raspberry Pi",
+    "text": "Raspberry Pi\nMy ClearNode Allstar node runs on a dedicated Raspberry Pi.\nI have a Raspberry Pi dedicated to the RemoteTx.net service connected to my IC-7300.\nMy HamClock application runs on a dedicated Raspberry Pi 3B+ with a 7” touchscreen.\nMy NodeRed server runs on a Raspberry Pi, but is currently offline."
+  },
+  {
+    "objectID": "power.html#home",
+    "href": "power.html#home",
+    "title": "Power",
+    "section": "Home",
+    "text": "Home\nAlinco power supplies."
+  },
+  {
+    "objectID": "power.html#mobile",
+    "href": "power.html#mobile",
+    "title": "Power",
+    "section": "Mobile",
+    "text": "Mobile\nThe Kenwood TM-710G is powered by a Bioenno \\(LiFePO_4\\) 30 Ah battery.\nThe Yaesu FTM-400XDR is powered by a Bioenno \\(LiFePO_4\\) 40 Ah battery.\nThe advantage of using these batteries for mobile operations is that I don’t have to worry about engine noise and I have a battery for other purposes.\nLately, I have been experimenting with recharging these batteries using foldable solar panels. As the experiments progress, I may consider keeping a solar panel in the car."
+  },
+  {
+    "objectID": "power.html#portable",
+    "href": "power.html#portable",
+    "title": "Power",
+    "section": "Portable",
+    "text": "Portable\n\nBatteries\nI have two Bioenno \\(LiFePO_4\\) 12 Ah batteries that I recently purchased during the Chameleon Antennas sale.\nMy Tytera-based Go-box has an embedded Bioenno \\(LiFePO_4\\) 12 Ah battery.\nI have a small, 6 Ah Bioenno battery that I often carry with the Elecraft KX-2.\n\n\nSolar panels\nI have a 120 W folding panel from Bionenno. I used it for Field Day from my backyard in 2020. The 30 Ah (orange) and 40 Ah (black) battery boxes can also be seen in the picture below.\n\n\n\nPowerWerx solar panels & BioEnno batteries\n\n\nI have two foldable 65 W solar panels that can be daisy-chained (in series). I used them in a recent portable operation in support of a mountain bike race.\n\n\nCharge controllers\nTwo charge controllers are available. One came with my Bioenno panels.\n\n\n\nBioenno Solar Charge Controller SC-4830JUD\n\n\nThe other is the BuddiPole PowerMini2.\n\n\n\nBuddiPole PowerMini2\n\n\nThe PowerMini2 is a great little charge controller, but it is pricey and not often available because of high demand."
+  },
+  {
+    "objectID": "stations.html#home",
+    "href": "stations.html#home",
+    "title": "Stations",
+    "section": "Home",
+    "text": "Home\n\nShack\n\nAPRS I-Gate\nThe W3TM-11 APRS I-Gate uses the Kenwood TM-281A connected to a Mac Mini running Ubuntu and the direwolf software TNC. I have a 2 m/70 cm J-pole antenna on the roof of my house at about 6 m from the ground.\n\n\nHF 1\nMy primary HF station that I am callign HF 1 just for fun uses the FlexRadio 6400 transceiver. The Flex drives an SPE Expert Linear 1K amplifier. The radio has an X microphone. An Acer laptop running SmartSDR 3.x.x is used to control the radio.\n\n\nHF 2\nMy second HF station runs an IC-7300. It also connects to the SPE Expert Linear 1K amplifier. I use either the stock hand mic or a Heil (model) headset with a footswitch.\n\n\nAllstar node\n\n\nAPRS I-Gate\n\n\n\nOffice\n\nHF QRP/VHF/UHF\nA third HF station is located in my office. I’m running the IC-705. At the moment, the HF capability is receive-only, as I have a W6LVP receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer."
+  },
+  {
+    "objectID": "stations.html#mobile",
+    "href": "stations.html#mobile",
+    "title": "Stations",
+    "section": "Mobile",
+    "text": "Mobile\n\nKia Forte\n\n\nHonda CRV"
+  },
+  {
+    "objectID": "stations.html#portable",
+    "href": "stations.html#portable",
+    "title": "Stations",
+    "section": "Portable",
+    "text": "Portable\n\nVHF/UHF Go-box\nI have a Tytera TYT-8600 radio in a small go-box configuration with an included 12 Ah Bioenno \\(LiFePO_4\\) battery."
+  },
+  {
+    "objectID": "stations.html#remote",
+    "href": "stations.html#remote",
+    "title": "Stations",
+    "section": "Remote",
+    "text": "Remote\nOne technical challenge I enjoy involves remote operations.\n\nFlex-6400\nThe Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio’s software.\nI especially enjoy using the Mac OS and iOS SmartSDR clients. They work extremely well.\n\n\nICOM IC-705\nThe same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control. The application runs on MacOS, iPad, and iPhone.\nI have successfully used SDR-Control to access my IC-705, and have tested it with another operator’s IC-7610.\n\n\nICOM IC-7300\nThe IC-7300 does not have the network circuitry needed to permit “out-of-the-box” control like the IC-705 or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.\nHowever, I do use and enjoy remote control of my IC-7300 using the RemoteTx.net service. This service allows me to access my IC-7300 from a web browser.\nI have experimented with remote control via an early version of the RigPi station server."
   },
   {
     "objectID": "engagement.html#organizations",
     "href": "engagement.html#organizations",
-    "title": "6  Engagement",
-    "section": "6.1 Organizations",
-    "text": "6.1 Organizations\n\n6.1.1 American Radio Relay League (ARRL)\nI am an active member of the ARRL.\n\n\n6.1.2 Amateur Radio Emergency Service (ARES)\nI participate in the weekly ARES net on the W3YA 146.85 repeater as a participating station and as a net control station.\nIn addition, I enjoy providing communications for various special events via the ARES organization.\n\n\n6.1.3 Nittany Amateur Radio Club (NARC)\nI have been a member of NARC since 2016. I help maintain the club’s station on top of Pine Grove Mountain, and I have served on the Board of Directors since 2020.\n\n\n6.1.4 Penn State Amateur Radio Club (PSARC)\n\n\n6.1.5 Quarter Century Wireless Association (QCWA)\nOur local QCQA Chapter 203 has a weekly net on Sunday nights at 8:30 PM local time on the W3YA 146.85 MHz repeater. I am one of the net control stations."
+    "title": "Engagement",
+    "section": "Organizations",
+    "text": "Organizations\n\nAmerican Radio Relay League (ARRL)\nI am an active member of the ARRL.\n\n\nAmateur Radio Emergency Service (ARES)\nI participate in the weekly ARES net on the W3YA 146.85 repeater as a participating station and as a net control station.\nIn addition, I enjoy providing communications for various special events via the ARES organization.\n\n\nNittany Amateur Radio Club (NARC)\nI have been a member of NARC since 2016. I help maintain the club’s station on top of Pine Grove Mountain, and I have served on the Board of Directors since 2020.\n\n\nPenn State Amateur Radio Club (PSARC)\n\n\nQuarter Century Wireless Association (QCWA)\nOur local QCQA Chapter 203 has a weekly net on Sunday nights at 8:30 PM local time on the W3YA 146.85 MHz repeater. I am one of the net control stations."
   },
   {
     "objectID": "engagement.html#other-activities",
     "href": "engagement.html#other-activities",
-    "title": "6  Engagement",
-    "section": "6.2 Other activities",
-    "text": "6.2 Other activities\n\n6.2.1 Automatic Packet Reporting System (APRS)\nI operate a receive-only VHF (144.390 MHz) I-Gate under the callsign W3TM-11.\n\n\n6.2.2 Volunteer Examiner\nI am a registered Volunteer Examiner (VE) for W5YI and for the ARRL."
+    "title": "Engagement",
+    "section": "Other activities",
+    "text": "Other activities\n\nAutomatic Packet Reporting System (APRS)\nI operate a receive-only VHF (144.390 MHz) I-Gate under the callsign W3TM-11.\n\n\nVolunteer Examiner\nI am a registered Volunteer Examiner (VE) for W5YI and for the ARRL."
   },
   {
     "objectID": "engagement.html#events",
     "href": "engagement.html#events",
-    "title": "6  Engagement",
-    "section": "6.3 Events",
-    "text": "6.3 Events\n\n6.3.1 Field Day\nFor the last several years, I have helped organize the NARC Field Day operation.\n\n\n\nNARC Field Day 2022\n\n\nIn the summer of 2020, during the height of COVID-19 pandemic restrictions, I operated from my backyard.\n\n\n\nField Day from home 2020\n\n\n\n\n6.3.2 Winter Field Day\n\n\n6.3.3 Jamboree on the Air (JOTA)\n\n\n6.3.4 Birthplace of Memorial Day W3M\n\n\n6.3.5 Flight 93 20th Anniversary N3M\nSeveral hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.\n\n\n\nN3M special event operation\n\n\n\n\n6.3.6 Penn State Dance Marathon K3T\n\n\n6.3.7 Pride K3P"
+    "title": "Engagement",
+    "section": "Events",
+    "text": "Events\n\nField Day\nFor the last several years, I have helped organize the NARC Field Day operation.\n\n\n\nNARC Field Day 2022\n\n\nIn the summer of 2020, during the height of COVID-19 pandemic restrictions, I operated from my backyard.\n\n\n\nField Day from home 2020\n\n\n\n\nWinter Field Day\n\n\nJamboree on the Air (JOTA)\n\n\nBirthplace of Memorial Day W3M\n\n\nFlight 93 20th Anniversary N3M\nSeveral hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.\n\n\n\nN3M special event operation\n\n\n\n\nPenn State Dance Marathon K3T\n\n\nPride K3P"
+  },
+  {
+    "objectID": "workbench.html#kit-building",
+    "href": "workbench.html#kit-building",
+    "title": "Workbench",
+    "section": "Kit-building",
+    "text": "Kit-building\n\nQRP-Labs QDX"
+  },
+  {
+    "objectID": "workbench.html#remote-operations",
+    "href": "workbench.html#remote-operations",
+    "title": "Workbench",
+    "section": "Remote operations",
+    "text": "Remote operations\nThe ICOM IC-7300 connects via USB to the Acer laptop for logging and digital modes. This unfortunately precludes the use of the RemoteTx.net service. That service requires that the rig be connected to a Raspberry Pi via USB. So, I want to get a USB/printer switch so that I can decide whether to control the rig remotely via RemoteTx.net or use it locally."
+  },
+  {
+    "objectID": "workbench.html#modes-and-skills",
+    "href": "workbench.html#modes-and-skills",
+    "title": "Workbench",
+    "section": "Modes and skills",
+    "text": "Modes and skills\n\nMorse code\n\n\nUnusual digital modes\n\n\nMore contesting\n\n\nRapid Activation and Deployment Amateur Radio (RADAR)"
+  },
+  {
+    "objectID": "workbench.html#station-enhancements",
+    "href": "workbench.html#station-enhancements",
+    "title": "Workbench",
+    "section": "Station enhancements",
+    "text": "Station enhancements\n\nNodeRed\nI was experimenting with NodeRed in the Winter of 2022-23, but have taken my server offline temporarily.\n\n\nGrounding\nI plan to install a new/improved Earth ground for my electrical service. Once that is done, then I will tie my RF/antenna ground to it."
   }
 ]

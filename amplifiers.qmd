@@ -1,0 +1,17 @@
+---
+title: "Amplifiers"
+format: html
+editor: source
+---
+
+## SPE Expert Linear 1K
+
+![SPE Expert Linear 1K](https://www.rigpix.com/linears/spe_expert1kfa.jpg)
+
+I bought this amplifier used in the summer of 2021.
+
+Input 1 connects to the [Flex-6400](rigs.qmd#flexradio-6400), and Input 2 connects to the [ICOM IC-7300](rigs.qmd#icom-ic-7300).
+
+## VHF amplifier
+
+This amplifier is part of an integrated "accessory" bench I built for the [IC-705](rigs.qmd#icom-ic-705).

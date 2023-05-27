@@ -12,21 +12,34 @@ This page describes various stations that I use.
 
 #### APRS I-Gate
 
+The W3TM-11 APRS I-Gate uses the [Kenwood TM-281A](rigs.qmd#kenwood-tm-281a) connected to a Mac Mini running Ubuntu and the direwolf software TNC. I have a 2 m/70 cm J-pole antenna on the roof of my house at about 6 m from the ground.
+
 #### HF 1
 
-My primary HF station uses the FlexRadio 6400 transceiver.
-The Flex drives an SPE Expert Linear 1K amplifier.
+My primary HF station that I am callign HF 1 just for fun uses the [FlexRadio 6400](rigs.qmd#flexradio-6400) transceiver.
+The Flex drives an [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k).
 The radio has an X microphone.
 An Acer laptop running SmartSDR 3.x.x is used to control the radio.
 
 #### HF 2
 
+My second HF station runs an [IC-7300](rigs.qmd#icom-ic-7300).
+It also connects to the [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k).
+I use either the stock hand mic or a Heil (model) headset with a footswitch.
+
+#### Allstar node
+
+#### APRS I-Gate
+
 ### Office
 
+#### HF QRP/VHF/UHF
 
-### Office HF/VHF/UHF
-
-### Allstar node
+A third HF station is located in my office.
+I'm running the [IC-705](rigs.qmd#icom-ic-705).
+At the moment, the HF capability is receive-only, as I have a W6LVP receive only magnetic loop for the HF antenna.
+The VHF/UHF side of the rig is connected to a slim jim antenna.
+Both antennas connect via a diplexer.
 
 ## Mobile
 
@@ -46,7 +59,7 @@ One technical challenge I enjoy involves remote operations.
 
 ### Flex-6400
 
-The Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio's software.
+The [Flex-6400](rigs.qmd#flexradio-6400) can be remotely operated via the SmartConnect link embedded in the radio's software.
 
 I especially enjoy using the [Mac OS](https://roskosch.de/smartsdr-for-mac/) and [iOS](https://roskosch.de/smartsdr-features/) SmartSDR clients.
 They work extremely well.
@@ -56,12 +69,14 @@ They work extremely well.
 The same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control.
 The application runs on [MacOS](https://roskosch.de/sdr-control/), [iPad](https://roskosch.de/sdr-control-ios/), and [iPhone](https://roskosch.de/sdr-control-mobile/).
 
-I have successfully used SDR-Control to access my IC-705, and have tested it with another operator's IC-7610.
+I have successfully used SDR-Control to access my [IC-705](rigs.qmd#icom-ic-705), and have tested it with another operator's IC-7610.
 
 ### ICOM IC-7300
 
-The IC-7300 does not have the network circuitry needed to permit "out-of-the-box" control like the IC-705 or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.
+The [IC-7300](rigs.qmd#icom-ic-7300) does not have the network circuitry needed to permit "out-of-the-box" control like the [IC-705](rigs.qmd#icom-ic-705) or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.
 
-However, I do use and enjoy remote control of my IC-7300 using the [RemoteTx.net service](https://remotetx.net).
+However, I do use and enjoy remote control of my [IC-7300](rigs.qmd#icom-ic-7300) using the [RemoteTx.net service](https://remotetx.net).
 This service allows me to access my IC-7300 from a web browser.
+
+I have experimented with remote control via an early version of the RigPi station server.
 

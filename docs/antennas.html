@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W3TM - 3&nbsp; Antennas</title>
+<title>W3TM - 4&nbsp; Antennas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./stations.html" rel="next">
-<link href="./rigs.html" rel="prev">
+<link href="./computers.html" rel="next">
+<link href="./amplifiers.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antennas</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Antennas</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -95,32 +95,47 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">About</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./rigs.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Rigs</span></a>
+  <a href="./rigs.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rigs</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./antennas.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antennas</span></a>
+  <a href="./amplifiers.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Amplifiers</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./stations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Stations</span></a>
+  <a href="./antennas.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Antennas</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./computers.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Computers</span></a>
+  <a href="./computers.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Computers</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./engagement.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Engagement</span></a>
+  <a href="./power.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Power</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./stations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Stations</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./engagement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Engagement</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./workbench.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Workbench</span></a>
   </div>
 </li>
     </ul>
@@ -132,12 +147,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#antennas" id="toc-antennas" class="nav-link active" data-scroll-target="#antennas"><span class="toc-section-number">3.1</span>  Antennas</a>
+  <li><a href="#home" id="toc-home" class="nav-link active" data-scroll-target="#home">Home</a>
   <ul class="collapse">
-  <li><a href="#myantennas-80-10-end-fed-half-wave-efhw" id="toc-myantennas-80-10-end-fed-half-wave-efhw" class="nav-link" data-scroll-target="#myantennas-80-10-end-fed-half-wave-efhw"><span class="toc-section-number">3.1.1</span>  MyAntennas 80-10 End-fed Half-wave (EFHW)</a></li>
-  <li><a href="#dx-commander-vertical" id="toc-dx-commander-vertical" class="nav-link" data-scroll-target="#dx-commander-vertical"><span class="toc-section-number">3.1.2</span>  DX Commander vertical</a></li>
-  <li><a href="#comet-vhfuhf" id="toc-comet-vhfuhf" class="nav-link" data-scroll-target="#comet-vhfuhf"><span class="toc-section-number">3.1.3</span>  Comet VHF/UHF</a></li>
-  <li><a href="#vhfuhf-j-pole" id="toc-vhfuhf-j-pole" class="nav-link" data-scroll-target="#vhfuhf-j-pole"><span class="toc-section-number">3.1.4</span>  VHF/UHF J-pole</a></li>
+  <li><a href="#myantennas-75-10-end-fed-half-wave-efhw-2k-plus" id="toc-myantennas-75-10-end-fed-half-wave-efhw-2k-plus" class="nav-link" data-scroll-target="#myantennas-75-10-end-fed-half-wave-efhw-2k-plus">MyAntennas 75-10 End-fed Half-wave (EFHW) 2K plus</a></li>
+  <li><a href="#dx-commander-vertical" id="toc-dx-commander-vertical" class="nav-link" data-scroll-target="#dx-commander-vertical">DX Commander vertical</a></li>
+  <li><a href="#comet-vhfuhf" id="toc-comet-vhfuhf" class="nav-link" data-scroll-target="#comet-vhfuhf">Comet VHF/UHF</a></li>
+  <li><a href="#vhfuhf-j-pole" id="toc-vhfuhf-j-pole" class="nav-link" data-scroll-target="#vhfuhf-j-pole">VHF/UHF J-pole</a></li>
+  <li><a href="#magnetic-loop" id="toc-magnetic-loop" class="nav-link" data-scroll-target="#magnetic-loop">Magnetic Loop</a></li>
+  <li><a href="#paradan-dual-antenna-disconnector" id="toc-paradan-dual-antenna-disconnector" class="nav-link" data-scroll-target="#paradan-dual-antenna-disconnector">Paradan Dual Antenna Disconnector</a></li>
+  <li><a href="#doublet" id="toc-doublet" class="nav-link" data-scroll-target="#doublet">Doublet</a></li>
+  <li><a href="#hypower-20m40m-fan-dipole" id="toc-hypower-20m40m-fan-dipole" class="nav-link" data-scroll-target="#hypower-20m40m-fan-dipole">HyPower 20m/40m fan dipole</a></li>
+  </ul></li>
+  <li><a href="#mobile" id="toc-mobile" class="nav-link" data-scroll-target="#mobile">Mobile</a></li>
+  <li><a href="#portable" id="toc-portable" class="nav-link" data-scroll-target="#portable">Portable</a>
+  <ul class="collapse">
+  <li><a href="#chameleon-tactical-delta-loop" id="toc-chameleon-tactical-delta-loop" class="nav-link" data-scroll-target="#chameleon-tactical-delta-loop">Chameleon Tactical Delta Loop</a></li>
+  <li><a href="#chameleon-antennas-modular-portable-antenna-system-lite" id="toc-chameleon-antennas-modular-portable-antenna-system-lite" class="nav-link" data-scroll-target="#chameleon-antennas-modular-portable-antenna-system-lite">Chameleon Antennas Modular Portable Antenna System Lite</a></li>
+  <li><a href="#packtenna-efhw" id="toc-packtenna-efhw" class="nav-link" data-scroll-target="#packtenna-efhw">PackTenna EFHW</a></li>
+  <li><a href="#end-fed-random-wire" id="toc-end-fed-random-wire" class="nav-link" data-scroll-target="#end-fed-random-wire">End-fed Random Wire</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -147,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Antennas</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Antennas</span></h1>
 </div>
 
 
@@ -162,22 +189,87 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="antennas" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="antennas"><span class="header-section-number">3.1</span> Antennas</h2>
-<section id="myantennas-80-10-end-fed-half-wave-efhw" class="level3" data-number="3.1.1">
-<h3 data-number="3.1.1" class="anchored" data-anchor-id="myantennas-80-10-end-fed-half-wave-efhw"><span class="header-section-number">3.1.1</span> MyAntennas 80-10 End-fed Half-wave (EFHW)</h3>
-<p>This antenna is mounted in an inverted L configuration. The leg with the transformer is mounted at about 6 m on a mast near the corner of my back porch. The antenna crosses the yard to an apex about 15 m below a branch in a tree, then comes down to a base mounting point about 1.5 m above the ground.</p>
+<section id="home" class="level2">
+<h2 class="anchored" data-anchor-id="home">Home</h2>
+<section id="myantennas-75-10-end-fed-half-wave-efhw-2k-plus" class="level3">
+<h3 class="anchored" data-anchor-id="myantennas-75-10-end-fed-half-wave-efhw-2k-plus">MyAntennas 75-10 End-fed Half-wave (EFHW) 2K plus</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://myantennas.com/wp/wp-content/uploads/2020/09/EFHW-7510-2KPLUS-SS5.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">MyAntennas 75-10m End-fed Half-wave 2K plus antenna</figcaption><p></p>
+</figure>
+</div>
+<p>I bought this <a href="https://myantennas.com/wp/product/efhw-7510-2k-plus/">antenna</a> in the summer of 2022. This antenna is mounted in an inverted L configuration. The leg with the transformer is mounted at about 6 m on a mast near the corner of my back porch. The antenna crosses the yard to an apex about 15 m below a branch in a tree, then comes down to a base mounting point about 3 m above the ground.</p>
+<p>This connects to the Antenna 1 input on the <a href="./amplifiers.html#spe-expert-linear-1k">SPE Expert Linear 1K amplifier</a>.</p>
 </section>
-<section id="dx-commander-vertical" class="level3" data-number="3.1.2">
-<h3 data-number="3.1.2" class="anchored" data-anchor-id="dx-commander-vertical"><span class="header-section-number">3.1.2</span> DX Commander vertical</h3>
+<section id="dx-commander-vertical" class="level3">
+<h3 class="anchored" data-anchor-id="dx-commander-vertical">DX Commander vertical</h3>
+<p>I bought this antenna in 2021.</p>
 <p>This antenna has resonant elements for 30, 20, 17, 15, 12, and 10 m. It is mounted in my backyard.</p>
+<p>This connects to the Antenna 2 input on the <a href="./amplifiers.html#spe-expert-linear-1k">SPE Expert Linear 1K amplifier</a>.</p>
+<p>I use the amplifier to switch between the two antennas.</p>
 </section>
-<section id="comet-vhfuhf" class="level3" data-number="3.1.3">
-<h3 data-number="3.1.3" class="anchored" data-anchor-id="comet-vhfuhf"><span class="header-section-number">3.1.3</span> Comet VHF/UHF</h3>
-<p>This antenna is mounted on an extendable fiberglass mast. The EFHW transformer is mounted below it.</p>
+<section id="comet-vhfuhf" class="level3">
+<h3 class="anchored" data-anchor-id="comet-vhfuhf">Comet VHF/UHF</h3>
+<p>This antenna is mounted on an extendable fiberglass mast. The EFHW transformer for the HF antenna <a href="./antennas.html#myantennas-80-10-end-fed-half-wave-efhw">above</a> is mounted below it.</p>
 </section>
-<section id="vhfuhf-j-pole" class="level3" data-number="3.1.4">
-<h3 data-number="3.1.4" class="anchored" data-anchor-id="vhfuhf-j-pole"><span class="header-section-number">3.1.4</span> VHF/UHF J-pole</h3>
+<section id="vhfuhf-j-pole" class="level3">
+<h3 class="anchored" data-anchor-id="vhfuhf-j-pole">VHF/UHF J-pole</h3>
+<p>This antenna provides input to my <a href="./stations.html#aprs-i-gate">W3TM-11 APRS I-Gate</a>.</p>
+</section>
+<section id="magnetic-loop" class="level3">
+<h3 class="anchored" data-anchor-id="magnetic-loop">Magnetic Loop</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.w6lvp.com/wp-content/uploads/2017/02/inserter_main-1.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">W6LVP magnetic loop antenna</figcaption><p></p>
+</figure>
+</div>
+<p>I have a <a href="https://www.w6lvp.com">W6LVP receive-only magnetic loop</a> installed indoors. I bought this antenna used.</p>
+</section>
+<section id="paradan-dual-antenna-disconnector" class="level3">
+<h3 class="anchored" data-anchor-id="paradan-dual-antenna-disconnector">Paradan Dual Antenna Disconnector</h3>
+<p>The <a href="./antennas.html#myantennas-75-10-end-fed-half-wave-efhw-2k-plus">EFHW 75-10</a> and the <a href="./antennas.html#dx-commander">DX Commander</a> are connected to an automatic disconnect actuator by <a href="https://paradanradio.com/products/dual-antenna-disconnector">Paradan</a>. This is not the same as air-gapping the antennas, but it does give some additional protection. The unit grounds both antennas when the power to the <a href="./rigs.html#flexradio-6400">Flex</a> or <a href="./rigs.html#icom-ic-7300">IC-7300</a> is shut off.</p>
+<p>A <a href="./workbench.html">workbench</a> project is to buy a second one of these units for the VHF/UHF antennas.</p>
+</section>
+<section id="doublet" class="level3">
+<h3 class="anchored" data-anchor-id="doublet">Doublet</h3>
+<p>My first antenna was a doublet cut to a length that fit in my backyard, just shy of the length needed for resonant operation on 75 m.</p>
+<p>This antenna is currently out of service.</p>
+</section>
+<section id="hypower-20m40m-fan-dipole" class="level3">
+<h3 class="anchored" data-anchor-id="hypower-20m40m-fan-dipole">HyPower 20m/40m fan dipole</h3>
+<p>This antenna is currently out of service.</p>
+</section>
+</section>
+<section id="mobile" class="level2">
+<h2 class="anchored" data-anchor-id="mobile">Mobile</h2>
+<p>I have antennas mounted on both of our vehicles.</p>
+</section>
+<section id="portable" class="level2">
+<h2 class="anchored" data-anchor-id="portable">Portable</h2>
+<section id="chameleon-tactical-delta-loop" class="level3">
+<h3 class="anchored" data-anchor-id="chameleon-tactical-delta-loop">Chameleon Tactical Delta Loop</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://static.dxengineering.com/global/images/prod/xlarge/cha-tdl_cu_xl.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Chameleon Antennas Tactical Delta Loop (CHA TDL)</figcaption><p></p>
+</figure>
+</div>
+<p>This antenna is also known as <a href="https://chameleonantenna.com/shop-here/ols/products/cha-tdl">CHA TDL</a>. I have the parts in a tripod bag I bought on Amazon.</p>
+</section>
+<section id="chameleon-antennas-modular-portable-antenna-system-lite" class="level3">
+<h3 class="anchored" data-anchor-id="chameleon-antennas-modular-portable-antenna-system-lite">Chameleon Antennas Modular Portable Antenna System Lite</h3>
+<p>I also have the Lite version of the <a href="https://chameleonantenna.com/shop-here/ols/products/cha-mpas-modular-portable-antenna-system-20">CHA MPAS System</a>.</p>
+</section>
+<section id="packtenna-efhw" class="level3">
+<h3 class="anchored" data-anchor-id="packtenna-efhw">PackTenna EFHW</h3>
+<p>I have a Packtenna EFHW cut for 20 m. This is a QRP-only antenna.</p>
+</section>
+<section id="end-fed-random-wire" class="level3">
+<h3 class="anchored" data-anchor-id="end-fed-random-wire">End-fed Random Wire</h3>
+<p>I have a ~10 m random wire and a counterpoise of similar length. These have spade connectors that connect to an <a href="https://www.dxengineering.com/parts/ldg-ru-9-1">LDG RU-9:1 Unun</a>.</p>
+<p>This antenna is normally part of my set of portable wire antennas, but as of 2023-05-27, I have installed this antenna on my back porch so that I can use the <a href="./rigs.html#elecraft-kx2">Elecraft KX2</a> and <a href="./rigs.html#aesu-musen-frg-7">Yaesu FRG-7</a> out there.</p>
 
 
 </section>
@@ -319,13 +411,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./rigs.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Rigs</span></span>
+      <a href="./amplifiers.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Amplifiers</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./stations.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Stations</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./computers.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Computers</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
