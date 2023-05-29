@@ -56,7 +56,11 @@ In the summer of 2020, during the height of COVID-19 pandemic restrictions, I op
 
 ### Birthplace of Memorial Day W3M
 
+![W3M QSL Card](img/w3m-qsl.png)
+
 ### Flight 93 20th Anniversary N3M
+
+![N3M QSL card](img/n3m-qsl.png)
 
 Several hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.
 
@@ -66,3 +70,4 @@ Several hams from NARC cooperated with hams from the Somerset County Amateur Rad
 
 ### Pride K3P
 
+![K3P QSL card](img/k3p-qsl.png)

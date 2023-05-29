@@ -64,6 +64,10 @@ I have antennas mounted on both of our vehicles.
 
 ## Portable
 
+### SOTAbeams Bandhopper 80/40/30/20 Linked Dipole
+
+![SOTAbeams Bandhopper 80/40/30/20m Linked Dipole](https://static.dxengineering.com/global/images/prod/xlarge/sbm-bandhopper4_kj_xl.jpg)
+
 ### Chameleon Tactical Delta Loop
 
 ![Chameleon Antennas Tactical Delta Loop (CHA TDL)](https://static.dxengineering.com/global/images/prod/xlarge/cha-tdl_cu_xl.jpg)

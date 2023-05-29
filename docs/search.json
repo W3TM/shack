@@ -4,7 +4,7 @@
     "href": "index.html#ham-radio-bio",
     "title": "About",
     "section": "Ham radio bio",
-    "text": "Ham radio bio\nI’ve wanted to be a ham since I was a teen.\nI started out as a shortwave listener with a long wire strung from my parents’ roof on our house in southwest Denver running to Yaesu FRG-7 receiver. Hearing the English language broadcast from Radio Tirana in Albania was one of the highlights.\nIn the spring of 1993, I got the ham bug again and studied for an passed my Technician Plus exam, including the 5 wpm code requirement. My callsign was N3QLO. But I had just gotten married and just started graduate school. So, I made one contact on a Radio Shack HT and largely forgot about ham radio. In fact, when my license renewal rolled around in 2003, I didn’t even bother to renew.\nThirteen years later, I’d gotten tenure, my kids were teens or out of the house, and I had a little more time and energy. I passed my Technician and General license exams in the summer of 2016, secured the vanity callsign K3ROG, and joined the Nittany Amateur Radio Club. This time, I made time for ham radio, and I’ve been rolling ever since. With the help of some study partners and my Elmer K3YV, I upgraded to Extra a year later.\nIn the winter of 2023, I changed callsigns again to W3TM, mostly on a lark. I saw that a callsign that was both phonetically short and CW-short was available, and so I decided to enter the callsign lottery when it became available. My understanding was that the chances were slim I would get the callsign, but I thought I would go for it anyway. Sure enough, there was only one other ham who was eligible, and I won the coin toss at the FCC. Ok, maybe they have a more sophisticated system of choosing randomly, but however it went down, whiskey-three-tango-mike was now my new call. And that call will remain until I am a silent key."
+    "text": "Ham radio bio\nI’ve wanted to be a ham since I was a teen.\nI started out as a shortwave listener with a long wire strung from my parents’ roof on our house in southwest Denver running to Yaesu FRG-7 receiver. Hearing the English language broadcast from Radio Tirana in Albania was one of the highlights.\nIn the spring of 1993, I got the ham bug again and studied for an passed my Technician Plus exam, including the 5 wpm code requirement. My callsign was N3QLO. But I had just gotten married and just started graduate school. So, I made one contact on a Radio Shack HT and largely forgot about ham radio. In fact, when my license renewal rolled around in 2003, I didn’t even bother to renew.\nThirteen years later, I’d gotten tenure, my kids were teens or out of the house, and I had a little more time and energy. I passed my Technician and General license exams in the summer of 2016, secured the vanity callsign K3ROG, and joined the Nittany Amateur Radio Club. This time, I made time for ham radio, and I’ve been rolling ever since. With the help of some study partners and my Elmer K3YV, I upgraded to Extra a year later.\nIn the winter of 2023, I changed callsigns again to W3TM, mostly on a lark. I saw that a callsign that was both phonetically short and CW-short was available, and so I decided to enter the callsign lottery when it became available. My understanding was that the chances were slim I would get the callsign, but I thought I would go for it anyway. Sure enough, there was only one other ham who was eligible, and I won the coin toss at the FCC. Ok, maybe they have a more sophisticated system of choosing randomly, but however it went down, whiskey-three-tango-mike was now my new call. And that call will remain until I am a silent key.\n\n\n\nW3TM QSL card"
   },
   {
     "objectID": "rigs.html#hf",
@@ -18,7 +18,7 @@
     "href": "rigs.html#vhfuhf-mobile",
     "title": "Rigs",
     "section": "VHF/UHF mobile",
-    "text": "VHF/UHF mobile\n\nICOM IC-705\nThe IC-705 is also capable of VHF and UHF operations at up to 10 W.\n\n\nKenwood TM-710GA\n\n\n\nKenwood TM-710G\n\n\nThis VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016. It is installed in our Kia Forte. I usually beacon APRS packets when I am mobile under the callsign W3TM-1.\n\n\nYaesu FTM-400XDR\n\n\n\nYaesu FTM-400XDR\n\n\nI bought the FTM-400 new in the box from K3ARL in the summer of 2022. He had bought it as a gift for his business partner and friend, Eric Brooks N3EB. Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio. N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.\n\n\nKenwood TM-281A\n\n\n\nKenwood TM-281A\n\n\nThe Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my W3TM-11 I-Gate."
+    "text": "VHF/UHF mobile\n\nICOM IC-705\nThe IC-705 is also capable of VHF and UHF operations at up to 10 W.\n\n\nKenwood TM-710GA\n\n\n\nKenwood TM-710G\n\n\nThis VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016. It is installed in our Kia Forte. I usually beacon APRS packets when I am mobile under the callsign W3TM-1.\n\n\nYaesu FTM-400XDR\n\n\n\nYaesu FTM-400XDR\n\n\nI bought the FTM-400 new in the box from K3ARL in the summer of 2022. He had bought it as a gift for his business partner and friend, Eric Brooks N3EB. Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio. N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.\n\n\nKenwood TM-281A\n\n\n\nKenwood TM-281A\n\n\nThe Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my W3TM-11 I-Gate.\n\n\nTytera TYT TH-8600\n\n\n\nTytera TYT TH-8600\n\n\nThis radio is the core of a go-box I use in mobile/portable operations."
   },
   {
     "objectID": "rigs.html#hts",
@@ -56,6 +56,27 @@
     "text": "VHF amplifier\nThis amplifier is part of an integrated “accessory” bench I built for the IC-705."
   },
   {
+    "objectID": "amplifiers.html#rm-italy-mla100",
+    "href": "amplifiers.html#rm-italy-mla100",
+    "title": "Amplifiers",
+    "section": "RM Italy MLA100",
+    "text": "RM Italy MLA100\n\n\n\nRM Italy MLA100"
+  },
+  {
+    "objectID": "amplifiers.html#rm-italy-kl-506",
+    "href": "amplifiers.html#rm-italy-kl-506",
+    "title": "Amplifiers",
+    "section": "RM Italy KL-506",
+    "text": "RM Italy KL-506\n\n\n\nRM Italy KL-506\n\n\nI bought this antenna used."
+  },
+  {
+    "objectID": "amplifiers.html#rm-italy-la-145",
+    "href": "amplifiers.html#rm-italy-la-145",
+    "title": "Amplifiers",
+    "section": "RM Italy LA 145",
+    "text": "RM Italy LA 145\n\n\n\nRM Italy LA-145"
+  },
+  {
     "objectID": "antennas.html#home",
     "href": "antennas.html#home",
     "title": "Antennas",
@@ -74,7 +95,7 @@
     "href": "antennas.html#portable",
     "title": "Antennas",
     "section": "Portable",
-    "text": "Portable\n\nChameleon Tactical Delta Loop\n\n\n\nChameleon Antennas Tactical Delta Loop (CHA TDL)\n\n\nThis antenna is also known as CHA TDL. I have the parts in a tripod bag I bought on Amazon.\n\n\nChameleon Antennas Modular Portable Antenna System Lite\nI also have the Lite version of the CHA MPAS System.\n\n\nPackTenna EFHW\nI have a Packtenna EFHW cut for 20 m. This is a QRP-only antenna.\n\n\nEnd-fed Random Wire\nI have a ~10 m random wire and a counterpoise of similar length. These have spade connectors that connect to an LDG RU-9:1 Unun.\nThis antenna is normally part of my set of portable wire antennas, but as of 2023-05-27, I have installed this antenna on my back porch so that I can use the Elecraft KX2 and Yaesu FRG-7 out there."
+    "text": "Portable\n\nSOTAbeams Bandhopper 80/40/30/20 Linked Dipole\n\n\n\nSOTAbeams Bandhopper 80/40/30/20m Linked Dipole\n\n\n\n\nChameleon Tactical Delta Loop\n\n\n\nChameleon Antennas Tactical Delta Loop (CHA TDL)\n\n\nThis antenna is also known as CHA TDL. I have the parts in a tripod bag I bought on Amazon.\n\n\nChameleon Antennas Modular Portable Antenna System Lite\nI also have the Lite version of the CHA MPAS System.\n\n\nPackTenna EFHW\nI have a Packtenna EFHW cut for 20 m. This is a QRP-only antenna.\n\n\nEnd-fed Random Wire\nI have a ~10 m random wire and a counterpoise of similar length. These have spade connectors that connect to an LDG RU-9:1 Unun.\nThis antenna is normally part of my set of portable wire antennas, but as of 2023-05-29, I have installed this antenna on my back porch so that I can use the Elecraft KX2 and Yaesu FRG-7 out there."
   },
   {
     "objectID": "computers.html#windows",
@@ -110,6 +131,13 @@
     "title": "Computers",
     "section": "Raspberry Pi",
     "text": "Raspberry Pi\nMy ClearNode Allstar node runs on a dedicated Raspberry Pi.\nI have a Raspberry Pi dedicated to the RemoteTx.net service connected to my IC-7300.\nMy HamClock application runs on a dedicated Raspberry Pi 3B+ with a 7” touchscreen.\nMy NodeRed server runs on a Raspberry Pi, but is currently offline."
+  },
+  {
+    "objectID": "computers.html#software",
+    "href": "computers.html#software",
+    "title": "Computers",
+    "section": "Software",
+    "text": "Software\n\nLogging\nI use Amateur Contact Log, more commonly known as N3FJP’s logging software for logging. The iOS apps I use with my Flex-6400 and IC-705 have built-in logs that I periodically export and then import into ACLog. At our club’s Field Day, I use N1MM+."
   },
   {
     "objectID": "power.html#home",
@@ -179,7 +207,7 @@
     "href": "engagement.html#events",
     "title": "Engagement",
     "section": "Events",
-    "text": "Events\n\nField Day\nFor the last several years, I have helped organize the NARC Field Day operation.\n\n\n\nNARC Field Day 2022\n\n\nIn the summer of 2020, during the height of COVID-19 pandemic restrictions, I operated from my backyard.\n\n\n\nField Day from home 2020\n\n\n\n\nWinter Field Day\n\n\nJamboree on the Air (JOTA)\n\n\nBirthplace of Memorial Day W3M\n\n\nFlight 93 20th Anniversary N3M\nSeveral hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.\n\n\n\nN3M special event operation\n\n\n\n\nPenn State Dance Marathon K3T\n\n\nPride K3P"
+    "text": "Events\n\nField Day\nFor the last several years, I have helped organize the NARC Field Day operation.\n\n\n\nNARC Field Day 2022\n\n\nIn the summer of 2020, during the height of COVID-19 pandemic restrictions, I operated from my backyard.\n\n\n\nField Day from home 2020\n\n\n\n\nWinter Field Day\n\n\nJamboree on the Air (JOTA)\n\n\nBirthplace of Memorial Day W3M\n\n\n\nW3M QSL Card\n\n\n\n\nFlight 93 20th Anniversary N3M\n\n\n\nN3M QSL card\n\n\nSeveral hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.\n\n\n\nN3M special event operation\n\n\n\n\nPenn State Dance Marathon K3T\n\n\nPride K3P\n\n\n\nK3P QSL card"
   },
   {
     "objectID": "workbench.html#kit-building",

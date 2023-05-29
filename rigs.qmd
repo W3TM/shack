@@ -67,6 +67,12 @@ N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and rem
 
 The Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my [W3TM-11 I-Gate](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-11&timerange=3600&tail=3600).
 
+### Tytera TYT TH-8600
+
+![Tytera TYT TH-8600](https://m.media-amazon.com/images/I/61d1V-d4B4L._AC_SX679_.jpg)
+
+This radio is the core of a go-box I use in mobile/portable operations.
+
 ## HTs
 
 ### ICOM ID-51A

@@ -5,7 +5,7 @@ editor: source
 ---
 
 Computers are an integral part of amateur radio.
-Here are some descriptions of the computers I use in my operations.
+Here are some descriptions of the computers and software I use in my operations.
 
 ## Windows
 
@@ -47,3 +47,11 @@ I have a Raspberry Pi dedicated to the [RemoteTx.net](https://remotetx.net) serv
 My HamClock application runs on a dedicated Raspberry Pi 3B+ with a 7" touchscreen.
 
 My [NodeRed server](workbench.qmd#nodered) runs on a Raspberry Pi, but is currently offline.
+
+## Software
+
+### Logging
+
+I use Amateur Contact Log, more commonly known as N3FJP's logging software for logging.
+The iOS apps I use with my [Flex-6400](rigs.qmd#flexradio-flex-6400) and [IC-705](rigs.qmd#icom-ic-705) have built-in logs that I periodically export and then import into ACLog.
+At our club's Field Day, I use N1MM+.
