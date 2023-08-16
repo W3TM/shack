@@ -95,3 +95,21 @@ My Allstar/EchoLink node was active, and a group of us did a Parks on the Air (P
 We also had a booth at the State College Pride festival.
 
 ![K3P QSL card](img/k3p-qsl.png)
+
+## Education
+
+### W5YI CVE
+
+As of September 1, 2023, I am taking on the Coordinating Volunteer Examiner role for ham exams in our area.
+
+### New Ham Book
+
+Just for fun, I've started working on an electronic (web) book for new hams.
+The target audience was initially Penn State ARC members who aren't (yet) licensed.
+But I am expanding it to be suitable for a wide range of folks who aren't yet hams.
+
+You can find the work-in-progress here:
+
+<https://k3cr.github.io/newhambook/>
+
+Comments are welcome!
