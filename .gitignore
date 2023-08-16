@@ -3,5 +3,5 @@
 .RData
 .Ruserdata
 shack.Rproj
-
 /.quarto/
+.DS_Store

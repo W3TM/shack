@@ -38,13 +38,22 @@ I bought this radio new in the fall of 2020. This radio currently sits on my des
 
 I bought the Elecraft KX2 used in the summer of 2022.
 
-## VHF/UHF mobile
+## VHF/UHF
+
+### ICOM IC-9700
+
+![](https://www.gigaparts.com/media/catalog/product/cache/dfaec006bd6782dbad92b9435baa8bcf/i/c/ic_9700.jpg)
+The IC-9700 is the newest rig in the shack.
+I'm planning some additional VHF and UHF work with it, including satellites, and possibly a future APRStt project.
+But for now, it's in the shack being used for local repeater operations.
+
+I have experimented with remote control of this rig, but the latency is high.
 
 ### ICOM IC-705
 
 The IC-705 is also capable of VHF and UHF operations at up to 10 W.
 
-### Kenwood TM-710GA
+### Kenwood TM-710GA {}
 
 ![Kenwood TM-710G](https://kasc.kenwood.com/files/website/categories/11/comm/amateur-vhf_uhf_mobiles2.png){.fig-center}
 
@@ -92,6 +101,7 @@ I bought the [Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/) 
 ### RFinder B1+
 
 ![RFinder B1-Plus](https://s82g3y-xx73bzq18ulv.cloudmaestro.com/-3_2ewbAV/media/catalog/product/cache/dfaec006bd6782dbad92b9435baa8bcf/m/i/vmicrosoftteams-image_60_.png.pagespeed.ic.G3yEzXICho.webp)
+I sold the RFinder B1+ in Summer 2023 to help fund the new ICOM IC-9700.
 
 ## Hotspots
 
@@ -108,10 +118,32 @@ My Allstar node number is 51401.
 
 I own but do not have deployed an original [OpenSpot](https://www.sharkrf.com/products/openspot-legacy/)
 
+
+### OpenSpot2
+
 ![OpenSpot2](https://www.sharkrf.com/products/openspot2/)
 
-I also own, but do not currently have deployed an [OpenSpot2](https://www.sharkrf.com/products/openspot2/).
+I owned but sold in Summer 2023 an [OpenSpot2](https://www.sharkrf.com/products/openspot2/).
 
+## APRS gear
 
-## APRS trackers
+### TNC-X kit
+
+I have an unbuild TNC-X kit.
+This is a board that connects with a Raspberry Pi.
+
+### Byonics MicroTrak AIO
+
+![](https://www.byonics.com/images/mt-aio-2a.300.jpg)
+This is a 10 W APRS beacon.
+
+I have used this to beacon APRS packets at the NARC Field Day.
+
+Once, when this was my _only_ mobile APRS solution, I used this to plan a meeting with a person who had a short window of time to hand-off a piece of equipment.
+The beacon helped them time when to come down to meet me.
+
+### Mobilinkd TNC2
+
+![](http://www.mobilinkd.com/wp-content/uploads/2019/04/IMG_20170405_205938.gif)
+This TNC2 can connect via Bluetooth with a computer, (iOS or Android) tablet, or (iOS or Android) phone and enables a simple HT to provide nearly full APRS capabilities.
 

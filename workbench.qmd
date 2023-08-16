@@ -23,14 +23,22 @@ So, I want to get a USB/printer switch so that I can decide whether to control t
 
 ### Morse code
 
+I took the first two CWOps courses in Spring 2020, but I have only made two CW contacts.
+I'm slow to copy, and it's hard, and so I've gotten discouraged.
+
+But I haven't given up.
+
 ### Unusual digital modes
 
 ### More contesting
 
-### Rapid Activation and Deployment Amateur Radio (RADAR)
+### Rapid Activation and Deployment Amateur Radio (RaDAR)
 
+I have ambitions of organizing some operations in the spirit of [RaDAR](https://radarops.co.za).
 
+### Satellite operations
 
+The addition of the new [IC-9700](rigs.qmd#icom-ic-9700) makes satellite operations a new frontier to explore.
 
 ## Station enhancements
 
@@ -42,4 +50,3 @@ I was experimenting with NodeRed in the Winter of 2022-23, but have taken my ser
 
 I plan to install a new/improved Earth ground for my electrical service.
 Once that is done, then I will tie my RF/antenna ground to it.
-

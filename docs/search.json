@@ -14,32 +14,32 @@
     "text": "HF\n\nYaesu-Musen FRG-7\n\n\n\nYaesu-Musen FRG-7 Receiver\n\n\n\n\nFlexRadio 6400\n\n\n\nFlex-6400\n\n\nI acquired this radio used in the summer of 2021. It has the internal antenna tuning unit (ATU).\nIt connects to an SPE Expert Linear 1K amplifier on the Input 1 port.\n\n\nICOM IC-7300\n\n\n\nICOM IC-7300\n\n\nThis radio was new when I bought it in the summer of 2016.\nIt also connects to the SPE Expert Linear 1K amplifier on the Input 2 port.\n\n\nICOM IC-705\n\n\n\nICOM IC-705\n\n\nI bought this radio new in the fall of 2020. This radio currently sits on my desk in my upstairs office.\n\n\nElecraft KX2\n\n\n\nElecraft KX2\n\n\nI bought the Elecraft KX2 used in the summer of 2022."
   },
   {
-    "objectID": "rigs.html#vhfuhf-mobile",
-    "href": "rigs.html#vhfuhf-mobile",
+    "objectID": "rigs.html#vhfuhf",
+    "href": "rigs.html#vhfuhf",
     "title": "Rigs",
-    "section": "VHF/UHF mobile",
-    "text": "VHF/UHF mobile\n\nICOM IC-705\nThe IC-705 is also capable of VHF and UHF operations at up to 10 W.\n\n\nKenwood TM-710GA\n\n\n\nKenwood TM-710G\n\n\nThis VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016. It is installed in our Kia Forte. I usually beacon APRS packets when I am mobile under the callsign W3TM-1.\n\n\nYaesu FTM-400XDR\n\n\n\nYaesu FTM-400XDR\n\n\nI bought the FTM-400 new in the box from K3ARL in the summer of 2022. He had bought it as a gift for his business partner and friend, Eric Brooks N3EB. Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio. N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.\n\n\nKenwood TM-281A\n\n\n\nKenwood TM-281A\n\n\nThe Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my W3TM-11 I-Gate.\n\n\nTytera TYT TH-8600\n\n\n\nTytera TYT TH-8600\n\n\nThis radio is the core of a go-box I use in mobile/portable operations."
+    "section": "VHF/UHF",
+    "text": "VHF/UHF\n\nICOM IC-9700\n The IC-9700 is the newest rig in the shack. I’m planning some additional VHF and UHF work with it, including satellites, and possibly a future APRStt project. But for now, it’s in the shack being used for local repeater operations.\nI have experimented with remote control of this rig, but the latency is high.\n\n\nICOM IC-705\nThe IC-705 is also capable of VHF and UHF operations at up to 10 W.\n\n\nKenwood TM-710GA\n\n\n\nKenwood TM-710G\n\n\nThis VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016. It is installed in our Kia Forte. I usually beacon APRS packets when I am mobile under the callsign W3TM-1.\n\n\nYaesu FTM-400XDR\n\n\n\nYaesu FTM-400XDR\n\n\nI bought the FTM-400 new in the box from K3ARL in the summer of 2022. He had bought it as a gift for his business partner and friend, Eric Brooks N3EB. Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio. N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.\n\n\nKenwood TM-281A\n\n\n\nKenwood TM-281A\n\n\nThe Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my W3TM-11 I-Gate.\n\n\nTytera TYT TH-8600\n\n\n\nTytera TYT TH-8600\n\n\nThis radio is the core of a go-box I use in mobile/portable operations."
   },
   {
     "objectID": "rigs.html#hts",
     "href": "rigs.html#hts",
     "title": "Rigs",
     "section": "HTs",
-    "text": "HTs\n\nICOM ID-51A\n\n\n\nICOM ID-51A\n\n\n\n\nYaesu FT-70D\n\n\n\nYaesu FT-70D\n\n\n\n\nKenwood TH-72\n\n\n\nKenwood TH-72A\n\n\nI bought the Kenwood TH-72A used several years ago.\n\n\nRFinder B1+\n\n\n\nRFinder B1-Plus"
+    "text": "HTs\n\nICOM ID-51A\n\n\n\nICOM ID-51A\n\n\n\n\nYaesu FT-70D\n\n\n\nYaesu FT-70D\n\n\n\n\nKenwood TH-72\n\n\n\nKenwood TH-72A\n\n\nI bought the Kenwood TH-72A used several years ago.\n\n\nRFinder B1+\n I sold the RFinder B1+ in Summer 2023 to help fund the new ICOM IC-9700."
   },
   {
     "objectID": "rigs.html#hotspots",
     "href": "rigs.html#hotspots",
     "title": "Rigs",
     "section": "Hotspots",
-    "text": "Hotspots\n\nClearNode\n\n\n\nClearNode Allstar hotspot/node\n\n\nI run a UHF ClearNode Allstar hotspot. My Allstar node number is 51401.\n\n\nOpenSpot\n\n\n\nOpenSpot\n\n\nI own but do not have deployed an original OpenSpot\n\n\n\nOpenSpot2\n\n\nI also own, but do not currently have deployed an OpenSpot2."
+    "text": "Hotspots\n\nClearNode\n\n\n\nClearNode Allstar hotspot/node\n\n\nI run a UHF ClearNode Allstar hotspot. My Allstar node number is 51401.\n\n\nOpenSpot\n\n\n\nOpenSpot\n\n\nI own but do not have deployed an original OpenSpot\n\n\nOpenSpot2\n\n\n\nOpenSpot2\n\n\nI owned but sold in Summer 2023 an OpenSpot2."
   },
   {
-    "objectID": "rigs.html#aprs-trackers",
-    "href": "rigs.html#aprs-trackers",
+    "objectID": "rigs.html#aprs-gear",
+    "href": "rigs.html#aprs-gear",
     "title": "Rigs",
-    "section": "APRS trackers",
-    "text": "APRS trackers"
+    "section": "APRS gear",
+    "text": "APRS gear\n\nTNC-X kit\nI have an unbuild TNC-X kit. This is a board that connects with a Raspberry Pi.\n\n\nByonics MicroTrak AIO\n This is a 10 W APRS beacon.\nI have used this to beacon APRS packets at the NARC Field Day.\nOnce, when this was my only mobile APRS solution, I used this to plan a meeting with a person who had a short window of time to hand-off a piece of equipment. The beacon helped them time when to come down to meet me.\n\n\nMobilinkd TNC2\n This TNC2 can connect via Bluetooth with a computer, (iOS or Android) tablet, or (iOS or Android) phone and enables a simple HT to provide nearly full APRS capabilities."
   },
   {
     "objectID": "amplifiers.html#spe-expert-linear-1k",
@@ -95,7 +95,7 @@
     "href": "antennas.html#portable",
     "title": "Antennas",
     "section": "Portable",
-    "text": "Portable\n\nSOTAbeams Bandhopper 80/40/30/20 Linked Dipole\n\n\n\nSOTAbeams Bandhopper 80/40/30/20m Linked Dipole\n\n\n\n\nChameleon Tactical Delta Loop\n\n\n\nChameleon Antennas Tactical Delta Loop (CHA TDL)\n\n\nThis antenna is also known as CHA TDL. I have the parts in a tripod bag I bought on Amazon.\n\n\nChameleon Antennas Modular Portable Antenna System Lite\nI also have the Lite version of the CHA MPAS System.\n\n\nPackTenna EFHW\nI have a Packtenna EFHW cut for 20 m. This is a QRP-only antenna.\n\n\nEnd-fed Random Wire\nI have a ~10 m random wire and a counterpoise of similar length. These have spade connectors that connect to an LDG RU-9:1 Unun.\nThis antenna is normally part of my set of portable wire antennas, but as of 2023-05-29, I have installed this antenna on my back porch so that I can use the Elecraft KX2 and Yaesu FRG-7 out there."
+    "text": "Portable\n\nSOTAbeams Bandhopper 80/40/30/20 Linked Dipole\n\n\n\nSOTAbeams Bandhopper 80/40/30/20m Linked Dipole\n\n\n\n\nChameleon Tactical Delta Loop\n\n\n\nChameleon Antennas Tactical Delta Loop (CHA TDL)\n\n\nThis antenna is also known as CHA TDL. I have the parts in a tripod bag I bought on Amazon.\n\n\nChameleon Antennas Modular Portable Antenna System Lite\nI also have the Lite version of the CHA MPAS System.\n\n\nPackTenna EFHW\nI have a Packtenna EFHW cut for 20 m. This is a QRP-only antenna.\n\n\nEnd-fed Random Wire\nI have a ~10 m random wire and a counterpoise of similar length. These have spade connectors that connect to an LDG RU-9:1 Unun.\nThis antenna is normally part of my set of portable wire antennas, but as of r Sys.Date(), I have installed this antenna on my back porch so that I can use the Elecraft KX2 and Yaesu FRG-7 out there."
   },
   {
     "objectID": "computers.html#windows",
@@ -165,14 +165,14 @@
     "href": "stations.html#home",
     "title": "Stations",
     "section": "Home",
-    "text": "Home\n\nShack\n\nAPRS I-Gate\nThe W3TM-11 APRS I-Gate uses the Kenwood TM-281A connected to a Mac Mini running Ubuntu and the direwolf software TNC. I have a 2 m/70 cm J-pole antenna on the roof of my house at about 6 m from the ground.\n\n\nHF 1\nMy primary HF station that I am callign HF 1 just for fun uses the FlexRadio 6400 transceiver. The Flex drives an SPE Expert Linear 1K amplifier. The radio has an X microphone. An Acer laptop running SmartSDR 3.x.x is used to control the radio.\n\n\nHF 2\nMy second HF station runs an IC-7300. It also connects to the SPE Expert Linear 1K amplifier. I use either the stock hand mic or a Heil (model) headset with a footswitch.\n\n\nAllstar node\n\n\nAPRS I-Gate\n\n\n\nOffice\n\nHF QRP/VHF/UHF\nA third HF station is located in my office. I’m running the IC-705. At the moment, the HF capability is receive-only, as I have a W6LVP receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer."
+    "text": "Home\n\nShack\n\nAPRS I-Gate\nThe W3TM-11 APRS I-Gate uses the Kenwood TM-281A connected to a Mac Mini running Ubuntu and the direwolf software TNC. I have a 2 m/70 cm J-pole antenna on the roof of my house at about 6 m from the ground.\n\n\nHF 1\nMy primary HF station that I am callign HF 1 just for fun uses the FlexRadio 6400 transceiver. The Flex drives an SPE Expert Linear 1K amplifier. The radio has an X microphone. An Acer laptop running SmartSDR 3.x.x is used to control the radio.\n\n\nHF 2\nMy second HF station runs an IC-7300. It also connects to the SPE Expert Linear 1K amplifier. I use either the stock hand mic or a Heil (model) headset with a footswitch.\n\n\nAllstar node\nI have a ClearNode UHF Allstar node on 51401. The node also supports EchoLink (W3TM-L).\nI used this node for the K3P Special Event station in June 2023. At least two hams connected via the node to participate in the event.\n\n\n\nOffice\n\nHF 3 (QRP/VHF/UHF)\nA third HF station is located in my office. I’m running the IC-705. At the moment, the HF capability is receive-only, as I have a W6LVP receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer."
   },
   {
     "objectID": "stations.html#mobile",
     "href": "stations.html#mobile",
     "title": "Stations",
     "section": "Mobile",
-    "text": "Mobile\n\nKia Forte\n\n\nHonda CRV"
+    "text": "Mobile\n\nKia Forte\nA Kenwood TM-710GA is used in this vehicle for FM (VHF & UHF) voice communications. The rig also beacons APRS packets as W3TM-1. I usually have it configured with APRS voice alert.\n\n\nHonda CRV\nA Yaesu FTM-400XDR is used in this vehicle for FM (VHF & UHF) voice communications. The rig also beacons APRS packets as W3TM-2. I usually have it configured with APRS voice alert."
   },
   {
     "objectID": "stations.html#portable",
@@ -193,21 +193,21 @@
     "href": "engagement.html#organizations",
     "title": "Engagement",
     "section": "Organizations",
-    "text": "Organizations\n\nAmerican Radio Relay League (ARRL)\nI am an active member of the ARRL.\n\n\nAmateur Radio Emergency Service (ARES)\nI participate in the weekly ARES net on the W3YA 146.85 repeater as a participating station and as a net control station.\nIn addition, I enjoy providing communications for various special events via the ARES organization.\n\n\nNittany Amateur Radio Club (NARC)\nI have been a member of NARC since 2016. I help maintain the club’s station on top of Pine Grove Mountain, and I have served on the Board of Directors since 2020.\n\n\nPenn State Amateur Radio Club (PSARC)\n\n\nQuarter Century Wireless Association (QCWA)\nOur local QCQA Chapter 203 has a weekly net on Sunday nights at 8:30 PM local time on the W3YA 146.85 MHz repeater. I am one of the net control stations."
+    "text": "Organizations\n\nAmerican Radio Relay League (ARRL)\nI am an active member of the ARRL.\n\n\nAmateur Radio Emergency Service (ARES)\nI participate in the weekly ARES net on the W3YA 146.85 repeater as a participating station and as a net control station.\nIn addition, I enjoy providing communications for various special events via the ARES organization.\n\n\nNittany Amateur Radio Club (NARC)\nI have been a member of NARC since 2016. I help maintain the club’s station on top of Pine Grove Mountain, and I have served on the Board of Directors since 2020.\n\n\nPenn State Amateur Radio Club (PSARC)\nI serve as the faculty adviser for the Penn State ARC, and as trustee for the K3CR repeaters.\n\n\nQuarter Century Wireless Association (QCWA)\nOur local QCQA Chapter 203 has a weekly net on Sunday nights at 8:30 PM local time on the W3YA 146.85 MHz repeater. I am one of the net control stations."
   },
   {
     "objectID": "engagement.html#other-activities",
     "href": "engagement.html#other-activities",
     "title": "Engagement",
     "section": "Other activities",
-    "text": "Other activities\n\nAutomatic Packet Reporting System (APRS)\nI operate a receive-only VHF (144.390 MHz) I-Gate under the callsign W3TM-11.\n\n\nVolunteer Examiner\nI am a registered Volunteer Examiner (VE) for W5YI and for the ARRL."
+    "text": "Other activities\n\nAutomatic Packet Reporting System (APRS)\nI operate a receive-only VHF (144.390 MHz) I-Gate under the callsign W3TM-11.\n\n\nVolunteer Examiner (VE)\nI am a registered Volunteer Examiner (VE) for W5YI and for the ARRL.\nAs of September 2023, I will be taking over the Coordinating VE role from K3YV."
   },
   {
     "objectID": "engagement.html#events",
     "href": "engagement.html#events",
     "title": "Engagement",
     "section": "Events",
-    "text": "Events\n\nField Day\nFor the last several years, I have helped organize the NARC Field Day operation.\n\n\n\nNARC Field Day 2022\n\n\nIn the summer of 2020, during the height of COVID-19 pandemic restrictions, I operated from my backyard.\n\n\n\nField Day from home 2020\n\n\n\n\nWinter Field Day\n\n\nJamboree on the Air (JOTA)\n\n\nBirthplace of Memorial Day W3M\n\n\n\nW3M QSL Card\n\n\n\n\nFlight 93 20th Anniversary N3M\n\n\n\nN3M QSL card\n\n\nSeveral hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.\n\n\n\nN3M special event operation\n\n\n\n\nPenn State Dance Marathon K3T\n\n\nPride K3P\n\n\n\nK3P QSL card"
+    "text": "Events\n\nField Day\nFor the last several years, I have helped organize the NARC Field Day operation.\n\n\n\nNARC Field Day 2022\n\n\nIn the summer of 2020, during the height of COVID-19 pandemic restrictions, I operated from my backyard.\n\n\n\nField Day from home 2020\n\n\n\n\nWinter Field Day\nI enjoy Winter Field Day.\nIn January 2020, W3SWL, N3LI, and I operated Winter Field Day from a cabin in Prince Gallitzin State Park.\nIn 2021, my wife and I stayed at a cabin in Black Moshannon State Park where I operated Winter Field Day.\nIn 2022, friends KC3HIP and W3EDP stayed with us in an adjoining cabin at Black Moshannon State Park.\nWe weren’t able to operate in 2023, but hope to do so again in 2024.\n\n\nJamboree on the Air (JOTA)\nWith K3YV and W3EDP, we planned an event with a local Cub Scouts troop for October 2022. Illness forced a last minute cancellation, but we are talking about a JOTA activation for this coming October 2023.\n\n\nBirthplace of Memorial Day W3M\n\n\n\nW3M QSL Card\n\n\n\n\nFlight 93 20th Anniversary N3M\n\n\n\nN3M QSL card\n\n\nSeveral hams from NARC cooperated with hams from the Somerset County Amateur Radio club to commemorate the 20th anniversary of Flight 93 from a location near the memorial.\n\n\n\nN3M special event operation\n\n\n\n\nPenn State Dance Marathon K3T\nI helped the Penn State ARC secure the special event callsign K3T for an event honoring the Penn State Dance Marathon held in February 2023. The group of operators made several hundred QSOs, spreading positive news about ’Thon, Penn State, and the PSU club.\n\n\nPride K3P\nWith several friends from our local ham community, I organized a special event station to celebrate Pride Month in Central PA in early June 2023. My Allstar/EchoLink node was active, and a group of us did a Parks on the Air (POTA) activation at Bald Eagle State Park. We also had a booth at the State College Pride festival.\n\n\n\nK3P QSL card"
   },
   {
     "objectID": "workbench.html#kit-building",
@@ -228,7 +228,7 @@
     "href": "workbench.html#modes-and-skills",
     "title": "Workbench",
     "section": "Modes and skills",
-    "text": "Modes and skills\n\nMorse code\n\n\nUnusual digital modes\n\n\nMore contesting\n\n\nRapid Activation and Deployment Amateur Radio (RADAR)"
+    "text": "Modes and skills\n\nMorse code\nI took the first two CWOps courses in Spring 2020, but I have only made two CW contacts. I’m slow to copy, and it’s hard, and so I’ve gotten discouraged.\nBut I haven’t given up.\n\n\nUnusual digital modes\n\n\nMore contesting\n\n\nRapid Activation and Deployment Amateur Radio (RaDAR)\nI have ambitions of organizing some operations in the spirit of RaDAR.\n\n\nSatellite operations\nThe addition of the new IC-9700 makes satellite operations a new frontier to explore."
   },
   {
     "objectID": "workbench.html#station-enhancements",
