@@ -25,7 +25,7 @@
     "href": "rigs.html#hts",
     "title": "Rigs",
     "section": "HTs",
-    "text": "HTs\n\nICOM ID-51A\n\n\n\nICOM ID-51A\n\n\n\n\nYaesu FT-70D\n\n\n\nYaesu FT-70D\n\n\n\n\nKenwood TH-72\n\n\n\nKenwood TH-72A\n\n\nI bought the Kenwood TH-72A used several years ago.\n\n\nRFinder B1+\n I sold the RFinder B1+ in Summer 2023 to help fund the new ICOM IC-9700."
+    "text": "HTs\n\nICOM ID-51A\n\n\n\nICOM ID-51A\n\n\n\n\nYaesu FT-70D\n\n\n\nYaesu FT-70D\n\n\n\n\nKenwood TH-72A\n\n\n\nKenwood TH-72A\n\n\nI bought the Kenwood TH-72A used several years ago. This rigs are notable for supporting full duplex, a desirable characteristic for FM satellite work.\n\n\nRFinder B1+\n I sold the RFinder B1+ in Summer 2023 to help fund the new ICOM IC-9700."
   },
   {
     "objectID": "rigs.html#hotspots",
@@ -95,7 +95,7 @@
     "href": "antennas.html#portable",
     "title": "Antennas",
     "section": "Portable",
-    "text": "Portable\n\nSOTAbeams Bandhopper 80/40/30/20 Linked Dipole\n\n\n\nSOTAbeams Bandhopper 80/40/30/20m Linked Dipole\n\n\n\n\nChameleon Tactical Delta Loop\n\n\n\nChameleon Antennas Tactical Delta Loop (CHA TDL)\n\n\nThis antenna is also known as CHA TDL. I have the parts in a tripod bag I bought on Amazon.\n\n\nChameleon Antennas Modular Portable Antenna System Lite\nI also have the Lite version of the CHA MPAS System.\n\n\nPackTenna EFHW\nI have a Packtenna EFHW cut for 20 m. This is a QRP-only antenna.\n\n\nEnd-fed Random Wire\nI have a ~10 m random wire and a counterpoise of similar length. These have spade connectors that connect to an LDG RU-9:1 Unun.\nThis antenna is normally part of my set of portable wire antennas, but as of r Sys.Date(), I have installed this antenna on my back porch so that I can use the Elecraft KX2 and Yaesu FRG-7 out there."
+    "text": "Portable\n\nSOTAbeams Bandhopper 80/40/30/20 Linked Dipole\n\n\n\nSOTAbeams Bandhopper 80/40/30/20m Linked Dipole\n\n\n\n\nChameleon Tactical Delta Loop\n\n\n\nChameleon Antennas Tactical Delta Loop (CHA TDL)\n\n\nThis antenna is also known as CHA TDL. I have the parts in a tripod bag I bought on Amazon.\n\n\nChameleon Antennas Modular Portable Antenna System Lite\nI also have the Lite version of the CHA MPAS System.\n\n\nPackTenna EFHW\nI have a Packtenna EFHW cut for 20 m. This is a QRP-only antenna.\n\n\nEnd-fed Random Wire\nI have a ~10 m random wire and a counterpoise of similar length. These have spade connectors that connect to an LDG RU-9:1 Unun.\nThis antenna is normally part of my set of portable wire antennas, but as of r Sys.Date(), I have installed this antenna on my back porch so that I can use the Elecraft KX2 and Yaesu FRG-7 out there.\n\n\n\\(M^2\\) SATPACK1\n\n\n\n\n\nAs of August 2023, I have acquired a SATPACK1, VHF and UHF antenna set for satellite work. The antenna is still under construction and undergoing testing. My intention is to use it for portable satellite operations or for a longer-term deployment during the winter. The extensive tree cover in and around my yard makes satellite contacts during the leafy months (April-October) almost impossible.\n\n\n“Alaskan” Arrow antenna\nI have the “Alaskan” version of the dual band (VHF/UHF) Arrow antenna. Mine has the split beam for easier transport and the built-in diplexer.\n\n\n\n\n\nI have assembled this antenna but have not yet gotten it on the air. It’s really a beast to manipulate by hand, and I am still working on a way to physically support it using a tripod or other means.\nIf I can solve that problem, I would like to pair this with my Kenwood TH-72A for some FM satellite work."
   },
   {
     "objectID": "computers.html#windows",
@@ -179,7 +179,7 @@
     "href": "stations.html#portable",
     "title": "Stations",
     "section": "Portable",
-    "text": "Portable\n\nVHF/UHF Go-box\nI have a Tytera TYT-8600 radio in a small go-box configuration with an included 12 Ah Bioenno \\(LiFePO_4\\) battery."
+    "text": "Portable\n\nVHF/UHF Go-box\nI have a Tytera TYT-8600 radio in a small go-box configuration with an included 12 Ah Bioenno \\(LiFePO_4\\) battery.\n\n\nSatellite station\nThe IC-9700 forms the heart of my still-in-progress satellite station. Also new is the CSN Technologies Self-contained Antenna Tracker (S.A.T.). This interfaces with the IC-9700 and an antenna rotator. It provides a web browser interface for most controls. Within a few minutes of connecting it, I was able to monitor DX traffic (Alabama!) on the ISS FM repeater using my vertically oriented Comet antenna.\n\n\n\nCSN Technologies S.A.T.\n\n\nFinally, I am assembling an \\(M^2\\) SATPACK1 antenna array. If my initial forays go well, I may think about upgrading to a system with Yagis that can be pointed at satellites."
   },
   {
     "objectID": "stations.html#remote",

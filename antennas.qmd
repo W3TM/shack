@@ -90,3 +90,24 @@ I have a ~10 m random wire and a counterpoise of similar length.
 These have spade connectors that connect to an [LDG RU-9:1 Unun](https://www.dxengineering.com/parts/ldg-ru-9-1).
 
 This antenna is normally part of my set of portable wire antennas, but as of `r Sys.Date()`, I have installed this antenna on my back porch so that I can use the [Elecraft KX2](rigs.qmd#elecraft-kx2) and [Yaesu FRG-7](rigs.qmd#aesu-musen-frg-7) out there.
+
+### $M^2$ SATPACK1
+
+![](https://cdn2.bigcommerce.com/n-ou1isn/f95xaqb/products/232/images/648/WS_FGSATPACK1_IMAGE__91173.1445278338.1280.1280.png?c=2){fig-align="center"}
+
+As of August 2023, I have acquired a [SATPACK1](https://www.m2inc.com/FGSATPACK1), VHF and UHF antenna set for satellite work.
+The antenna is still under construction and undergoing testing.
+My intention is to use it for portable satellite operations or for a longer-term deployment during the winter.
+The extensive tree cover in and around my yard makes satellite contacts during the leafy months (April-October) almost impossible.
+
+### "Alaskan" Arrow antenna
+
+I have the ["Alaskan" version](https://www.arrowantennas.com/arrowii/alaskanarrow.html) of the dual band (VHF/UHF) Arrow antenna.
+Mine has the split beam for easier transport and the built-in diplexer.
+
+![](https://www.arrowantennas.com/gfx/146437-14-1.jpg){fig-align="center"}
+
+I have assembled this antenna but have not yet gotten it on the air.
+It's really a beast to manipulate by hand, and I am still working on a way to physically support it using a tripod or other means.
+
+If I can solve that problem, I would like to pair this with my [Kenwood TH-72A](rigs.qmd#kenwood-th72a) for some FM satellite work.

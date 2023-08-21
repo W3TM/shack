@@ -92,11 +92,12 @@ This radio is the core of a go-box I use in mobile/portable operations.
 
 ![Yaesu FT-70D](https://www.yaesu.com/ProductImages/FT-70DR_thumb.jpg){.img-center}
 
-### Kenwood TH-72
+### Kenwood TH-72A
 
 ![Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/images/image_product01_big.jpg)
 
 I bought the [Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/) used several years ago.
+This rigs are notable for supporting full duplex, a desirable characteristic for FM satellite work.
 
 ### RFinder B1+
 

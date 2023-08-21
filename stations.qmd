@@ -64,6 +64,19 @@ I usually have it configured with APRS voice alert.
 
 I have a [Tytera TYT-8600](rigs.qmd#tytera-tyt-th-8600) radio in a small go-box configuration with an included 12 Ah Bioenno $LiFePO_4$ battery.
 
+### Satellite station
+
+The [IC-9700](rigs.qmd#icom-ic-9700) forms the heart of my still-in-progress satellite station.
+Also new is the [CSN Technologies Self-contained Antenna Tracker (S.A.T.)](http://www.csntechnologies.net/sat).
+This interfaces with the IC-9700 and an antenna rotator.
+It provides a web browser interface for most controls.
+Within a few minutes of connecting it, I was able to monitor DX traffic (Alabama!) on the ISS FM repeater using my vertically oriented Comet antenna.
+
+![CSN Technologies S.A.T.](http://www.csntechnologies.net/images/MatteBlackBoxTitle.png){fig-align="center"}
+
+Finally, I am assembling an [$M^2$ SATPACK1](https://www.m2inc.com/FGSATPACK1) antenna array.
+If my initial forays go well, I may think about upgrading to a system with Yagis that can be pointed at satellites.
+
 ## Remote
 
 One technical challenge I enjoy involves remote operations.
