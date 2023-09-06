@@ -20,7 +20,7 @@ It connects to an [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-lin
 
 ### ICOM IC-7300
 
-![ICOM IC-7300](https://www.icomamerica.com/en/products/7300/ProductHeader.jpg){.fig-center}
+![ICOM IC-7300](https://static.dxengineering.com/global/images/prod/xlarge/ico-ic-7300_it_xl.jpg){.fig-center}
 
 This radio was new when I bought it in the summer of 2016.
 
@@ -28,7 +28,7 @@ It also connects to the [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expe
 
 ### ICOM IC-705
 
-![ICOM IC-705](https://www.icomamerica.com/en/products/705/ProductHeader.jpg){.fig-center}
+![ICOM IC-705](https://static.dxengineering.com/global/images/prod/xlarge/ico-ic-705_xl.jpg){.fig-center}
 
 I bought this radio new in the fall of 2020. This radio currently sits on my desk in my upstairs office.
 
@@ -72,7 +72,7 @@ N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and rem
 
 ### Kenwood TM-281A
 
-![Kenwood TM-281A](https://www.eectwowayradio.com/Uploads/15845181065e71d3ceed1f62037.jpg){.fig-center}
+![Kenwood TM-281A](https://i.ebayimg.com/images/g/u1YAAOSwMvFivUWN/s-l500.jpg){.fig-center}
 
 The Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my [W3TM-11 I-Gate](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-11&timerange=3600&tail=3600).
 
@@ -99,10 +99,6 @@ This radio is the core of a go-box I use in mobile/portable operations.
 I bought the [Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/) used several years ago.
 This rigs are notable for supporting full duplex, a desirable characteristic for FM satellite work.
 
-### RFinder B1+
-
-![RFinder B1-Plus](https://s82g3y-xx73bzq18ulv.cloudmaestro.com/-3_2ewbAV/media/catalog/product/cache/dfaec006bd6782dbad92b9435baa8bcf/m/i/vmicrosoftteams-image_60_.png.pagespeed.ic.G3yEzXICho.webp)
-I sold the RFinder B1+ in Summer 2023 to help fund the new ICOM IC-9700.
 
 ## Hotspots
 
@@ -118,13 +114,6 @@ My Allstar node number is 51401.
 ![OpenSpot](https://sharkrf-web.b-cdn.net/wp-content/uploads/2016/06/openspot01.jpg)
 
 I own but do not have deployed an original [OpenSpot](https://www.sharkrf.com/products/openspot-legacy/)
-
-
-### OpenSpot2
-
-![OpenSpot2](https://www.sharkrf.com/products/openspot2/)
-
-I owned but sold in Summer 2023 an [OpenSpot2](https://www.sharkrf.com/products/openspot2/).
 
 ## APRS gear
 
@@ -143,8 +132,8 @@ I have used this to beacon APRS packets at the NARC Field Day.
 Once, when this was my _only_ mobile APRS solution, I used this to plan a meeting with a person who had a short window of time to hand-off a piece of equipment.
 The beacon helped them time when to come down to meet me.
 
-### Mobilinkd TNC2
+<!-- ### Mobilinkd TNC2 -->
 
-![](http://www.mobilinkd.com/wp-content/uploads/2019/04/IMG_20170405_205938.gif)
-This TNC2 can connect via Bluetooth with a computer, (iOS or Android) tablet, or (iOS or Android) phone and enables a simple HT to provide nearly full APRS capabilities.
+<!-- ![](http://www.mobilinkd.com/wp-content/uploads/2019/04/IMG_20170405_205938.gif) -->
+<!-- This TNC2 can connect via Bluetooth with a computer, (iOS or Android) tablet, or (iOS or Android) phone and enables a simple HT to provide nearly full APRS capabilities. -->
 
