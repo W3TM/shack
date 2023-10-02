@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -57,7 +57,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -78,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
       <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./stations.html"><span class="chapter-title">Stations</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -169,6 +170,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#vhfuhf-go-box" id="toc-vhfuhf-go-box" class="nav-link" data-scroll-target="#vhfuhf-go-box">VHF/UHF Go-box</a></li>
   <li><a href="#satellite-station" id="toc-satellite-station" class="nav-link" data-scroll-target="#satellite-station">Satellite station</a></li>
+  <li><a href="#packet" id="toc-packet" class="nav-link" data-scroll-target="#packet">Packet</a></li>
   </ul></li>
   <li><a href="#remote" id="toc-remote" class="nav-link" data-scroll-target="#remote">Remote</a>
   <ul class="collapse">
@@ -257,6 +259,26 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>Finally, I am assembling an <a href="https://www.m2inc.com/FGSATPACK1"><span class="math inline">\(M^2\)</span> SATPACK1</a> antenna array. If my initial forays go well, I may think about upgrading to a system with Yagis that can be pointed at satellites.</p>
+</section>
+<section id="packet" class="level3">
+<h3 class="anchored" data-anchor-id="packet">Packet</h3>
+<p>I’ve recently assembled a portable VHF packet/APRS/Winlink station. The radio is the <a href="./rigs.html#icom-id-51a">ICOM ID-51a</a>. A <a href="https://digirig.net">Digirig</a> device with a cable specifically designed for ICOM HTs provides sound card and PTT functions.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The ID-51a supports CAT control via CI-V, and Digirig could support this. But CAT control is overkill for this use case. It’s trivial to change the radio frequency manually, and the mode does not need to change.</p>
+<p>The Digirig cable takes the grounded speaker line from the ID-51a and sends it as an RTS signal to the computer. So, once I’ve set the packet software to use the correct COM port on the PC, PTT works well. The virtue of this scheme is that it can also work with other HTs.</p>
+</div>
+</div>
+<p>An Evolve III netbook running Windows 10 runs the relevant software. I’m using the <a href="http://uz7.ho.ua/packetradio.htm">UH7HO Soundmodem</a> package for packet radio TNC services, <a href="https://github.com/wb2osz/direwolf">Dire Wolf</a> as an APRS TNC, and <a href="https://www.outpostpm.org/index.php">Outpost Packet Message Manager</a> as a packet terminal client. I also use <a href="https://www.winlink.org">Winlink</a>, and the <a href="https://rosmodem.wordpress.com">VARA FM</a> Winlink client, but of course, I could also use standard packet as the Winlink client.</p>
+<p>The <a href="./rigs.html#icom-ic-705">IC-705</a> can also work as a portable FM + HF packet station using the same PC. I’m experimenting with making different copies of Soundmodem and VARA FM and then naming them for the different rig configurations, as neither package supports switching between multiple rigs.</p>
 </section>
 </section>
 <section id="remote" class="level2">

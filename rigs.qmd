@@ -6,10 +6,6 @@ editor: source
 
 ## HF
 
-### Yaesu-Musen FRG-7
-
-![Yaesu-Musen FRG-7 Receiver](https://www.radiomasterlist.com/im/yaesu-frg-7.webp)
-
 ### FlexRadio 6400
 
 ![Flex-6400](https://edge.flexradio.com/www/offload/20221117142900/FlexRadio_products-2020_6400_45-left_9040-2400x2400px__08082.1594670218.1280.1280__62153.1668463138.1280.1280.jpg){.fig-center}
@@ -86,7 +82,7 @@ This radio is the core of a go-box I use in mobile/portable operations.
 
 ### ICOM ID-51A
 
-![ICOM ID-51A](https://icomamerica.com/en/products/ID51APlus2/ProductHeader.jpg)
+![ICOM ID-51A](https://static.dxengineering.com/global/images/prod/xlarge/ico-id51aplus2bk_us_xl.jpg){.img-center}
 
 ### Yaesu FT-70D
 
