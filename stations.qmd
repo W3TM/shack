@@ -135,3 +135,9 @@ I have experimented with remote control via an early version of the RigPi statio
 
 The [9700](rigs.qmd#icom-ic-9700) can be controlled remotely via the SDR-Control and SDR-Mobile apps.
 
+### NARC mountaintop stations
+
+Some colleagues and I have been experimenting with remote access to the NARC mountaintop station's IC-7610 and Flex 6400M radios.
+Access to the IC-7610 is easy via the MacOS SDR-Control or iOS SDR-Mobile apps, but this requires connecting to the NARC VPN.
+Access to the Flex 6400M can be made via SmartLink and SmartSDR for Windows, Mac OS, or iOS.
+We have a very nice array of antennas "up at the mountain," so this has been an enjoyable experiment.

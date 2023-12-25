@@ -8,7 +8,11 @@ This section describes how I power my stations.
 
 ## Home
 
-Alinco power supplies.
+::: {.callout-note}
+
+TODO: Provide details about Alinco power supplies.
+
+:::
 
 ## Mobile
 

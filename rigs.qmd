@@ -34,6 +34,21 @@ I bought this radio new in the fall of 2020. This radio currently sits on my des
 
 I bought the Elecraft KX2 used in the summer of 2022.
 
+### Flex 1500
+
+![Flex 1500](https://k0pir.us/wp-content/uploads/2016/03/1500frontsmall-300x200.jpg)
+
+I'd heard great things about this little rig, so when one became available on QRZ.com, I bought it.
+
+I *love* the [PowerSDR software](https://ke9ns.com/flexpage.html) that KE9NS has lovingly kept improving.
+You can *drive* the radio without ever moving your hands from the keyboard!
+
+::: {.callout-note}
+
+Yes, I have too many radios.
+
+:::
+
 ## VHF/UHF
 
 ### ICOM IC-9700
