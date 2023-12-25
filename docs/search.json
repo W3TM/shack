@@ -32,7 +32,7 @@
     "href": "rigs.html#hotspots",
     "title": "Rigs",
     "section": "Hotspots",
-    "text": "Hotspots\n\nClearNode\n\n\n\nClearNode Allstar hotspot/node\n\n\nI run a UHF ClearNode Allstar hotspot. My Allstar node number is 51401.\n\n\nOpenSpot\n\n\n\nOpenSpot\n\n\nI own but do not have deployed an original OpenSpot"
+    "text": "Hotspots\n\nClearNode\n\n\n\nClearNode Allstar hotspot/node\n\n\nI run a UHF ClearNode Allstar hotspot. My Allstar node number is 51401."
   },
   {
     "objectID": "rigs.html#aprs-gear",
@@ -137,7 +137,7 @@
     "href": "computers.html#software",
     "title": "Computers",
     "section": "Software",
-    "text": "Software\n\nLogging\nI use Amateur Contact Log, more commonly known as N3FJP’s logging software for logging. The iOS apps I use with my Flex-6400 and IC-705 have built-in logs that I periodically export and then import into ACLog. At our club’s Field Day, I use N1MM+."
+    "text": "Software\n\nLogging\nI use Amateur Contact Log, more commonly known as N3FJP’s logging software for logging. The iOS apps I use with my Flex-6400 and IC-705 have built-in logs that I periodically export and then import into ACLog. At our club’s Field Day, I use N1MM+.\n\n\nDigital modes\n\nWSTJ-X\nJS8Call\nfldigi\nWinlink\n\nVARA FM\nVARA HF\n\nVarAC"
   },
   {
     "objectID": "power.html#home",
@@ -165,7 +165,7 @@
     "href": "stations.html#home",
     "title": "Stations",
     "section": "Home",
-    "text": "Home\n\nShack\n\nAPRS I-Gate\nThe W3TM-11 APRS I-Gate uses the Kenwood TM-281A connected to a Mac Mini running Ubuntu and the direwolf software TNC. I have a 2 m/70 cm J-pole antenna on the roof of my house at about 6 m from the ground.\n\n\nHF 1\nMy primary HF station that I am callign HF 1 just for fun uses the FlexRadio 6400 transceiver. The Flex drives an SPE Expert Linear 1K amplifier. The radio has an X microphone. An Acer laptop running SmartSDR 3.x.x is used to control the radio.\n\n\nHF 2\nMy second HF station runs an IC-7300. It also connects to the SPE Expert Linear 1K amplifier. I use either the stock hand mic or a Heil (model) headset with a footswitch.\n\n\nAllstar node\nI have a ClearNode UHF Allstar node on 51401. The node also supports EchoLink (W3TM-L).\nI used this node for the K3P Special Event station in June 2023. At least two hams connected via the node to participate in the event.\n\n\n\nOffice\n\nHF 3 (QRP/VHF/UHF)\nA third HF station is located in my office. I’m running the IC-705. At the moment, the HF capability is receive-only, as I have a W6LVP receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer."
+    "text": "Home\n\nShack\n\n\n\nOperating position at W3TM\n\n\n\nAPRS I-Gate\nThe W3TM-11 APRS I-Gate uses the Kenwood TM-281A connected to a Mac Mini running Ubuntu and the direwolf software TNC. I have a 2 m/70 cm J-pole antenna on the roof of my house at about 6 m from the ground.\n\n\nHF 1\nMy primary HF station that I am callign HF 1 just for fun uses the FlexRadio 6400 transceiver. The Flex drives an SPE Expert Linear 1K amplifier. The radio has an Inrad M629 microphone. An Acer laptop running SmartSDR 3.5.9 is used to control the radio.\n\n\nHF 2\nMy second HF station runs an IC-7300. It also connects to the SPE Expert Linear 1K amplifier. I use either the stock hand mic or a Heil Proset iC headset with a footswitch.\n\n\nAllstar node\nI have a ClearNode UHF Allstar node on 51401. The node also supports EchoLink (W3TM-L).\nI used this node for the K3P Special Event station in June 2023. At least two hams connected via the node to participate in the event.\n\n\n\nOffice\n\nHF 3 (QRP/VHF/UHF)\nA third HF station is located in my office. I’m running the IC-705. At the moment, the HF capability is receive-only, as I have a W6LVP receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer."
   },
   {
     "objectID": "stations.html#mobile",
@@ -186,7 +186,7 @@
     "href": "stations.html#remote",
     "title": "Stations",
     "section": "Remote",
-    "text": "Remote\nOne technical challenge I enjoy involves remote operations.\n\nFlex-6400\nThe Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio’s software.\nI especially enjoy using the Mac OS and iOS SmartSDR clients. They work extremely well.\n\n\nICOM IC-705\nThe same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control. The application runs on MacOS, iPad, and iPhone.\nI have successfully used SDR-Control to access my IC-705, and have tested it with another operator’s IC-7610.\n\n\nICOM IC-7300\nThe IC-7300 does not have the network circuitry needed to permit “out-of-the-box” control like the IC-705 or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.\nHowever, I do use and enjoy remote control of my IC-7300 using the RemoteTx.net service. This service allows me to access my IC-7300 from a web browser.\nI have experimented with remote control via an early version of the RigPi station server."
+    "text": "Remote\nOne technical challenge I enjoy involves remote operations.\n\nFlex-6400\nThe Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio’s software.\nI especially enjoy using the Mac OS and iOS SmartSDR clients. They work extremely well.\n\n\nICOM IC-705\nThe same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control. The application runs on MacOS, iPad, and iPhone.\nI have successfully used SDR-Control to access my IC-705, and have tested it with another operator’s IC-7610.\n\n\nICOM IC-7300\nThe IC-7300 does not have the network circuitry needed to permit “out-of-the-box” control like the IC-705 or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.\nHowever, I do use and enjoy remote control of my IC-7300 using the RemoteTx.net service. This service allows me to access my IC-7300 from a web browser.\nI have experimented with remote control via an early version of the RigPi station server.\n\n\nICOM IC-9700\nThe 9700 can be controlled remotely via the SDR-Control and SDR-Mobile apps."
   },
   {
     "objectID": "engagement.html#organizations",

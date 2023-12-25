@@ -10,6 +10,8 @@ This page describes various stations that I use.
 
 ### Shack
 
+![Operating position at W3TM](img/home-shack-2023-12-reorg.jpeg)
+
 #### APRS I-Gate
 
 The W3TM-11 APRS I-Gate uses the [Kenwood TM-281A](rigs.qmd#kenwood-tm-281a) connected to a Mac Mini running Ubuntu and the direwolf software TNC. I have a 2 m/70 cm J-pole antenna on the roof of my house at about 6 m from the ground.
@@ -18,21 +20,21 @@ The W3TM-11 APRS I-Gate uses the [Kenwood TM-281A](rigs.qmd#kenwood-tm-281a) con
 
 My primary HF station that I am callign HF 1 just for fun uses the [FlexRadio 6400](rigs.qmd#flexradio-6400) transceiver.
 The Flex drives an [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k).
-The radio has an X microphone.
-An Acer laptop running SmartSDR 3.x.x is used to control the radio.
+The radio has an [Inrad M629](https://www.flexradio.com/wp-content/uploads/M629__29896.1676037008.1280.1280.jpg) microphone.
+An Acer laptop running [SmartSDR 3.5.9](https://www.flexradio.com/ssdr/ssdr-for-windows/) is used to control the radio.
 
 #### HF 2
 
 My second HF station runs an [IC-7300](rigs.qmd#icom-ic-7300).
 It also connects to the [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k).
-I use either the stock hand mic or a Heil (model) headset with a footswitch.
+I use either the stock hand mic or a [Heil Proset iC](https://heilhamradio.com/product/pro-set/#dipipopup-9149) headset with a footswitch.
 
 #### Allstar node
 
 I have a [ClearNode](https://www.node-ventures.com/buy-clearnode/) UHF Allstar node on 51401.
 The node also supports EchoLink (W3TM-L).
 
-I used this node for the K3P Special Event station in June 2023. At least two hams connected via the node to participate in the event.
+I used this node for the [K3P](engagement.qmd#pride-k3p) Special Event station in June 2023. At least two hams connected via the node to participate in the event.
 
 ### Office
 
@@ -128,4 +130,8 @@ However, I do use and enjoy remote control of my [IC-7300](rigs.qmd#icom-ic-7300
 This service allows me to access my IC-7300 from a web browser.
 
 I have experimented with remote control via an early version of the RigPi station server.
+
+### ICOM IC-9700
+
+The [9700](rigs.qmd#icom-ic-9700) can be controlled remotely via the SDR-Control and SDR-Mobile apps.
 
