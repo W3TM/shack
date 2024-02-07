@@ -39,8 +39,6 @@ My second HF station runs an [IC-7300](rigs.qmd#icom-ic-7300).
 It also connects to the [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k).
 I use either the stock hand mic or a [Heil Proset iC](https://heilhamradio.com/product/pro-set/#dipipopup-9149) headset with a footswitch.
 
-<<<<<<< HEAD
-=======
 #### Allstar node
 
 I have a [ClearNode](https://www.node-ventures.com/buy-clearnode/) UHF Allstar node on 51401.
