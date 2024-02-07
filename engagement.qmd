@@ -36,6 +36,9 @@ Our local QCQA Chapter 203 has a weekly net on Sunday nights at 8:30 PM local ti
 
 I operate a receive-only VHF (144.390 MHz) I-Gate under the callsign [W3TM-11](https://aprs.fi/#!mt=roadmap&z=11&call=a%2FW3TM-11&timerange=3600&tail=3600).
 
+In December 2023, I started experimenting with supporting [APRS-tt](http://www.aprs.org/aprstt.html) using the [Direwolf](https://github.com/wb2osz/direwolf) software TNC.
+Early experiments look promising.
+We're discussing setting up a network of APRS-tt iGates to provide better receive coverage in our very hilly area.
 
 ## Events
 
@@ -64,7 +67,8 @@ We weren't able to operate in 2023, but hope to do so again in 2024.
 ### Jamboree on the Air (JOTA)
 
 With K3YV and W3EDP, we planned an event with local Cub Scout Pack 67 for October 2022.
-Illness forced a last minute cancellation, but we are planning a JOTA activation for this coming October 21, 2023.
+Illness forced a last minute cancellation, but carried out a JOTA activation for October 21, 2023 under the K3J special event callsign.
+About 15 cubs and their parents joined K3YV, W3EDP, KC3AF, and me at Circleville Park for some HF, VHF repeater, Morse Code, and FRS walkie-talkie fun.
 
 ### Birthplace of Memorial Day W3M
 
@@ -95,12 +99,12 @@ We also had a booth at the State College Pride festival.
 
 ### W5YI VE
 
-As of September 1, 2023, I am taking on the Coordinating Volunteer Examiner role for ham exams in our area.
+I was a volunteer examiner (VE) for several years via the W5YI-VEC and continue with active credentials.
 
 ### ARRL CVE
 
-As of September 2023, I will be taking over the Coordinating VE role from K3YV.
-We are moving our exams to ARRL.
+As of September 2023, I will be taking over the Liaison VE role from K3YV.
+We have moved our exams to the ARRL-VEC.
 
 ### New Ham Book
 
@@ -113,3 +117,14 @@ You can find the work-in-progress here:
 <https://k3cr.github.io/newhambook/>
 
 Comments are welcome!
+
+## Awards
+
+### NARC Ham of the Year (HOTY)
+
+I was named the Ham of the Year for 2019 by my local club.
+
+### King Crapper
+
+My club gave me a special award in 2023 for work above and beyond the call of toilet duty in servicing our porta potty prior to Field Day 2023.
+

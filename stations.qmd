@@ -10,7 +10,11 @@ This page describes various stations that I use.
 
 ### Shack
 
+<<<<<<< HEAD
 I have a small room in our basement set aside for my radio shack.
+=======
+![Operating position at W3TM](img/home-shack-2023-12-reorg.jpeg)
+>>>>>>> aee70ed1af0e5c2cb05aae55e6f80c0775a5eada
 
 #### APRS I-Gate
 
@@ -28,15 +32,25 @@ More specific details about the rig and PC settings for this station can be foun
 
 My primary HF station that I am callign HF 1 just for fun uses the [FlexRadio 6400](rigs.qmd#flexradio-6400) transceiver.
 The Flex drives an [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k).
-The radio has an X microphone.
-An Acer laptop running SmartSDR 3.x.x is used to control the radio.
+The radio has an [Inrad M629](https://www.flexradio.com/wp-content/uploads/M629__29896.1676037008.1280.1280.jpg) microphone.
+An Acer laptop running [SmartSDR 3.5.9](https://www.flexradio.com/ssdr/ssdr-for-windows/) is used to control the radio.
 
 #### HF 2
 
 My second HF station runs an [IC-7300](rigs.qmd#icom-ic-7300).
 It also connects to the [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k).
-I use either the stock hand mic or a Heil (model) headset with a footswitch.
+I use either the stock hand mic or a [Heil Proset iC](https://heilhamradio.com/product/pro-set/#dipipopup-9149) headset with a footswitch.
 
+<<<<<<< HEAD
+=======
+#### Allstar node
+
+I have a [ClearNode](https://www.node-ventures.com/buy-clearnode/) UHF Allstar node on 51401.
+The node also supports EchoLink (W3TM-L).
+
+I used this node for the [K3P](engagement.qmd#pride-k3p) Special Event station in June 2023. At least two hams connected via the node to participate in the event.
+
+>>>>>>> aee70ed1af0e5c2cb05aae55e6f80c0775a5eada
 ### Office
 
 #### HF 3 (QRP/VHF/UHF)
@@ -87,6 +101,31 @@ Within a few minutes of connecting it, I was able to monitor DX traffic (Alabama
 Finally, I am assembling an [$M^2$ SATPACK1](https://www.m2inc.com/FGSATPACK1) antenna array.
 If my initial forays go well, I may think about upgrading to a system with Yagis that can be pointed at satellites.
 
+### Packet
+
+I've recently assembled a portable VHF packet/APRS/Winlink station.
+The radio is the [ICOM ID-51a](rigs.qmd#icom-id-51a).
+A [Digirig](https://digirig.net) device with a cable specifically designed for ICOM HTs provides sound card and PTT functions.
+
+::: {.callout-note}
+
+The ID-51a supports CAT control via CI-V, and Digirig could support this.
+But CAT control is overkill for this use case.
+It's trivial to change the radio frequency manually, and the mode does not need to change.
+
+The Digirig cable takes the grounded speaker line from the ID-51a and sends it as an RTS signal to the computer.
+So, once I've set the packet software to use the correct COM port on the PC, PTT works well.
+The virtue of this scheme is that it can also work with other HTs. 
+
+:::
+
+An Evolve III netbook running Windows 10 runs the relevant software.
+I'm using the [UH7HO Soundmodem](http://uz7.ho.ua/packetradio.htm) package for packet radio TNC services, [Dire Wolf](https://github.com/wb2osz/direwolf) as an APRS TNC, and [Outpost Packet Message Manager](https://www.outpostpm.org/index.php) as a packet terminal client. I also use [Winlink](https://www.winlink.org), and the [VARA FM](https://rosmodem.wordpress.com) Winlink client, but of course, I could also use standard packet as the Winlink client.
+
+The [IC-705](rigs.qmd#icom-ic-705) can also work as a portable FM + HF packet station 
+using the same PC.
+I'm experimenting with making different copies of Soundmodem and VARA FM and then naming them for the different rig configurations, as neither package supports switching between multiple rigs.
+
 ## Remote
 
 One technical challenge I enjoy involves remote operations.
@@ -114,3 +153,13 @@ This service allows me to access my IC-7300 from a web browser.
 
 I have experimented with remote control via an early version of the RigPi station server.
 
+### ICOM IC-9700
+
+The [9700](rigs.qmd#icom-ic-9700) can be controlled remotely via the SDR-Control and SDR-Mobile apps.
+
+### NARC mountaintop stations
+
+Some colleagues and I have been experimenting with remote access to the NARC mountaintop station's IC-7610 and Flex 6400M radios.
+Access to the IC-7610 is easy via the MacOS SDR-Control or iOS SDR-Mobile apps, but this requires connecting to the NARC VPN.
+Access to the Flex 6400M can be made via SmartLink and SmartSDR for Windows, Mac OS, or iOS.
+We have a very nice array of antennas "up at the mountain," so this has been an enjoyable experiment.

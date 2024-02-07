@@ -55,3 +55,13 @@ My [NodeRed server](workbench.qmd#nodered) runs on a Raspberry Pi, but is curren
 I use Amateur Contact Log, more commonly known as N3FJP's logging software for logging.
 The iOS apps I use with my [Flex-6400](rigs.qmd#flexradio-flex-6400) and [IC-705](rigs.qmd#icom-ic-705) have built-in logs that I periodically export and then import into ACLog.
 At our club's Field Day, I use N1MM+.
+
+### Digital modes
+
+- WSTJ-X
+- JS8Call
+- fldigi
+- Winlink
+  - VARA FM
+  - VARA HF
+- VarAC

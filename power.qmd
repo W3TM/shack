@@ -8,13 +8,17 @@ This section describes how I power my stations.
 
 ## Home
 
-Alinco power supplies.
+::: {.callout-note}
+
+TODO: Provide details about Alinco power supplies.
+
+:::
 
 ## Mobile
 
-The Kenwood TM-710G is powered by a Bioenno $LiFePO_4$ 30 Ah battery.
+The [Kenwood TM-710G](rigs.qmd#kenwood-tm-710g) is powered by a Bioenno $LiFePO_4$ 30 Ah battery.
 
-The Yaesu FTM-400XDR is powered by a Bioenno $LiFePO_4$ 40 Ah battery.
+The Yaesu [FTM-400XDR ](rigs.qmd#yaesu-ftm-400xdr) is powered by a Bioenno $LiFePO_4$ 40 Ah battery.
 
 The advantage of using these batteries for mobile operations is that I don't have to worry about engine noise and I have a battery for other purposes.
 
@@ -24,7 +28,7 @@ Lately, I have been experimenting with recharging these batteries using foldable
 
 ### Batteries
 
-I have two [Bioenno](https://www.bioennopower.com) $LiFePO_4$ 12 Ah batteries that I recently purchased during the Chameleon Antennas sale.
+I have two [Bioenno](https://www.bioennopower.com) $LiFePO_4$ 12 Ah batteries that I recently purchased during a [Chameleon Antenna](https://chameleonantenna.com) sale.
 
 My Tytera-based Go-box has an embedded Bioenno $LiFePO_4$ 12 Ah battery.
 

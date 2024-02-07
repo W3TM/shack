@@ -14,14 +14,6 @@ I acquired this radio used in the summer of 2021. It has the internal antenna tu
 
 It connects to an [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k) on the Input 1 port.
 
-### FlexRadio 1500
-
-![FlexRadio 1500](https://www.universal-radio.com/used/US88.jpg)
-
-This is a QRP SDR I acquired used in the summer of 2023.
-I love the [PowerSDR application](https://ke9ns.com/flexpage.html) KE9NS has lovingly developed and maintained because the entire rig can be run from simple keyboard commands.
-Haven't quite figured out what to do with it on a regular basis, but I do love this rig.
-
 ### ICOM IC-7300
 
 ![ICOM IC-7300](https://static.dxengineering.com/global/images/prod/xlarge/ico-ic-7300_it_xl.jpg){.fig-center}
@@ -41,6 +33,21 @@ I bought this radio new in the fall of 2020. This radio currently sits on my des
 ![Elecraft KX2](https://cdn.shopify.com/s/files/1/2029/4979/products/kx2-product-hero_530x@2x.jpg?v=1549861527){.fig-center}
 
 I bought the Elecraft KX2 used in the summer of 2022.
+
+### Flex 1500
+
+![Flex 1500](https://k0pir.us/wp-content/uploads/2016/03/1500frontsmall-300x200.jpg)
+
+I'd heard great things about this little rig, so when one became available on QRZ.com, I bought it.
+
+I *love* the [PowerSDR software](https://ke9ns.com/flexpage.html) that KE9NS has lovingly kept improving.
+You can *drive* the radio without ever moving your hands from the keyboard!
+
+::: {.callout-note}
+
+Yes, I have too many radios.
+
+:::
 
 ## VHF/UHF
 
@@ -92,7 +99,7 @@ This radio is the core of a go-box I use in mobile/portable operations.
 
 ### ICOM ID-51A
 
-![ICOM ID-51A](https://icomamerica.com/en/products/ID51APlus2/ProductHeader.jpg)
+![ICOM ID-51A](https://static.dxengineering.com/global/images/prod/xlarge/ico-id51aplus2bk_us_xl.jpg){.img-center}
 
 ### Yaesu FT-70D
 
@@ -104,7 +111,6 @@ This radio is the core of a go-box I use in mobile/portable operations.
 
 I bought the [Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/) used several years ago.
 This rigs are notable for supporting full duplex, a desirable characteristic for FM satellite work.
-
 
 ## Hotspots
 

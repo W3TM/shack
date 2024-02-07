@@ -127,5 +127,3 @@ Winlink parameters
 VARA FM parameters
 
 :::
-
-file:///Users/rick/rrr/W3TM/shack/docs/ic-9700.qmd#aprs-tt
