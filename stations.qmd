@@ -10,11 +10,9 @@ This page describes various stations that I use.
 
 ### Shack
 
-<<<<<<< HEAD
 I have a small room in our basement set aside for my radio shack.
-=======
+
 ![Operating position at W3TM](img/home-shack-2023-12-reorg.jpeg)
->>>>>>> aee70ed1af0e5c2cb05aae55e6f80c0775a5eada
 
 #### APRS I-Gate
 
@@ -50,8 +48,9 @@ The node also supports EchoLink (W3TM-L).
 
 I used this node for the [K3P](engagement.qmd#pride-k3p) Special Event station in June 2023. At least two hams connected via the node to participate in the event.
 
->>>>>>> aee70ed1af0e5c2cb05aae55e6f80c0775a5eada
 ### Office
+
+I have a home office that I also use as an operating position.
 
 #### HF 3 (QRP/VHF/UHF)
 
