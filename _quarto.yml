@@ -17,6 +17,8 @@ book:
     - stations.qmd
     - engagement.qmd
     - workbench.qmd
+    - ft-891.qmd
+    - ic-9700.qmd
 
 format:
   html:

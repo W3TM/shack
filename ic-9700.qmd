@@ -1,0 +1,131 @@
+---
+title: "IC-9700"
+---
+
+This page describes some mode-specific settings for the IC-9700 station.
+
+## APRS-tt
+
+### Hardware
+
+#### Rig
+
+- IC-9700
+- USB A/B cable
+
+::: {.callout-note}
+
+Frequency: 146.580 MHz</br>
+Mode: FM-D (digital)
+
+*Connectors:*
+USB-A: RTS on</br>
+Others...
+
+:::
+
+#### PC
+
+- Acer Windows 10 laptop
+
+#### Antenna
+
+- Comet antenna mounted externally
+- Connected via coax patch panel
+
+### Software
+
+#### PC System Settings
+
+::: {.callout-note}
+
+Com port: COM4</br>
+
+Make sure that PC mic input (for USB 4) is high enough. 
+50-65% seems to work well with the rig settings described above. 
+From the search window, type "Control Panel". Select "Sound". 
+Check the "Speaker" (output to rig) and "Microphone" (input from rig) settings.
+
+::: 
+
+#### Application
+
+- Direwolf 1.7
+
+::: {.callout-note}
+
+W3TM-8
+
+Logged-in to APRS-IS to send packets.
+
+DTMF enabled.
+
+No position beaconing, but set CBEACON to id as "de W3TM-tt" every 10 min.
+We must identify because the rig will send Morse "r" or "?" depending on whether or not it decodes the DTMF tones.
+
+There are some APRS-tt specific parameters that I will add later.
+
+:::
+
+
+## Winlink
+
+#### Rig
+
+- IC-9700
+- USB A/B cable
+
+::: {.callout-note}
+
+Frequency: 145.090 MHz (this frequency is stored in one of the memories)</br>
+Mode: FM-D (digital)
+
+*Connectors:*
+USB-A: RTS on</br>
+Others...
+
+:::
+
+#### PC
+
+- Acer Windows 10 laptop
+
+#### Antenna
+
+- Comet antenna mounted externally
+- Connected via coax patch panel
+
+### Software
+
+#### PC System Settings
+
+::: {.callout-note}
+
+Com port: COM4</br>
+
+Make sure that PC mic input (for USB 4) is high enough. 
+50-65% seems to work well with the rig settings described above. 
+From the search window, type "Control Panel". Select "Sound". 
+Check the "Speaker" (output to rig) and "Microphone" (input from rig) settings.
+
+::: 
+
+#### Application
+
+- Winlink
+
+::: {.callout-note}
+
+Winlink parameters
+
+:::
+
+- VARA FM
+
+::: {.callout-note}
+
+VARA FM parameters
+
+:::
+
+file:///Users/rick/rrr/W3TM/shack/docs/ic-9700.qmd#aprs-tt

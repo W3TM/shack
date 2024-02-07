@@ -6,10 +6,6 @@ editor: source
 
 ## HF
 
-### Yaesu-Musen FRG-7
-
-![Yaesu-Musen FRG-7 Receiver](https://www.radiomasterlist.com/im/yaesu-frg-7.webp)
-
 ### FlexRadio 6400
 
 ![Flex-6400](https://edge.flexradio.com/www/offload/20221117142900/FlexRadio_products-2020_6400_45-left_9040-2400x2400px__08082.1594670218.1280.1280__62153.1668463138.1280.1280.jpg){.fig-center}
@@ -17,6 +13,14 @@ editor: source
 I acquired this radio used in the summer of 2021. It has the internal antenna tuning unit (ATU).
 
 It connects to an [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-linear-1k) on the Input 1 port.
+
+### FlexRadio 1500
+
+![FlexRadio 1500](https://www.universal-radio.com/used/US88.jpg)
+
+This is a QRP SDR I acquired used in the summer of 2023.
+I love the [PowerSDR application](https://ke9ns.com/flexpage.html) KE9NS has lovingly developed and maintained because the entire rig can be run from simple keyboard commands.
+Haven't quite figured out what to do with it on a regular basis, but I do love this rig.
 
 ### ICOM IC-7300
 
@@ -48,6 +52,8 @@ I'm planning some additional VHF and UHF work with it, including satellites, and
 But for now, it's in the shack being used for local repeater operations.
 
 I have experimented with remote control of this rig, but the latency is high.
+
+More details about specific uses of the IC-9700 can be found [here](ic-9700.qmd).
 
 ### ICOM IC-705
 
@@ -109,17 +115,11 @@ This rigs are notable for supporting full duplex, a desirable characteristic for
 I run a UHF [ClearNode](https://node-ventures.com) Allstar hotspot.
 My Allstar node number is 51401.
 
-### OpenSpot
-
-![OpenSpot](https://sharkrf-web.b-cdn.net/wp-content/uploads/2016/06/openspot01.jpg)
-
-I own but do not have deployed an original [OpenSpot](https://www.sharkrf.com/products/openspot-legacy/)
-
 ## APRS gear
 
 ### TNC-X kit
 
-I have an unbuild TNC-X kit.
+I have an unbuilt TNC-X kit.
 This is a board that connects with a Raspberry Pi.
 
 ### Byonics MicroTrak AIO
