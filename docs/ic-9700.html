@@ -167,10 +167,17 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#hardware" id="toc-hardware" class="nav-link" data-scroll-target="#hardware">Hardware</a></li>
   <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  <li><a href="#operating" id="toc-operating" class="nav-link" data-scroll-target="#operating">Operating</a></li>
   </ul></li>
   <li><a href="#winlink" id="toc-winlink" class="nav-link" data-scroll-target="#winlink">Winlink</a>
   <ul class="collapse">
   <li><a href="#software-1" id="toc-software-1" class="nav-link" data-scroll-target="#software-1">Software</a></li>
+  <li><a href="#operating-1" id="toc-operating-1" class="nav-link" data-scroll-target="#operating-1">Operating</a></li>
+  </ul></li>
+  <li><a href="#packet" id="toc-packet" class="nav-link" data-scroll-target="#packet">Packet</a>
+  <ul class="collapse">
+  <li><a href="#software-2" id="toc-software-2" class="nav-link" data-scroll-target="#software-2">Software</a></li>
+  <li><a href="#operating-2" id="toc-operating-2" class="nav-link" data-scroll-target="#operating-2">Operating</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -217,7 +224,7 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p>Frequency: 146.580 MHz<br> Mode: FM-D (digital)</p>
-<p><em>Connectors:</em> USB-A: RTS on<br> Others…</p>
+<p><em>Connectors/</em><br> USB AF/IF Output/Output Select: <code>AF</code><br> USB AF/IF Output/AF Output Level: <code>50%</code><br> MOD Input/DATA MOD: <code>USB</code><br> USB Send/KEYING/USB SEND: <code>USB (A) RTS</code><br> USB Send/KEYING/Inhibit Timer at USB Connection: <code>ON</code><br> CI-V/CI-V DATA Echo Back: <code>ON</code><br> PTT Port Function: <code>PTT Input + SEND Output</code></p>
 </div>
 </div>
 </section>
@@ -249,8 +256,11 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Com port: COM4<br></p>
-<p>Make sure that PC mic input (for USB 4) is high enough. 50-65% seems to work well with the rig settings described above. From the search window, type “Control Panel”. Select “Sound”. Check the “Speaker” (output to rig) and “Microphone” (input from rig) settings.</p>
+<p># Right click Windows icon; select ‘Device Manager’; Select ‘Ports (COM &amp; LPT)’<br> <code>Silicon Labs SP210x USB to UART Bridge (COM4)</code><br></p>
+<p># Right click Windows icon; select ‘Device Manager’; Select ‘Audio inputs and outputs’<br> <code>IC-9700 (4- USB Audio CODEC)</code><br> <code>Microphone (4- USB Audio CODEC)</code></p>
+<p># Enter ‘control panel’ in search window; Open ‘Hardware and Sound’; Select ‘Sound’</p>
+<p># Under ‘Recording’ tab 1. Confirm that Microphone (4- USB Audio CODEC) is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)</p>
+<p>#&nbsp;Under ‘Playback’ tab 1. Confirm that IC-9700 is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%</p>
 </div>
 </div>
 </section>
@@ -269,14 +279,34 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>W3TM-8</p>
-<p>Logged-in to APRS-IS to send packets.</p>
-<p>DTMF enabled.</p>
-<p>No position beaconing, but set CBEACON to id as “de W3TM-tt” every 10 min. We must identify because the rig will send Morse “r” or “?” depending on whether or not it decodes the DTMF tones.</p>
-<p>There are some APRS-tt specific parameters that I will add later.</p>
+<p>Parameters in <code>direwolf.conf</code></p>
+<p>ADEVICE (4- USB</p>
+<p>CHANNEL 0</p>
+<p>MYCALL W3TM-8</p>
+<p>MODEM 1200</p>
+<p>DTMF</p>
+<p>PTT COM4 RTS</p>
+<p>AGWPORT 8000<br> KISSPORT 8001</p>
+<p>CBEACON every=10 dest=“MORSE-6” info=“de W3TM-tt”</p>
+<p>IGSERVER noam.aprs2.net</p>
+<p># Logged-in to APRS-IS to send packets.<br> IGLOGIN W3TM-8 28828</p>
+<p>IGTXLIMIT 6 10</p>
+<p>TTPOINT B001 40.7177087 -77.891919 # mountaintop<br> TTPOINT B002 40.7753191 -77.8561127 # South Hills<br> TTPOINT B003 40.8055434 -77.88982 # Hoss’<br> TTPOINT B085 40.753017 -77.760620 # Little Flat 85<br> TTPOINT B076 40.9123402 -78.019739 # Rattlesnake 76<br></p>
+<p>TTAMBIG BAx</p>
+<p># W3TM<br> TTMACRO 001xx AC9386001109<em>AB{dot}</em>B0xx<em>BA1<br> # W3EDP ————————————<br> TTMACRO 011xx AC9333701173</em>AB{dot}<em>B0xx</em>BA1<br> # N3LI ————————————<br> TTMACRO 021xx AC6354002293<em>AB{dot}</em>B0xx<em>BA1<br> # W3SWL<br> TTMACRO 031xx AC9379501245</em>AB{dot}<em>B0xx</em>BA1<br> # WA7HUB<br> TTMACRO 041xx AC9274821322<em>AB{dot}</em>B0xx*BA1<br></p>
+<p>TTOBJ 0 IG<br> CHANNEL 0<br> DWAIT 100<br></p>
 </div>
 </div>
 </section>
+</section>
+<section id="operating" class="level3">
+<h3 class="anchored" data-anchor-id="operating">Operating</h3>
+<ol type="1">
+<li>Switch to 145.80 MHz, FM-D mode. <strong>Note:</strong> Memory channel 10 has this frequency but not FM-D stored!</li>
+<li>Launch Direwolf from desktop</li>
+<li>Confirm that Direwolf has connected to audio devices.</li>
+<li>Enter DTMF tones to test or switch to 144.390 MHz to ensure that packets are being decoded.</li>
+</ol>
 </section>
 </section>
 <section id="winlink" class="level2">
@@ -298,7 +328,7 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p>Frequency: 145.090 MHz (this frequency is stored in one of the memories)<br> Mode: FM-D (digital)</p>
-<p><em>Connectors:</em> USB-A: RTS on<br> Others…</p>
+<p><em>Connectors/</em><br> USB AF/IF Output/Output Select: <code>AF</code><br> USB AF/IF Output/AF Output Level: <code>50%</code><br> MOD Input/DATA MOD: <code>USB</code><br> USB Send/KEYING/USB SEND: <code>USB (A) RTS</code><br> USB Send/KEYING/Inhibit Timer at USB Connection: <code>ON</code><br> CI-V/CI-V DATA Echo Back: <code>ON</code><br> PTT Port Function: <code>PTT Input + SEND Output</code></p>
 </div>
 </div>
 </section>
@@ -329,15 +359,18 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Com port: COM4<br></p>
-<p>Make sure that PC mic input (for USB 4) is high enough. 50-65% seems to work well with the rig settings described above. From the search window, type “Control Panel”. Select “Sound”. Check the “Speaker” (output to rig) and “Microphone” (input from rig) settings.</p>
+<p># Right click Windows icon; select Device Manager; Select Ports (COM &amp; LPT) <code>Silicon Labs SP210x USB to UART Bridge (COM4)</code><br></p>
+<p># Right click Windows icon; select Device Manager; Select Audio inputs and outputs <code>IC-9700 (4- USB Audio CODEC)</code><br> <code>Microphone (4- USB Audio CODEC)</code></p>
+<p># Enter ‘control panel’ in search window; Open Hardware and Sound; Select Sound</p>
+<p># Under Recording tab 1. Confirm that Microphone (4- USB Audio CODEC) is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)</p>
+<p>#&nbsp;Under Playback tab 1. Confirm that IC-9700 is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%</p>
 </div>
 </div>
 </section>
 <section id="application-1" class="level4">
 <h4 class="anchored" data-anchor-id="application-1">Application</h4>
 <ul>
-<li>Winlink</li>
+<li>Winlink Express 1.7.12.0</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -349,7 +382,9 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Winlink parameters</p>
+<p>Winlink Express parameters.</p>
+<p># Settings : Winlink Express Setup<br> My Callsign: <code>W3TM</code><br> My Password: <code>*******</code><br> Password recovery email: <code>rogilmore@mac.com</code> My Grid Square <code>FN10BT</code><br> Winlink Express registration key: <code>HIDDEN</code><br></p>
+<p>There are many other parameters but these are the most important ones.</p>
 </div>
 </div>
 <ul>
@@ -365,12 +400,147 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>VARA FM parameters</p>
+<p># Under Settings <strong>VARA Setup…</strong><br> TCP Ports: Command: <code>8300</code><br> TCP Ports: Data: <code>8301</code><br></p>
+<p>FM System: <code>NARROW</code><br> Digipeater: <br> Retries: <code>2</code><br></p>
+<p>VARA Licenses:<br> Callsign: <code>W3TM</code><br> Registration Key: <code>*******</code></p>
+<p><strong>Soundcard…</strong><br> Device Input: <code>Microphone (4- USB Audio CODEC)</code><br> Device Output: <code>IC-9700 (4- USB Audio CODEC)</code></p>
+<p><strong>PTT…</strong><br> PTT Via: <code>CAT'&lt;/br&gt; Brand:</code>Icom<code>&lt;/br&gt; Port:</code>COM4<code>&lt;/br&gt; Model:</code>IC-9700<code>&lt;/br&gt; Baud:</code>19200<code>&lt;/br&gt; CI-V Address:</code>A2`</p>
+<p>Oddly enough, RTS is <em>unchecked</em>.</p>
 </div>
 </div>
-
-
 </section>
+</section>
+<section id="operating-1" class="level3">
+<h3 class="anchored" data-anchor-id="operating-1">Operating</h3>
+<ol type="1">
+<li>Switch to memory channel 11 (145.090 MHz, W3SWL-10), FM-D mode</li>
+<li>Launch Winlink Express from desktop</li>
+<li>Open Session: Vara FM Winlink</li>
+<li>Check rig RF power (10W is more than sufficient)</li>
+<li>When Var FM Winlink Session window opens, confirm that W3SWL-10 @ 145.090 is selected</li>
+<li>Press <strong>Start</strong> button to initiate QSO.</li>
+<li>Turn up AF gain to monitor QSO. You will hear sound from W3SWL-10, but not the output</li>
+</ol>
+</section>
+</section>
+<section id="packet" class="level2">
+<h2 class="anchored" data-anchor-id="packet">Packet</h2>
+<section id="rig-2" class="level4">
+<h4 class="anchored" data-anchor-id="rig-2">Rig</h4>
+<ul>
+<li>IC-9700</li>
+<li>USB A/B cable</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Frequency: 145.030 MHz (this frequency is stored in one of the memories)<br> Mode: FM-D (digital)</p>
+<p>The following settings do not change from Winlink or APRS-tt (via Direwolf)</p>
+<p><em>Connectors/</em><br> USB AF/IF Output/Output Select: <code>AF</code><br> USB AF/IF Output/AF Output Level: <code>50%</code><br> MOD Input/DATA MOD: <code>USB</code><br> USB Send/KEYING/USB SEND: <code>USB (A) RTS</code><br> USB Send/KEYING/Inhibit Timer at USB Connection: <code>ON</code><br> CI-V/CI-V DATA Echo Back: <code>ON</code><br> PTT Port Function: ’PTT Input + SEND Output`</p>
+</div>
+</div>
+</section>
+<section id="pc-2" class="level4">
+<h4 class="anchored" data-anchor-id="pc-2">PC</h4>
+<ul>
+<li>Acer Windows 10 laptop</li>
+</ul>
+</section>
+<section id="antenna-2" class="level4">
+<h4 class="anchored" data-anchor-id="antenna-2">Antenna</h4>
+<ul>
+<li>Comet antenna mounted externally</li>
+<li>Connected via coax patch panel</li>
+</ul>
+</section>
+<section id="software-2" class="level3">
+<h3 class="anchored" data-anchor-id="software-2">Software</h3>
+<section id="pc-system-settings-2" class="level4">
+<h4 class="anchored" data-anchor-id="pc-system-settings-2">PC System Settings</h4>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The following settings should not change from those for Winlink Express or APRS-tt.</p>
+<p># Right click Windows icon; select Device Manager; Select Ports (COM &amp; LPT) <code>Silicon Labs SP210x USB to UART Bridge (COM4)</code><br></p>
+<p># Right click Windows icon; select Device Manager; Select Audio inputs and outputs <code>IC-9700 (4- USB Audio CODEC)</code><br> <code>Microphone (4- USB Audio CODEC)</code></p>
+<p># Enter ‘control panel’ in search window; Open Hardware and Sound; Select Sound</p>
+<p># Under Recording tab 1. Confirm that Microphone (4- USB Audio CODEC) is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)</p>
+<p>#&nbsp;Under Playback tab 1. Confirm that IC-9700 is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%</p>
+</div>
+</div>
+</section>
+<section id="application-2" class="level4">
+<h4 class="anchored" data-anchor-id="application-2">Application</h4>
+<ul>
+<li>UZ7HO version 1.13 SoundModem</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>SoundModem parameters.</p>
+<p># Settings menu: Devices Sound Card: Output device: <code>IC-9700 (4-USB Audio CODEC)</code><br> Sound Card: Input device: <code>Microphone (4-USB Audio CODEC)</code><br> Sound Card: Single channel output<br> Sound Card: Color waterfall<br></p>
+<p>Server setup: AGWPE Server Port: <code>8000</code> and <code>Enabled</code> Server setup: KISS Server Port: <code>8001</code></p>
+<p>PTT Port: Select PTT port: <code>COM4</code></p>
+<p># Settings menu: Modems</p>
+</div>
+</div>
+<ul>
+<li>EasyTerm by UZ7HO Version 0.49b</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>EasyTerm parameters.</p>
+<p># Settings menu: Station Setup<br> Terminal Callsign: <code>W3TM</code><br></p>
+<p>Beacon Setup: Destination: <code>BEACON</code><br> Beacon Setup: Interval: <code>30</code><br> Beacon Setup: Ports: `1’<br></p>
+<p>TNC Setup: Host: <code>127.0.0.1</code><br> TNC Setup: Port: <code>8000</code><br> TNC Setup: Paclen: <code>80</code></p>
+</div>
+</div>
+</section>
+</section>
+<section id="operating-2" class="level3">
+<h3 class="anchored" data-anchor-id="operating-2">Operating</h3>
+<ol type="1">
+<li>Switch to memory channel 7 (145.030 MHz, W3YA-3 Packet), FM-D mode</li>
+<li>Launch SoundModem.</li>
+<li>Launch EasyTerm</li>
+<li>Check rig RF power (10W is more than sufficient)</li>
+<li>W3YA-3 and W3PHB-3 beacon regularly, so it’s good to see if you can decode them.</li>
+<li>When the channel is clear, press the ‘Connect’ button</li>
+<li>Select target from ‘CallTo’ menu, usually <code>W3YA-3</code> or <code>W3PHB-3</code></li>
+<li>Press the ‘Connect’ button to connect.</li>
+<li>Turn up AF gain to monitor QSO. You will hear sound from the packet BBS, but not your own output (unless you have turned up the monitor level on the rig).</li>
+</ol>
+
+
 </section>
 </section>
 
