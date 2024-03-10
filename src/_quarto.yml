@@ -1,0 +1,42 @@
+project:
+  type: book
+  output-dir: "../docs"
+
+book:
+  title: "W3TM"
+  author: "Rick Gilmore"
+  date: "2024-03-01"
+  cover-image: img/transylvania-epic-2023.jpeg
+  chapters:
+    - index.qmd
+    - preface.qmd
+    - part: stations.qmd
+      chapters:
+      - home-stations.qmd
+      - mobile-stations.qmd
+      - portable-stations.qmd
+      - remote-stations.qmd
+    - part: gear.qmd
+      chapters:
+      - rigs.qmd
+      - amplifiers.qmd
+      - accessories.qmd
+      - antennas.qmd
+      - computers.qmd
+      - power.qmd
+    - part: operating.qmd
+      chapters: 
+      - ft-891.qmd
+      - ic-9700.qmd
+      - ic-705.qmd
+    - engagement.qmd
+    - workbench.qmd
+
+
+format:
+  html:
+    theme: cosmo
+    number-sections: false
+    fig-align: center
+    
+    
