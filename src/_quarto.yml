@@ -1,9 +1,9 @@
 project:
-  type: website
+  type: book
   output-dir: "../docs"
 
 book:
-  title: "W3TM"
+  title: "W3TM Shack"
   author: "Rick Gilmore"
   cover-image: img/transylvania-epic-2023.jpeg
   chapters:
@@ -29,8 +29,6 @@ book:
       - ic-705.qmd
 format:
   html:
-    theme: zephyr
+    theme: default
     number-sections: false
     fig-align: center
-    
-    
