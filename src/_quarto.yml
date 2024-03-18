@@ -1,15 +1,13 @@
 project:
-  type: book
+  type: website
   output-dir: "../docs"
 
 book:
   title: "W3TM"
   author: "Rick Gilmore"
-  date: "2024-03-01"
   cover-image: img/transylvania-epic-2023.jpeg
   chapters:
     - index.qmd
-    - preface.qmd
     - part: stations.qmd
       chapters:
       - home-stations.qmd
@@ -29,13 +27,9 @@ book:
       - ft-891.qmd
       - ic-9700.qmd
       - ic-705.qmd
-    - engagement.qmd
-    - workbench.qmd
-
-
 format:
   html:
-    theme: cosmo
+    theme: zephyr
     number-sections: false
     fig-align: center
     
