@@ -67,14 +67,14 @@
     "href": "remote-stations.html#flex-6400",
     "title": "Remote Stations",
     "section": "Flex-6400",
-    "text": "Flex-6400\nThe Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio’s software.\nI especially enjoy using the Mac OS and iOS SmartSDR clients. They work extremely well."
+    "text": "Flex-6400\nThe Flex-6400 can be remotely operated via the SmartConnect link embedded in the radio’s software.\nI especially enjoy using the Mac OS and iOS SmartSDR clients. They work extremely well.\nI’ve started experimenting with using Chrome Remote Desktop to remotely access the Flex from the Macbook Pro in my home office. Sure, I could just walk downstairs, but it’s fun to try new things."
   },
   {
     "objectID": "remote-stations.html#icom-ic-705",
     "href": "remote-stations.html#icom-ic-705",
     "title": "Remote Stations",
     "section": "ICOM IC-705",
-    "text": "ICOM IC-705\nThe same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control. The application runs on MacOS, iPad, and iPhone.\nI have successfully used SDR-Control to access my IC-705, and have tested it with another operator’s IC-7610."
+    "text": "ICOM IC-705\n\nSDR-Control on MacOS\nThe same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control. The application runs on MacOS, iPad, and iPhone.\nI have successfully used SDR-Control to access my IC-705, and have tested it with another operator’s IC-7610.\n\n\nWindows 11\nI now run Windows 11 under Parallels on a Macbook. This gives me access to Winlink and VARA FM, and various Windows-only packet programs. See the description here."
   },
   {
     "objectID": "remote-stations.html#icom-ic-7300",
@@ -382,13 +382,13 @@
     "href": "flex-6400.html#manuals",
     "title": "Flex-6400",
     "section": "Manuals",
-    "text": "Manuals"
+    "text": "Manuals\n\nSmartSDR manual\nFlex-6400 manual"
   },
   {
     "objectID": "flex-6400.html#digital-modes",
     "href": "flex-6400.html#digital-modes",
     "title": "Flex-6400",
     "section": "Digital modes",
-    "text": "Digital modes\n\nfldigi (remote)\n\nFrom Kasa, power-up the Alinco power supply and the Flex radio.\nConnnect to the Acer PC via Chrome Remote Desktop\nStart SmartSDR v3.7.3\nSelect Profiles/Global/Shack-fldigi\n\nThe rig should switch to the appropriate mode (DIGU) and the PaNBEMS Sunday morning net frequency (3.583 MHz).\n\nConfirm that the current slice has DAX selected and that the SmartSDR DAX panel shows audio from that slice.\nOpen fldigi (v4.2.03)\n\nfldigi should open to 3.583 MHz and show signals in the waterfall.\n\n\n\n\n\n\nTip\n\n\n\nfldigi uses Hamlib for rig control. Here are the key settings under Configure/Rig Control/Hamlib:\n\n\n\nYou may need to manually set the mode, such as to THOR22.\n\nTo shut down: Close fldigi"
+    "text": "Digital modes\n\nfldigi (remote via Chrome Remote Desktop)\n\nFrom Kasa, power-up the Alinco power supply and the Flex radio.\nConnnect to the Acer PC via Chrome Remote Desktop\nStart SmartSDR v3.7.3\nSelect Profiles/Global/Shack-fldigi\n\nThe rig should switch to the appropriate mode (DIGU) and the PaNBEMS Sunday morning net frequency (3.583 MHz).\n\nConfirm that the current slice has DAX selected and that the SmartSDR DAX panel shows audio from that slice.\nOpen fldigi (v4.2.03)\n\nfldigi should open to 3.583 MHz and show signals in the waterfall.\n\n\n\n\n\n\nTip\n\n\n\nfldigi uses Hamlib for rig control. Here are the key settings under Configure/Rig Control/Hamlib:\n\n\n\nYou may need to manually set the mode, such as to THOR22.\n\nTo shut down:\n\n\nClose fldigi\nClose/quit SmartSDR\nClose Chrome Remote Desktop\nFrom Kasa:\n\nTurn off FlexRadio\nTurn off Acer monitor\nWait 10s\nTurn off Alinco power supply (also grounds antennas)"
   }
 ]

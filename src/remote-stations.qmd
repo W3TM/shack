@@ -11,12 +11,23 @@ The [Flex-6400](rigs.qmd#flexradio-6400) can be remotely operated via the SmartC
 I especially enjoy using the [Mac OS](https://roskosch.de/smartsdr-for-mac/) and [iOS](https://roskosch.de/smartsdr-features/) SmartSDR clients.
 They work extremely well.
 
+I've started experimenting with using Chrome Remote Desktop to [remotely access the Flex](flex-6400.qmd) from the Macbook Pro in my home office.
+Sure, I could just walk downstairs, but it's fun to try new things.
+
 ## ICOM IC-705
+
+### SDR-Control on MacOS
 
 The same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control.
 The application runs on [MacOS](https://roskosch.de/sdr-control/), [iPad](https://roskosch.de/sdr-control-ios/), and [iPhone](https://roskosch.de/sdr-control-mobile/).
 
 I have successfully used SDR-Control to access my [IC-705](rigs.qmd#icom-ic-705), and have tested it with another operator's IC-7610.
+
+### Windows 11
+
+I now run Windows 11 under Parallels on a Macbook.
+This gives me access to Winlink and VARA FM, and various Windows-only packet programs.
+See the [description here](ic-705.qmd).
 
 ## ICOM IC-7300
 

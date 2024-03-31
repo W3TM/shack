@@ -6,9 +6,12 @@ This chapter describes some specific steps used with the Flex 6400.
 
 ## Manuals
 
+- SmartSDR [manual](pdf/SmartSDR-Software-User-Guide.pdf)
+- Flex-6400 [manual](pdf/FLEX-6400-and-FLEX-6600-Hardware-Reference-Manual.pdf)
+
 ## Digital modes
 
-### fldigi (remote)
+### fldigi (remote via Chrome Remote Desktop)
 
 1. From Kasa, power-up the Alinco power supply and the Flex radio.
 2. Connnect to the Acer PC via Chrome Remote Desktop
@@ -34,4 +37,13 @@ Here are the key settings under Configure/Rig Control/Hamlib:
 
 You may need to manually set the mode, such as to THOR22.
 
-6. To shut down: Close fldigi
+6. To shut down: 
+  - Close fldigi
+  - Close/quit SmartSDR
+  - Close Chrome Remote Desktop
+  - From Kasa:
+    - Turn off FlexRadio
+    - Turn off Acer monitor
+    - Wait 10s
+    - Turn off Alinco power supply (also grounds antennas)
+    

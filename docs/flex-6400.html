@@ -220,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#manuals" id="toc-manuals" class="nav-link active" data-scroll-target="#manuals">Manuals</a></li>
   <li><a href="#digital-modes" id="toc-digital-modes" class="nav-link" data-scroll-target="#digital-modes">Digital modes</a>
   <ul class="collapse">
-  <li><a href="#fldigi-remote" id="toc-fldigi-remote" class="nav-link" data-scroll-target="#fldigi-remote">fldigi (remote)</a></li>
+  <li><a href="#fldigi-remote-via-chrome-remote-desktop" id="toc-fldigi-remote-via-chrome-remote-desktop" class="nav-link" data-scroll-target="#fldigi-remote-via-chrome-remote-desktop">fldigi (remote via Chrome Remote Desktop)</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -248,11 +248,15 @@ ul.task-list li input[type="checkbox"] {
 <p>This chapter describes some specific steps used with the Flex 6400.</p>
 <section id="manuals" class="level2">
 <h2 class="anchored" data-anchor-id="manuals">Manuals</h2>
+<ul>
+<li>SmartSDR <a href="pdf/SmartSDR-Software-User-Guide.pdf">manual</a></li>
+<li>Flex-6400 <a href="pdf/FLEX-6400-and-FLEX-6600-Hardware-Reference-Manual.pdf">manual</a></li>
+</ul>
 </section>
 <section id="digital-modes" class="level2">
 <h2 class="anchored" data-anchor-id="digital-modes">Digital modes</h2>
-<section id="fldigi-remote" class="level3">
-<h3 class="anchored" data-anchor-id="fldigi-remote">fldigi (remote)</h3>
+<section id="fldigi-remote-via-chrome-remote-desktop" class="level3">
+<h3 class="anchored" data-anchor-id="fldigi-remote-via-chrome-remote-desktop">fldigi (remote via Chrome Remote Desktop)</h3>
 <ol type="1">
 <li>From Kasa, power-up the Alinco power supply and the Flex radio.</li>
 <li>Connnect to the Acer PC via Chrome Remote Desktop</li>
@@ -281,8 +285,20 @@ Tip
 </div>
 <p>You may need to manually set the mode, such as to THOR22.</p>
 <ol start="6" type="1">
-<li>To shut down: Close fldigi</li>
+<li>To shut down:</li>
 </ol>
+<ul>
+<li>Close fldigi</li>
+<li>Close/quit SmartSDR</li>
+<li>Close Chrome Remote Desktop</li>
+<li>From Kasa:
+<ul>
+<li>Turn off FlexRadio</li>
+<li>Turn off Acer monitor</li>
+<li>Wait 10s</li>
+<li>Turn off Alinco power supply (also grounds antennas)</li>
+</ul></li>
+</ul>
 
 
 </section>
