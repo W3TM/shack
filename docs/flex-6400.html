@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W3TM Shack - Portable Stations</title>
+<title>W3TM Shack - Flex-6400</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./remote-stations.html" rel="next">
-<link href="./mobile-stations.html" rel="prev">
+<link href="./ic-705.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,8 +61,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -77,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./stations.html">Stations</a></li><li class="breadcrumb-item"><a href="./portable-stations.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Portable Stations</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./flex-6400.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Flex-6400</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -128,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./portable-stations.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Portable Stations</span></a>
+  <a href="./portable-stations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Portable Stations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -205,7 +202,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./flex-6400.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Flex-6400</span></a>
+  <a href="./flex-6400.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Flex-6400</span></a>
   </div>
 </li>
       </ul>
@@ -220,9 +217,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#vhfuhf-go-box" id="toc-vhfuhf-go-box" class="nav-link active" data-scroll-target="#vhfuhf-go-box">VHF/UHF Go-box</a></li>
-  <li><a href="#satellite-station" id="toc-satellite-station" class="nav-link" data-scroll-target="#satellite-station">Satellite station</a></li>
-  <li><a href="#packet" id="toc-packet" class="nav-link" data-scroll-target="#packet">Packet</a></li>
+  <li><a href="#manuals" id="toc-manuals" class="nav-link active" data-scroll-target="#manuals">Manuals</a></li>
+  <li><a href="#digital-modes" id="toc-digital-modes" class="nav-link" data-scroll-target="#digital-modes">Digital modes</a>
+  <ul class="collapse">
+  <li><a href="#fldigi-remote" id="toc-fldigi-remote" class="nav-link" data-scroll-target="#fldigi-remote">fldigi (remote)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -231,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Portable Stations</span></h1>
+<h1 class="title"><span class="chapter-title">Flex-6400</span></h1>
 </div>
 
 
@@ -246,42 +245,47 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="vhfuhf-go-box" class="level2">
-<h2 class="anchored" data-anchor-id="vhfuhf-go-box">VHF/UHF Go-box</h2>
-<p>I have a <a href="./rigs.html#tytera-tyt-th-8600">Tytera TYT-8600</a> radio in a small go-box configuration with an included 12 Ah Bioenno <span class="math inline">\(LiFePO_4\)</span> battery.</p>
+<p>This chapter describes some specific steps used with the Flex 6400.</p>
+<section id="manuals" class="level2">
+<h2 class="anchored" data-anchor-id="manuals">Manuals</h2>
 </section>
-<section id="satellite-station" class="level2">
-<h2 class="anchored" data-anchor-id="satellite-station">Satellite station</h2>
-<p>The <a href="./rigs.html#icom-ic-9700">IC-9700</a> forms the heart of my still-in-progress satellite station. Also new is the <a href="http://www.csntechnologies.net/sat">CSN Technologies Self-contained Antenna Tracker (S.A.T.)</a>. This interfaces with the IC-9700 and an antenna rotator. It provides a web browser interface for most controls. Within a few minutes of connecting it, I was able to monitor DX traffic (Alabama!) on the ISS FM repeater using my vertically oriented Comet antenna.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="http://www.csntechnologies.net/images/MatteBlackBoxTitle.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">CSN Technologies S.A.T.</figcaption>
-</figure>
-</div>
-<p>Finally, I am assembling an <a href="https://www.m2inc.com/FGSATPACK1"><span class="math inline">\(M^2\)</span> SATPACK1</a> antenna array. If my initial forays go well, I may think about upgrading to a system with Yagis that can be pointed at satellites.</p>
-</section>
-<section id="packet" class="level2">
-<h2 class="anchored" data-anchor-id="packet">Packet</h2>
-<p>I’ve recently assembled a portable VHF packet/APRS/Winlink station. The radio is the <a href="./rigs.html#icom-id-51a">ICOM ID-51a</a>. A <a href="https://digirig.net">Digirig</a> device with a cable specifically designed for ICOM HTs provides sound card and PTT functions.</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<section id="digital-modes" class="level2">
+<h2 class="anchored" data-anchor-id="digital-modes">Digital modes</h2>
+<section id="fldigi-remote" class="level3">
+<h3 class="anchored" data-anchor-id="fldigi-remote">fldigi (remote)</h3>
+<ol type="1">
+<li>From Kasa, power-up the Alinco power supply and the Flex radio.</li>
+<li>Connnect to the Acer PC via Chrome Remote Desktop</li>
+<li>Start SmartSDR v3.7.3</li>
+<li>Select Profiles/Global/Shack-fldigi</li>
+</ol>
+<p>The rig should switch to the appropriate mode (DIGU) and the PaNBEMS Sunday morning net frequency (3.583 MHz).</p>
+<ol start="5" type="1">
+<li><p>Confirm that the current slice has DAX selected and that the SmartSDR DAX panel shows audio from that slice.</p></li>
+<li><p>Open fldigi (v4.2.03)</p></li>
+</ol>
+<p>fldigi should open to 3.583 MHz and show signals in the waterfall.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The ID-51a supports CAT control via CI-V, and Digirig could support this. But CAT control is overkill for this use case. It’s trivial to change the radio frequency manually, and the mode does not need to change.</p>
-<p>The Digirig cable takes the grounded speaker line from the ID-51a and sends it as an RTS signal to the computer. So, once I’ve set the packet software to use the correct COM port on the PC, PTT works well. The virtue of this scheme is that it can also work with other HTs.</p>
+<p>fldigi uses Hamlib for rig control. Here are the key settings under Configure/Rig Control/Hamlib:</p>
+<p><img src="img/fldigi-flex6400-hamlib-params.png" class="img-fluid"></p>
 </div>
 </div>
-<p>An Evolve III netbook running Windows 10 runs the relevant software. I’m using the <a href="http://uz7.ho.ua/packetradio.htm">UH7HO Soundmodem</a> package for packet radio TNC services, <a href="https://github.com/wb2osz/direwolf">Dire Wolf</a> as an APRS TNC, and <a href="https://www.outpostpm.org/index.php">Outpost Packet Message Manager</a> as a packet terminal client. I also use <a href="https://www.winlink.org">Winlink</a>, and the <a href="https://rosmodem.wordpress.com">VARA FM</a> Winlink client, but of course, I could also use standard packet as the Winlink client.</p>
-<p>The <a href="./rigs.html#icom-ic-705">IC-705</a> can also work as a portable FM + HF packet station using the same PC. I’m experimenting with making different copies of Soundmodem and VARA FM and then naming them for the different rig configurations, as neither package supports switching between multiple rigs.</p>
+<p>You may need to manually set the mode, such as to THOR22.</p>
+<ol start="6" type="1">
+<li>To shut down: Close fldigi</li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -520,14 +524,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./mobile-stations.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Mobile Stations</span></span>
+      <a href="./ic-705.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">IC-705</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./remote-stations.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Remote Stations</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

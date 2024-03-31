@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "About",
     "section": "",
-    "text": "This document describes my amateur radio gear and activities.\nIts primary purpose for now is to explore how to use the Quarto book format. But it also serves as a way for me to document important details about my shack and my gear."
+    "text": "This site documents some important details about my ham radio shack and my gear."
   },
   {
     "objectID": "stations.html",
@@ -25,7 +25,7 @@
     "href": "home-stations.html#office",
     "title": "Home Stations",
     "section": "Office",
-    "text": "Office\nI have a home office that I also use as an operating position.\n\nHF 3 (QRP/VHF/UHF)\nA third HF station is located in my office. I’m running the IC-705. At the moment, the HF capability is receive-only, as I have a W6LVP receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer to the sole IC-705 antenna port.\n\n\n\n\nflowchart TD\n  A[IC-705] --- B[Macbook Pro 15]\n  A --- C[Wall AC Adapter]\n  A --- D[HF/VHF + UHF Diplexer]\n  D --- E[W6LVP HF Loop]\n  E --- G[Wall AC Adapter]\n  D --- F[Slim Jim]\n\n\nHF-3 Block Diagram\n\n\n\n\n\nAllstar node\nI have a ClearNode UHF Allstar node on 51401. The node also supports EchoLink (W3TM-L).\nI used this node for the K3P Special Event station in June 2023. At least two hams connected via the node to participate in the event."
+    "text": "Office\nI have a home office that I also use as an operating position.\n\nHF 3 (QRP/VHF/UHF)\nA third HF station is located in my office. I’m running the IC-705. At the moment, the HF capability is receive-only, as I have a W6LVP receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer to the sole IC-705 antenna port.\n\n\n\n\nflowchart TD\n  A[IC-705] --- B[Macbook Pro 15]\n  A --- C[Wall AC Adapter]\n  A --- D[HF/VHF + UHF Diplexer]\n  D --- E[W6LVP HF Loop]\n  E --- G[Wall AC Adapter]\n  D --- F[Slim Jim]\n\n\nHF-3 Block Diagram\n\n\n\n\nHF 1 (remote)\nI have been experimenting with remote control over HF 1 using Windows 11 running on a Macbook Pro and Chrome Remote Desktop.\n\n\n\nAllstar node\nI have a ClearNode UHF Allstar node on 51401. The node also supports EchoLink (W3TM-L).\nI used this node for the K3P Special Event station in June 2023. At least two hams connected via the node to participate in the event."
   },
   {
     "objectID": "mobile-stations.html#kia-forte",
@@ -376,5 +376,19 @@
     "title": "IC-705",
     "section": "HF phone operations",
     "text": "HF phone operations\n\n\n\n\n\n\nWarning\n\n\n\nThe loop antenna is receive-only. Do not transmit on HF unless you have changed to a transmit antenna."
+  },
+  {
+    "objectID": "flex-6400.html#manuals",
+    "href": "flex-6400.html#manuals",
+    "title": "Flex-6400",
+    "section": "Manuals",
+    "text": "Manuals"
+  },
+  {
+    "objectID": "flex-6400.html#digital-modes",
+    "href": "flex-6400.html#digital-modes",
+    "title": "Flex-6400",
+    "section": "Digital modes",
+    "text": "Digital modes\n\nfldigi (remote)\n\nFrom Kasa, power-up the Alinco power supply and the Flex radio.\nConnnect to the Acer PC via Chrome Remote Desktop\nStart SmartSDR v3.7.3\nSelect Profiles/Global/Shack-fldigi\n\nThe rig should switch to the appropriate mode (DIGU) and the PaNBEMS Sunday morning net frequency (3.583 MHz).\n\nConfirm that the current slice has DAX selected and that the SmartSDR DAX panel shows audio from that slice.\nOpen fldigi (v4.2.03)\n\nfldigi should open to 3.583 MHz and show signals in the waterfall.\n\n\n\n\n\n\nTip\n\n\n\nfldigi uses Hamlib for rig control. Here are the key settings under Configure/Rig Control/Hamlib:\n\n\n\nYou may need to manually set the mode, such as to THOR22.\n\nTo shut down: Close fldigi"
   }
 ]

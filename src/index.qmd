@@ -4,7 +4,4 @@ format: html
 editor: source
 ---
 
-This document describes my amateur radio gear and activities.
-
-Its primary purpose for now is to explore how to use the [Quarto](https://quarto.or) book format.
-But it also serves as a way for me to document important details about my shack and my gear.
+This site documents some important details about my ham radio shack and my gear.

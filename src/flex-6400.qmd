@@ -1,0 +1,37 @@
+---
+title: "Flex-6400"
+---
+
+This chapter describes some specific steps used with the Flex 6400.
+
+## Manuals
+
+## Digital modes
+
+### fldigi (remote)
+
+1. From Kasa, power-up the Alinco power supply and the Flex radio.
+2. Connnect to the Acer PC via Chrome Remote Desktop
+3. Start SmartSDR v3.7.3
+4. Select Profiles/Global/Shack-fldigi
+
+The rig should switch to the appropriate mode (DIGU) and the PaNBEMS Sunday morning net frequency (3.583 MHz).
+
+5. Confirm that the current slice has DAX selected and that the SmartSDR DAX panel shows audio from that slice.
+
+5. Open fldigi (v4.2.03)
+
+fldigi should open to 3.583 MHz and show signals in the waterfall.
+
+::: {.callout-tip}
+
+fldigi uses Hamlib for rig control.
+Here are the key settings under Configure/Rig Control/Hamlib:
+
+![](img/fldigi-flex6400-hamlib-params.png)
+
+::: 
+
+You may need to manually set the mode, such as to THOR22.
+
+6. To shut down: Close fldigi

@@ -27,6 +27,7 @@ book:
       - ft-891.qmd
       - ic-9700.qmd
       - ic-705.qmd
+      - flex-6400.qmd
 format:
   html:
     theme: default

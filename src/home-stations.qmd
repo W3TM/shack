@@ -84,6 +84,10 @@ flowchart TD
   D --- F[Slim Jim]
 ```
 
+#### HF 1 (remote)
+
+I have been experimenting with [remote control over HF 1](flex-radio-6400.qmd) using Windows 11 running on a Macbook Pro and Chrome Remote Desktop.
+
 ### Allstar node
 
 I have a [ClearNode](https://www.node-ventures.com/buy-clearnode/) UHF Allstar node on 51401.
