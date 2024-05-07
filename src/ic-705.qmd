@@ -46,11 +46,81 @@ The SoundModem application recognizes the IC-7300 CI-V value, but not the IC-705
 
 ### Direwolf APRS
 
+#### Evolve II laptop
+
 1. Connect the Evolve III laptop via USB. If using the MacBook Pro, connect the rig, start Parallels and log in to Windows 11.
 2. Select the APRS/Packet Memory Group on the rig.
 3. Tune to 144.390 MHz.
 4. Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is *unload* it.
 5. Open the Direwolf configuration file and check that the settings are appropriate for the IC-705.
+
+#### MacBook Pro (running Parallels)
+
+::: {.callout-note}
+
+Since I run a receive-only I-Gate that transmits received packets to APRS-IS already, I do not typically enable APRS-IS digipeating on the IC-705/MacBook Pro set-up from my home office.
+
+This means that the station can only hear received RF packets, and does not transmit via RF or forward received packets via the Internet to APRS.IS.
+
+As a result, most of the APRS digipeater parameters in `direwolf.conf` are commented out.
+
+Also, if I'm using APRSIS32 to view packets, I *disable* 'APRS-IS Enabled' and 'Beaconing Enabled' under the Enables menu:
+
+![](img/aprsis32-aprsis-enables-menu.png)
+
+:::
+
+1. Start Parallels (Windows 11).
+2. Select the APRS/Packet Memory Group (04) on the rig.
+3. Tune to 144.390 MHz; FM-D mode.
+4. Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is *unload* it.
+5. Open the Direwolf configuration file and check that the settings are appropriate for the IC-705.
+  - 'ADEVICE USB 0 0'
+  - 'AGWPORT 8000'
+  - 'KISSPORT 8001'
+6. Start Direwolf (`This PC\Local Disk(C:)\direwolf-1.7.0-9807304-_i686`)
+
+The following start-up text should be shown in the Direwolf window.
+
+```
+Dire Wolf version 1.7
+Includes optional support for:  cm108-ptt
+
+Reading config file direwolf.conf
+Available audio input devices for receive (*=selected):
+ *  0: Microphone (3- USB Audio CODEC    (channel 0)
+    1: Microphone (High Definition Aud
+Available audio output devices for transmit (*=selected):
+ *  0: Speakers (3- USB Audio CODEC )   (channel 0)
+    1: Speakers (High Definition Audio
+Channel 0: 1200 baud, AFSK 1200 & 2200 Hz, A+, 44100 sample rate.
+Note: PTT not configured for channel 0. (Ignore this if using VOX.)
+Ready to accept AGW client application 0 on port 8000 ...
+Ready to accept KISS TCP client application 0 on port 8001 ...
+```
+
+::: {.callout-note}
+
+Adjust the Sound/Mic levels so that the strongest signals have `audio level = 50` or so.
+
+With the IC-705 setting as follows:
+
+'Menu/Set/Connectors/MOD Input/USB MOD Level' = 70%
+
+Setting the virtual machine mic level to ~80 seems to work well.
+
+:::
+
+7. Launch APRSIS-32 
+
+Here are the parameters for the Direwolf port using the AGW engine:
+
+![](img/aprsis-direwolf-agw-params.png)
+And here are the parameters for the APRS-IS port:
+
+![](img/aprsis32-aprsis-port-params.png)
+
+*Note*: This port is disabled under the current scheme.
 
 ## Local VHF/UHF phone operations
 

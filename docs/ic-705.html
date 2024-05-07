@@ -305,6 +305,8 @@ Note
 </section>
 <section id="direwolf-aprs" class="level3">
 <h3 class="anchored" data-anchor-id="direwolf-aprs">Direwolf APRS</h3>
+<section id="evolve-ii-laptop" class="level4">
+<h4 class="anchored" data-anchor-id="evolve-ii-laptop">Evolve II laptop</h4>
 <ol type="1">
 <li>Connect the Evolve III laptop via USB. If using the MacBook Pro, connect the rig, start Parallels and log in to Windows 11.</li>
 <li>Select the APRS/Packet Memory Group on the rig.</li>
@@ -312,6 +314,80 @@ Note
 <li>Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is <em>unload</em> it.</li>
 <li>Open the Direwolf configuration file and check that the settings are appropriate for the IC-705.</li>
 </ol>
+</section>
+<section id="macbook-pro-running-parallels" class="level4">
+<h4 class="anchored" data-anchor-id="macbook-pro-running-parallels">MacBook Pro (running Parallels)</h4>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Since I run a receive-only I-Gate that transmits received packets to APRS-IS already, I do not typically enable APRS-IS digipeating on the IC-705/MacBook Pro set-up from my home office.</p>
+<p>This means that the station can only hear received RF packets, and does not transmit via RF or forward received packets via the Internet to APRS.IS.</p>
+<p>As a result, most of the APRS digipeater parameters in <code>direwolf.conf</code> are commented out.</p>
+<p>Also, if I’m using APRSIS32 to view packets, I <em>disable</em> ‘APRS-IS Enabled’ and ‘Beaconing Enabled’ under the Enables menu:</p>
+<p><img src="img/aprsis32-aprsis-enables-menu.png" class="img-fluid"></p>
+</div>
+</div>
+<ol type="1">
+<li>Start Parallels (Windows 11).</li>
+<li>Select the APRS/Packet Memory Group (04) on the rig.</li>
+<li>Tune to 144.390 MHz; FM-D mode.</li>
+<li>Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is <em>unload</em> it.</li>
+<li>Open the Direwolf configuration file and check that the settings are appropriate for the IC-705.</li>
+</ol>
+<ul>
+<li>‘ADEVICE USB 0 0’</li>
+<li>‘AGWPORT 8000’</li>
+<li>‘KISSPORT 8001’</li>
+</ul>
+<ol start="6" type="1">
+<li>Start Direwolf (<code>This PC\Local Disk(C:)\direwolf-1.7.0-9807304-_i686</code>)</li>
+</ol>
+<p>The following start-up text should be shown in the Direwolf window.</p>
+<pre><code>Dire Wolf version 1.7
+Includes optional support for:  cm108-ptt
+
+Reading config file direwolf.conf
+Available audio input devices for receive (*=selected):
+ *  0: Microphone (3- USB Audio CODEC    (channel 0)
+    1: Microphone (High Definition Aud
+Available audio output devices for transmit (*=selected):
+ *  0: Speakers (3- USB Audio CODEC )   (channel 0)
+    1: Speakers (High Definition Audio
+Channel 0: 1200 baud, AFSK 1200 &amp; 2200 Hz, A+, 44100 sample rate.
+Note: PTT not configured for channel 0. (Ignore this if using VOX.)
+Ready to accept AGW client application 0 on port 8000 ...
+Ready to accept KISS TCP client application 0 on port 8001 ...</code></pre>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Adjust the Sound/Mic levels so that the strongest signals have <code>audio level = 50</code> or so.</p>
+<p>With the IC-705 setting as follows:</p>
+<p>‘Menu/Set/Connectors/MOD Input/USB MOD Level’ = 70%</p>
+<p>Setting the virtual machine mic level to ~80 seems to work well.</p>
+</div>
+</div>
+<ol start="7" type="1">
+<li>Launch APRSIS-32</li>
+</ol>
+<p>Here are the parameters for the Direwolf port using the AGW engine:</p>
+<p><img src="img/aprsis-direwolf-agw-params.png" class="img-fluid"> And here are the parameters for the APRS-IS port:</p>
+<p><img src="img/aprsis32-aprsis-port-params.png" class="img-fluid"></p>
+<p><em>Note</em>: This port is disabled under the current scheme.</p>
+</section>
 </section>
 </section>
 <section id="local-vhfuhf-phone-operations" class="level2">
