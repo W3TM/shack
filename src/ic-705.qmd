@@ -18,7 +18,7 @@ PDF versions of the manuals can be found here:
 1. Start with the IC-705 *off*.
 1. Connect the Evolve III laptop via USB. If using the MacBook Pro, connect the rig, start Parallels and log in to Windows 11.
 2. Turn the IC-705 on.
-2. Select the APRS/Packet Memory Group.
+2. Select the APRS/Packet Memory Group (04) on the IC-705.
 3. Tune to 145.090 MHz (W3SWL-10).
 4. Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is *unload* it.
 5. Start Winlink on the PC.
@@ -36,7 +36,7 @@ PDF versions of the manuals can be found here:
 
 ::: {.callout-note}
 
-This preset primarily changes the radio's CI-V port from the default for the IC-705 (A4) to 94, the value used for the IC-7300.
+The VHF Packet preset primarily changes the radio's CI-V port from the default for the IC-705 (A4) to 94, the value used for the IC-7300.
 The SoundModem application recognizes the IC-7300 CI-V value, but not the IC-705.
 
 :::
@@ -46,7 +46,7 @@ The SoundModem application recognizes the IC-7300 CI-V value, but not the IC-705
 
 ### Direwolf APRS
 
-#### Evolve II laptop
+#### Evolve III laptop
 
 1. Connect the Evolve III laptop via USB. If using the MacBook Pro, connect the rig, start Parallels and log in to Windows 11.
 2. Select the APRS/Packet Memory Group on the rig.
@@ -58,9 +58,9 @@ The SoundModem application recognizes the IC-7300 CI-V value, but not the IC-705
 
 ::: {.callout-note}
 
-Since I run a receive-only I-Gate that transmits received packets to APRS-IS already, I do not typically enable APRS-IS digipeating on the IC-705/MacBook Pro set-up from my home office.
+Since I run a receive-only I-Gate that transmits received packets to APRS-IS already, I do not typically enable APRS-IS digipeating or beaconing on the IC-705/MacBook Pro set-up from my home office.
 
-This means that the station can only hear received RF packets, and does not transmit via RF or forward received packets via the Internet to APRS.IS.
+This means that the station can usually only hear received RF packets, and does not transmit via RF or forward received packets via the Internet to APRS.IS.
 
 As a result, most of the APRS digipeater parameters in `direwolf.conf` are commented out.
 
@@ -71,18 +71,46 @@ Also, if I'm using APRSIS32 to view packets, I *disable* 'APRS-IS Enabled' and '
 :::
 
 1. Start Parallels (Windows 11).
-2. Select the APRS/Packet Memory Group (04) on the rig.
+2. Select the APRS/Packet Memory Group (04) on the IC-705.
 3. Tune to 144.390 MHz; FM-D mode.
 4. Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is *unload* it.
 5. Open the Direwolf configuration file and check that the settings are appropriate for the IC-705.
-  - 'ADEVICE USB 0 0'
-  - 'AGWPORT 8000'
-  - 'KISSPORT 8001'
+
+These parameters are the minimum needed for a receive only station (no IGate, no APRS-IS, no beaconing):
+
+```default
+ADEVICE USB 0 0
+AGWPORT 8000
+KISSPORT 8001
+```
+
+To IGate heard packets to APRS-IS, we need the following:
+
+```default
+MYCALL W3TM-<SSID>
+IGSERVER noam.aprs2.net
+IGLOGIN W3TM-<SSID> <APRS-pascode>
+```
+
+To beacon via RF, we need the following:
+
+```default
+PTT COM4 RTS
+PBEACON delay=1  every=30 overlay=S symbol="dot" lat=40^47.87N long=077^30.95W power=10 height=10 gain=1 comment="State College PA" via=WIDE1-1
+```
+
+To digipeat heard packets, we set the following:
+
+```default
+#DIGIPEAT 0 0 ^WIDE[3-7]-[1-7]$|^TEST$ ^WIDE[12]-[12]$
+```
+
+
 6. Start Direwolf (`This PC\Local Disk(C:)\direwolf-1.7.0-9807304-_i686`)
 
 The following start-up text should be shown in the Direwolf window.
 
-```
+```default
 Dire Wolf version 1.7
 Includes optional support for:  cm108-ptt
 
@@ -107,7 +135,7 @@ With the IC-705 setting as follows:
 
 'Menu/Set/Connectors/MOD Input/USB MOD Level' = 70%
 
-Setting the virtual machine mic level to ~80 seems to work well.
+Setting the virtual PC mic level to ~80 seems to work well.
 
 :::
 
