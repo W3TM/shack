@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W3TM Shack - FT-891</title>
+<title>W3TM Shack - Yaesu FT-891</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -61,6 +61,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -75,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./ft-891.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">FT-891</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./ft-891.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Yaesu FT-891</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -188,7 +191,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ft-891.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">FT-891</span></a>
+  <a href="./ft-891.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Yaesu FT-891</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -222,7 +225,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#digital-operations" id="toc-digital-operations" class="nav-link" data-scroll-target="#digital-operations">Digital operations</a>
   <ul class="collapse">
   <li><a href="#hardware" id="toc-hardware" class="nav-link" data-scroll-target="#hardware">Hardware</a></li>
-  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software ‘;;’’’’‘;’’’</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -232,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">FT-891</span></h1>
+<h1 class="title"><span class="chapter-title">Yaesu FT-891</span></h1>
 </div>
 
 
@@ -259,6 +262,24 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="digital-operations">Digital operations</h2>
 <section id="hardware" class="level3">
 <h3 class="anchored" data-anchor-id="hardware">Hardware</h3>
+<div class="cell" title="FT-891 Connections">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  B[Evolve III PC]---|USB|F[Digirig]
+  B---|USB|A
+  A[FT-891]---|RTTY/DATA|F
+  A --- I[Mic]
+  A---|Power Poles|C[Power Supply]
+  A---|Coax|D[LDG Antenna Tuner]
+  D---|Coax|E[Antenna]
+</pre>
+</div>
+<p>FT-891 Block Diagram</p>
+</div>
+</div>
+</div>
 <section id="rig" class="level4">
 <h4 class="anchored" data-anchor-id="rig">Rig</h4>
 <ol type="1">
@@ -276,8 +297,8 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Here are the parameter settings on the rig interface. A long press on the <code>F</code> button brings up the extended menu.</p>
-<p><code>08-01 Data Mode</code>: others<br> <code>08-02 PSK Tone</code>: 1500<br> <code>08-03 Other Disp</code>: 1500<br> <code>08-04 Other Shift</code>: 1500<br> <code>08-06 Data LCUT Freq</code>: 100<br> <code>08-07 Data HCUT Freq</code>: 3000<br> <code>08-09 Data In Select</code>: Rear<br> <code>08-10 Data PTT Select</code>: DAKY<br> <code>08-11 Data Out Level</code>: 50<br> <code>08-12 Data BFO: USB</code><br> <code>16-03 HF PWR</code>: 30<br> <code>16-10 Data Mic Gain</code>: 50<br></p>
+<p>Here are the parameter settings on the rig interface. A long press on the ‘F’ button brings up the extended menu.</p>
+<p>‘08-01 Data Mode’: others<br> ‘08-02 PSK Tone’: 1500<br> ‘08-03 Other Disp’: 1500<br> ‘08-04 Other Shift’: 1500<br> ‘08-06 Data LCUT Freq’: 100<br> ‘08-07 Data HCUT Freq’: 3000<br> ‘08-09 Data In Select’: Rear<br> ‘08-10 Data PTT Select’: DAKY<br> ‘08-11 Data Out Level’: 50<br> ‘08-12 Data BFO’: USB<br> ‘16-03 HF PWR’: 30<br> ‘16-10 Data Mic Gain’: 50<br></p>
 <p><em>Front panel menu settings</em>:</p>
 <p>Automatic Gain Control (AGC): Off<br> Band Width (WDH): 3000 hz<br> Processor (PRC): Off<br> Digital Noise Reduction (DNR): Off<br> Front Meter (MTR): ALC<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 </div>
@@ -298,16 +319,16 @@ Note
 </section>
 </section>
 <section id="software" class="level3">
-<h3 class="anchored" data-anchor-id="software">Software</h3>
+<h3 class="anchored" data-anchor-id="software">Software ‘;;’’’’‘;’’’</h3>
 <section id="pc-system" class="level4">
 <h4 class="anchored" data-anchor-id="pc-system">PC System</h4>
 <ol type="1">
 <li>Check ports and devices.</li>
 </ol>
 <p>Right click on Start Menu to open Device Manager.</p>
-<p><em>Check <code>Ports (COM and LPT)</code></em></p>
+<p><em>Check ‘Ports (COM and LPT)’</em></p>
 <p>There should be two Silicon Labs Dual CP2105 USB to UART Bridge ports, one labelled Standard, the other labelled Enhanced. The enhanced gives CAT control. Note the number. The default is COM 10.</p>
-<p><em>Check <code>Audio inputs and outputs</code></em></p>
+<p><em>Check ‘Audio inputs and outputs’</em></p>
 <p>There should be two Digirig (USB Audio Devices).</p>
 </section>
 <section id="fldigi" class="level4">
@@ -317,7 +338,7 @@ Note
 </ol>
 <ol type="a">
 <li>Tune to digital mode frequency, e.g.&nbsp;7.070 MHz (PSK31).</li>
-<li>Confirm that mode is USB Data (<code>D-U</code>).</li>
+<li>Confirm that mode is USB Data (‘D-U’).</li>
 </ol>
 <ol start="2" type="1">
 <li>Open fldigi.</li>
@@ -336,10 +357,10 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p><em>Flrig settings:</em></p>
-<p><code>Configure menu / Setup / Transceiver</code></p>
-<p><code>Rig</code>: FT-891<br> Port: COM10<br> <code>Baud</code>: 9600 (note this is controlled on rig under menu <code>05-06 CAT RATE</code>)</p>
-<p>Is flrig connected to rig? If so, <code>Connected</code> light will be green.</p>
-<p>If not, press <code>Init</code> button to initiate/test connection.</p>
+<p>‘Configure menu / Setup / Transceiver’</p>
+<p>‘Rig’: FT-891<br> ‘Port’: COM10<br> ‘Baud’: 9600 (note this is controlled on rig under menu ‘05-06 CAT RATE’)</p>
+<p>Is flrig connected to rig? If so, ‘Connected’ light will be green.</p>
+<p>If not, press ‘Init’ button to initiate/test connection.</p>
 </div>
 </div>
 <ol start="2" type="a">
@@ -356,10 +377,10 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><code>Configure menu / Configure dialog / Soundcard / Devices</code></p>
-<p><code>PortAudio</code>: Checked<br> <code>Capture</code>: Digirig (USB Audio interface)<br> <code>Playback</code>: Digirig (USB Audio interface)</p>
-<p><code>Audio device shared by Audio Alerts and Rx Monitor</code>:</p>
-<p><code>Enable</code>: If checked, select <code>Speakers</code> as output so as not to transmit system audio over the air.</p>
+<p>‘Configure menu / Configure dialog / Soundcard / Devices’</p>
+<p>‘PortAudio’: Checked<br> ‘Capture’: Digirig (USB Audio interface)<br> ‘Playback’: Digirig (USB Audio interface)</p>
+<p>‘Audio device shared by Audio Alerts and Rx Monitor’:</p>
+<p>‘Enable’: If checked, select ‘Speakers’ as output so as not to transmit system audio over the air.</p>
 </div>
 </div>
 <p><em>Rig Control</em></p>
@@ -373,14 +394,14 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><code>Enable flrig xcvr control with fldigi as client</code>: Checked<br> <code>Shutdown flrig with fldigi</code>: Checked<br></p>
+<p>‘Enable flrig xcvr control with fldigi as client’: Checked<br> ‘Shutdown flrig with fldigi’: Checked<br></p>
 </div>
 </div>
 <ol start="3" type="1">
-<li>Test transmit by pressing <code>TUNE</code></li>
+<li>Test transmit by pressing ‘TUNE’</li>
 </ol>
-<p>Monitor output on rig with <code>F / MTR / PO</code>. Power output on power meter should be comparable to output set on rig (~5-50 W). Rig menu is <code>16-03 HF PWR</code>.</p>
-<p>Adjust the output level by switching to <code>F / MTR / ALC</code>. Press tune. Then use the <code>sndvol</code> applet on the PC to reduce the speaker output until the ALC is at a minimum. To launch <code>sndvol</code> type it into the search bar and press enter.</p>
+<p>Monitor output on rig with ‘F / MTR / PO’. Power output on power meter should be comparable to output set on rig (~5-50 W). Rig menu is ‘16-03 HF PWR’.</p>
+<p>Adjust the output level by switching to ‘F / MTR / ALC’. Press tune. Then use the ‘sndvol’ applet on the PC to reduce the speaker output until the ALC is at a minimum. To launch ‘sndvol’ type it into the search bar and press enter.</p>
 <p>::: {.callout-warning}</p>
 <p>Because digital modes are high duty-cycle modes, it’s best to use less than the full 100 W of output power.</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -394,12 +415,15 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p>It can be useful to monitor the input (mic) and output (speaker) audio device levels on the PC.</p>
-<p>Type “Control Panel” in the search bar. Open <code>Hardware and Sound</code> and open the Digirig output (from PC) or Speaker panel or the Digirig input (to PC) or Mic panel.</p>
+<p>Type “Control Panel” in the search bar. Open ‘Hardware and Sound’ and open the Digirig output (from PC) or Speaker panel or the Digirig input (to PC) or Mic panel.</p>
 <p>Per Digirig instructions, the PC Speaker output is initially set at ~80%. But I have found that to reduce the ALC to a minimum means that my speaker level is ~15%.</p>
 <p>The Mic level can be adjusted to achieve ideal “input” levels for a digital mode OR the rig RF Gain can be reduced. The latter control is more easily adjusted given different operating conditions.</p>
 <p>Full RF Gain results when the outer RF Gain knob on the rig is turned fully clockwise (to the right).</p>
 </div>
 </div>
+</section>
+<section id="winlink" class="level4">
+<h4 class="anchored" data-anchor-id="winlink">Winlink</h4>
 
 
 </section>

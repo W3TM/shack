@@ -2,6 +2,11 @@
 title: "Portable Stations"
 ---
 
+## Yaesu FT-891
+
+I primarily use the [FT-891](rigs.qmd#yaesu-ft-891) when I operate Winter Field Day or the occasional POTA activation.
+It is also useful for HF Winlink operations for Emergency Communications when paired with a lightweight laptop like the Evolve III.
+
 ## VHF/UHF Go-box
 
 I have a [Tytera TYT-8600](rigs.qmd#tytera-tyt-th-8600) radio in a small go-box configuration with an included 12 Ah Bioenno $LiFePO_4$ battery.
