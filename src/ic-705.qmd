@@ -17,10 +17,16 @@ PDF versions of the manuals can be found here:
 
 1. Start with the IC-705 *off*.
 1. Connect the Evolve III laptop via USB. If using the MacBook Pro, connect the rig, start Parallels and log in to Windows 11.
-2. Turn the IC-705 on.
+2. Turn the IC-705 on ([POWER]).
 2. Select the APRS/Packet Memory Group (04) on the IC-705.
-3. Tune to 145.090 MHz (W3SWL-10).
-4. Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is *unload* it.
+    - Press MEMO on the touchscreen, then GROUP.
+    - Rotate the MULTI knob to '04: APRS/Packet'.
+    - Press the highlighted row '04: APRS/Packet'.
+3. Use the MULTI knob to tune to 145.090 MHz (the frequency for the W3SWL-10 Winlink node).
+4. Check whether the VHF Packet Preset Memory is in use 
+    - [MENU]/PRESET.
+    - Use the MULTI knob to select '4: VHF Packet'.
+    - If '4: VHF Packet' is loaded, press UNLOAD.
 5. Start Winlink on the PC.
 6. Open the VARA FM connector.
 7. Start the connection.

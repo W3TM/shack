@@ -331,12 +331,14 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <div>
 <pre class="mermaid mermaid-js">flowchart TD
-  A[IC-705] --- B[Macbook Pro 15]
+  A[IC-705]---|USB|B[Macbook Pro 15]
+  A --- I[Mic]
   A --- C[Wall AC Adapter]
-  A --- D[HF/VHF + UHF Diplexer]
-  D --- E[W6LVP HF Loop]
+  A---|Coax|D[HF/VHF + UHF Diplexer]
+  D---|Coax|E[W6LVP Preamp]
+  E---|Coax|H[W6LVP HF Loop]
   E --- G[Wall AC Adapter]
-  D --- F[Slim Jim]
+  D---|Coax|F[Slim Jim]
 </pre>
 </div>
 <p>HF-3 Block Diagram</p>
