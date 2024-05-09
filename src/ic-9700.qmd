@@ -1,5 +1,5 @@
 ---
-title: "IC-9700"
+title: "Icom IC-9700"
 ---
 
 This page describes some mode-specific settings for the IC-9700 station.

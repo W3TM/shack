@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W3TM Shack - Remote Stations</title>
+<title>W3TM Shack - Elecraft KX2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./gear.html" rel="next">
-<link href="./portable-stations.html" rel="prev">
+<link href="./ic-9700.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,6 +94,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -75,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./stations.html">Stations</a></li><li class="breadcrumb-item"><a href="./remote-stations.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Remote Stations</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./kx2.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Elecraft KX2</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -131,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./remote-stations.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Remote Stations</span></a>
+  <a href="./remote-stations.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Remote Stations</span></a>
   </div>
 </li>
       </ul>
@@ -208,7 +244,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./kx2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Elecraft KX2</span></a>
+  <a href="./kx2.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Elecraft KX2</span></a>
   </div>
 </li>
       </ul>
@@ -223,15 +259,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#flex-6400" id="toc-flex-6400" class="nav-link active" data-scroll-target="#flex-6400">Flex-6400</a></li>
-  <li><a href="#icom-ic-705" id="toc-icom-ic-705" class="nav-link" data-scroll-target="#icom-ic-705">ICOM IC-705</a>
+  <li><a href="#manuals" id="toc-manuals" class="nav-link active" data-scroll-target="#manuals">Manuals</a></li>
+  <li><a href="#phone-operations" id="toc-phone-operations" class="nav-link" data-scroll-target="#phone-operations">Phone operations</a></li>
+  <li><a href="#cw-operations" id="toc-cw-operations" class="nav-link" data-scroll-target="#cw-operations">CW Operations</a></li>
+  <li><a href="#digital-operations" id="toc-digital-operations" class="nav-link" data-scroll-target="#digital-operations">Digital operations</a>
   <ul class="collapse">
-  <li><a href="#sdr-control-on-macos" id="toc-sdr-control-on-macos" class="nav-link" data-scroll-target="#sdr-control-on-macos">SDR-Control on MacOS</a></li>
-  <li><a href="#windows-11" id="toc-windows-11" class="nav-link" data-scroll-target="#windows-11">Windows 11</a></li>
+  <li><a href="#hardware" id="toc-hardware" class="nav-link" data-scroll-target="#hardware">Hardware</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
   </ul></li>
-  <li><a href="#icom-ic-7300" id="toc-icom-ic-7300" class="nav-link" data-scroll-target="#icom-ic-7300">ICOM IC-7300</a></li>
-  <li><a href="#icom-ic-9700" id="toc-icom-ic-9700" class="nav-link" data-scroll-target="#icom-ic-9700">ICOM IC-9700</a></li>
-  <li><a href="#narc-mountaintop-stations" id="toc-narc-mountaintop-stations" class="nav-link" data-scroll-target="#narc-mountaintop-stations">NARC mountaintop stations</a></li>
   </ul>
 </nav>
     </div>
@@ -240,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Remote Stations</span></h1>
+<h1 class="title"><span class="chapter-title">Elecraft KX2</span></h1>
 </div>
 
 
@@ -255,40 +290,70 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>One technical challenge I enjoy involves remote operations.</p>
-<section id="flex-6400" class="level2">
-<h2 class="anchored" data-anchor-id="flex-6400">Flex-6400</h2>
-<p>The <a href="./rigs.html#flexradio-6400">Flex-6400</a> can be remotely operated via the SmartConnect link embedded in the radio’s software.</p>
-<p>I especially enjoy using the <a href="https://roskosch.de/smartsdr-for-mac/">Mac OS</a> and <a href="https://roskosch.de/smartsdr-features/">iOS</a> SmartSDR clients. They work extremely well.</p>
-<p>I’ve started experimenting with using Chrome Remote Desktop to <a href="./flex-6400.html">remotely access the Flex</a> from the Macbook Pro in my home office. Sure, I could just walk downstairs, but it’s fun to try new things.</p>
+<section id="manuals" class="level2">
+<h2 class="anchored" data-anchor-id="manuals">Manuals</h2>
+<p>PDF manuals for the KX2 are here:</p>
+<ul>
+<li><a href="pdf/KX2-quick-ref2.pdf.pdf">Quick reference</a></li>
+<li><a href="KX2-owners-man-B2.pdf.pdf">Manual</a></li>
+</ul>
 </section>
-<section id="icom-ic-705" class="level2">
-<h2 class="anchored" data-anchor-id="icom-ic-705">ICOM IC-705</h2>
-<section id="sdr-control-on-macos" class="level3">
-<h3 class="anchored" data-anchor-id="sdr-control-on-macos">SDR-Control on MacOS</h3>
-<p>The same developer of the SmartSDR for Mac and iOS has developed a set of applications for remote access to selected ICOM transceivers called SDR-Control. The application runs on <a href="https://roskosch.de/sdr-control/">MacOS</a>, <a href="https://roskosch.de/sdr-control-ios/">iPad</a>, and <a href="https://roskosch.de/sdr-control-mobile/">iPhone</a>.</p>
-<p>I have successfully used SDR-Control to access my <a href="./rigs.html#icom-ic-705">IC-705</a>, and have tested it with another operator’s IC-7610.</p>
+<section id="phone-operations" class="level2">
+<h2 class="anchored" data-anchor-id="phone-operations">Phone operations</h2>
 </section>
-<section id="windows-11" class="level3">
-<h3 class="anchored" data-anchor-id="windows-11">Windows 11</h3>
-<p>I now run Windows 11 under Parallels on a Macbook. This gives me access to Winlink and VARA FM, and various Windows-only packet programs. See the <a href="./ic-705.html">description here</a>.</p>
+<section id="cw-operations" class="level2">
+<h2 class="anchored" data-anchor-id="cw-operations">CW Operations</h2>
+</section>
+<section id="digital-operations" class="level2">
+<h2 class="anchored" data-anchor-id="digital-operations">Digital operations</h2>
+<section id="hardware" class="level3">
+<h3 class="anchored" data-anchor-id="hardware">Hardware</h3>
+<div class="cell" title="KX2 Connections">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  B[Evolve III PC]---|USB|F[Digirig]
+  A[KX2]---|Coax|G[Antenna]
+  F---|Spkr|A
+  F---|Mic|A
+  F---|Aux|A
+  A---|Optional|C[Battery]
+</pre>
+</div>
+<p>KX2 Block Diagram</p>
+</div>
+</div>
+</div>
+<section id="antenna" class="level4">
+<h4 class="anchored" data-anchor-id="antenna">Antenna</h4>
+<ul>
+<li>Suitable for band</li>
+<li>BNC connector on rig</li>
+</ul>
 </section>
 </section>
-<section id="icom-ic-7300" class="level2">
-<h2 class="anchored" data-anchor-id="icom-ic-7300">ICOM IC-7300</h2>
-<p>The <a href="./rigs.html#icom-ic-7300">IC-7300</a> does not have the network circuitry needed to permit “out-of-the-box” control like the <a href="./rigs.html#icom-ic-705">IC-705</a> or IC-7610 using SDR-Control. Apparently, there is a USB control option that I have yet to explore.</p>
-<p>However, I do use and enjoy remote control of my <a href="./rigs.html#icom-ic-7300">IC-7300</a> using the <a href="https://remotetx.net">RemoteTx.net service</a>. This service allows me to access my IC-7300 from a web browser.</p>
-<p>I have experimented with remote control via an early version of the RigPi station server.</p>
+<section id="software" class="level3">
+<h3 class="anchored" data-anchor-id="software">Software</h3>
+<section id="pc-system" class="level4">
+<h4 class="anchored" data-anchor-id="pc-system">PC System</h4>
+<ol type="1">
+<li>Check ports and devices.</li>
+</ol>
+<p>Right click on Start Menu to open Device Manager.</p>
+<p><em>Check ‘Ports (COM and LPT)’</em></p>
+<p>There should be two Silicon Labs Dual CP2105 USB to UART Bridge ports, one labelled Standard, the other labelled Enhanced. The enhanced gives CAT control. Note the number.</p>
+<p><em>Check ‘Audio inputs and outputs’</em></p>
+<p>There should be two Digirig (USB Audio Devices).</p>
 </section>
-<section id="icom-ic-9700" class="level2">
-<h2 class="anchored" data-anchor-id="icom-ic-9700">ICOM IC-9700</h2>
-<p>The <a href="./rigs.html#icom-ic-9700">9700</a> can be controlled remotely via the SDR-Control and SDR-Mobile apps.</p>
-</section>
-<section id="narc-mountaintop-stations" class="level2">
-<h2 class="anchored" data-anchor-id="narc-mountaintop-stations">NARC mountaintop stations</h2>
-<p>Some colleagues and I have been experimenting with remote access to the NARC mountaintop station’s IC-7610 and Flex 6400M radios. Access to the IC-7610 is easy via the MacOS SDR-Control or iOS SDR-Mobile apps, but this requires connecting to the NARC VPN. Access to the Flex 6400M can be made via SmartLink and SmartSDR for Windows, Mac OS, or iOS. We have a very nice array of antennas “up at the mountain,” so this has been an enjoyable experiment.</p>
+<section id="winlink" class="level4">
+<h4 class="anchored" data-anchor-id="winlink">Winlink</h4>
+<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>'Baud': 38400</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>'PTT' : K3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -525,17 +590,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./portable-stations.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Portable Stations</span></span>
+      <a href="./ic-9700.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Icom IC-9700</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./gear.html" class="pagination-link">
-        <span class="nav-page-text">Gear</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

@@ -1,5 +1,5 @@
 ---
-title: "IC-705"
+title: "Icom IC-705"
 ---
 
 This chapter describes some specific steps used with the IC-705.

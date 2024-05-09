@@ -1,0 +1,58 @@
+---
+title: "Elecraft KX2"
+---
+
+## Manuals
+
+PDF manuals for the KX2 are here:
+
+- [Quick reference](pdf/KX2-quick-ref2.pdf.pdf)
+- [Manual](KX2-owners-man-B2.pdf.pdf)
+
+## Phone operations
+
+## CW Operations
+
+## Digital operations
+
+### Hardware
+
+```{mermaid}
+%%| title: "KX2 Connections"
+%%| fig-cap: "KX2 Block Diagram"
+flowchart TD
+  B[Evolve III PC]---|USB|F[Digirig]
+  A[KX2]---|Coax|G[Antenna]
+  F---|Spkr|A
+  F---|Mic|A
+  F---|Aux|A
+  A---|Optional|C[Battery]
+```
+
+#### Antenna
+
+- Suitable for band
+- BNC connector on rig
+
+### Software
+
+#### PC System
+
+1. Check ports and devices.
+
+Right click on Start Menu to open Device Manager.
+
+*Check 'Ports (COM and LPT)'*
+
+There should be two Silicon Labs Dual CP2105 USB to UART Bridge ports, one labelled Standard, the other labelled Enhanced. The enhanced gives CAT control. Note the number.
+
+*Check 'Audio inputs and outputs'*
+
+There should be two Digirig (USB Audio Devices).
+
+#### Winlink
+
+```default
+'Baud': 38400
+'PTT' : K3
+```
