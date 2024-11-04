@@ -48,7 +48,7 @@ There should be two Silicon Labs Dual CP2105 USB to UART Bridge ports, one label
 
 *Check 'Audio inputs and outputs'*
 
-There should be two Digirig (USB Audio Devices).
+There should be two Digirig (USB Audio) devices.
 
 #### Winlink
 

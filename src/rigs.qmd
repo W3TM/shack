@@ -35,22 +35,6 @@ I bought this radio new in the fall of 2020. This radio currently sits on my des
 
 I bought the Elecraft KX2 used in the summer of 2022.
 
-### Flex 1500
-
-![Flex 1500](https://k0pir.us/wp-content/uploads/2016/03/1500frontsmall-300x200.jpg){.fig-center width=60%}
-
-I'd heard great things about this little rig, so when one became available on QRZ.com, I bought it.
-
-I *love* the [PowerSDR software](https://ke9ns.com/flexpage.html) that KE9NS has lovingly kept improving.
-You can *drive* the radio without ever moving your hands from the keyboard!
-
-::: {.callout-note}
-
-Yes, I have too many radios.
-Show me a ham who loves the hobby who doesn't.
-
-:::
-
 ### QCX+ 
 
 ![QCX+](https://qrp-labs.com/images/qcxp/0/20200621_012756.jpg){.fig-center width=60%}
@@ -61,6 +45,12 @@ In the Winter of 2020, a group of club members built the [QRP Labs](https://qrp-
 
 ![Yaesu FT-891](https://static.dxengineering.com/global/images/prod/xlarge/ysu-ft-891_oh_xl.jpg)
 This is a popular POTA radio, and for good reason. It forms the core of my portable HF operation.
+
+### FX-4CR
+
+![FX-4CR](https://i0.wp.com/qrper.com/wp-content/uploads/2022/10/FX-4CR.webp?resize=768%2C512&ssl=1)
+
+This is a new rig in the shack as of October 2024.
 
 ## VHF/UHF
 
