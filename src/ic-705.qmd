@@ -8,20 +8,65 @@ This chapter describes some specific steps used with the IC-705.
 
 ### Winlink/VARA
 
-1. Connect the Evolve III laptop via USB.
+1. Connect the Evolve III laptop (or the MacBook Pro) via USB.
 2. Select the APRS/Packet Memory Group.
 3. Tune to 145.090 MHz (W3SWL-10).
 4. Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is *unload* it.
-5. Start Winlink on the PC.
+5. Start Winlink on the PC (Parallels on the Mac).
 6. Open the VARA FM connector.
-7. Start the connection.
-8. When finished, close the connection.
+
+::: {.callout-note}
+
+Here are the settings for the VARA FM modem:
+
+Under *Settings/VARA Setup*:
+
+Use defaults, but add W3TM and the W3TM Registration Key under VARA Licenses.
+
+Under *Settings/SoundCard*:
+
+*Device Input*: `Microphone (n- USB Audio CODEC`</br>
+*Device Output*: `Speakers (n- USB Audio CODEC`</br>
+
+Note: the `n` above depends on the specific machine.
+
+Under *Settings/PTT*:
+
+*PTT Via*: `CAT`</br>
+*Brand*: `Icom`</br>
+*Model*: `IC-705`</br>
+*Port* : `COM3` for Windows 11 under Parallels on MacBook Pro</br>
+*Bauds*: `19200`</br>
+*RTS* : not selected</br>
+*DTR* : not selected</br>
+*CI-V Address*: `A4`
+
+:::
+
+7. Start the connection by clicking on **Start** in the Vara FM Winlink Session window.
+
+::: {.callout-note}
+
+Here are some Winlink VARA FM Session-specific parameters:
+
+Under *Settings/Vara FM Setup*
+
+Keep the defaults, but make sure to *select*
+
+*Automatically launch Vara FM TNC when session is opened*</br>
+*Show VARA FM TNC screen when it's launched*
+
+The latter is optional, but gives additional feedback about what's happening.
+
+:::
+
+8. When finished, close the connection by closing the VARA FM Winlink Session window.
 
 ### Packet radio
 
-1. Connect the Evolve III laptop via USB.
+1. Connect the Evolve III laptop (or the MacBook Pro) via USB.
 2. Select the APRS/Packet Memory Group.
-3. Tune to 145.030 MHz (W3YA-1 and W3PHB-1 packet nodes).
+3. Tune to 145.030 MHz (W3YA-3 and W3PHB-3 packet nodes).
 4. Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is *not*, *load* it.
 
 ::: {.callout-note}
@@ -33,6 +78,29 @@ The SoundModem application recognizes the IC-7300 CI-V value, but not the IC-705
 
 5. Launch SoundModem on the PC.
 6. Monitor the waterfall and the SoundModem window. After a few minutes, there should be packets appearing in the application window.
+
+::: {.callout-note}
+
+Here are settings for the SoundModemn application:
+
+Sound Card</br>
+*Output device*: `USB Audio CODEC`</br>
+*Input device*: `USB Audio CODEC`</br>
+
+PTT Port</br>
+*Select PTT port*: `CAT`
+
+Then under Advanced PTT Settings</br>
+*Radio*: `IC7300`
+*COM port*: `COM3` for Windows 11 on Parallels via MacBook Pro</br>
+*Baudrate*: `19200`</br>
+*Data bits*: `8`</br>
+*Parity*: `None`</br>
+*Stop bits*: `1`</br>
+*DTR*: `Off`</br>
+*RTS*: `Off`
+
+:::
 
 ### Direwolf APRS
 

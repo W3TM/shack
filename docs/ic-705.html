@@ -265,22 +265,63 @@ ul.task-list li input[type="checkbox"] {
 <section id="winlinkvara" class="level3">
 <h3 class="anchored" data-anchor-id="winlinkvara">Winlink/VARA</h3>
 <ol type="1">
-<li>Connect the Evolve III laptop via USB.</li>
+<li>Connect the Evolve III laptop (or the MacBook Pro) via USB.</li>
 <li>Select the APRS/Packet Memory Group.</li>
 <li>Tune to 145.090 MHz (W3SWL-10).</li>
 <li>Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is <em>unload</em> it.</li>
-<li>Start Winlink on the PC.</li>
+<li>Start Winlink on the PC (Parallels on the Mac).</li>
 <li>Open the VARA FM connector.</li>
-<li>Start the connection.</li>
-<li>When finished, close the connection.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Here are the settings for the VARA FM modem:</p>
+<p>Under <em>Settings/VARA Setup</em>:</p>
+<p>Use defaults, but add W3TM and the W3TM Registration Key under VARA Licenses.</p>
+<p>Under <em>Settings/SoundCard</em>:</p>
+<p><em>Device Input</em>: <code>Microphone (n- USB Audio CODEC</code><br> <em>Device Output</em>: <code>Speakers (n- USB Audio CODEC</code><br></p>
+<p>Note: the <code>n</code> above depends on the specific machine.</p>
+<p>Under <em>Settings/PTT</em>:</p>
+<p><em>PTT Via</em>: <code>CAT</code><br> <em>Brand</em>: <code>Icom</code><br> <em>Model</em>: <code>IC-705</code><br> <em>Port</em> : <code>COM3</code> for Windows 11 under Parallels on MacBook Pro<br> <em>Bauds</em>: <code>19200</code><br> <em>RTS</em> : not selected<br> <em>DTR</em> : not selected<br> <em>CI-V Address</em>: <code>A4</code></p>
+</div>
+</div>
+<ol start="7" type="1">
+<li>Start the connection by clicking on <strong>Start</strong> in the Vara FM Winlink Session window.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Here are some Winlink VARA FM Session-specific parameters:</p>
+<p>Under <em>Settings/Vara FM Setup</em></p>
+<p>Keep the defaults, but make sure to <em>select</em></p>
+<p><em>Automatically launch Vara FM TNC when session is opened</em><br> <em>Show VARA FM TNC screen when it’s launched</em></p>
+<p>The latter is optional, but gives additional feedback about what’s happening.</p>
+</div>
+</div>
+<ol start="8" type="1">
+<li>When finished, close the connection by closing the VARA FM Winlink Session window.</li>
 </ol>
 </section>
 <section id="packet-radio" class="level3">
 <h3 class="anchored" data-anchor-id="packet-radio">Packet radio</h3>
 <ol type="1">
-<li>Connect the Evolve III laptop via USB.</li>
+<li>Connect the Evolve III laptop (or the MacBook Pro) via USB.</li>
 <li>Select the APRS/Packet Memory Group.</li>
-<li>Tune to 145.030 MHz (W3YA-1 and W3PHB-1 packet nodes).</li>
+<li>Tune to 145.030 MHz (W3YA-3 and W3PHB-3 packet nodes).</li>
 <li>Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is <em>not</em>, <em>load</em> it.</li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -300,6 +341,22 @@ Note
 <li>Launch SoundModem on the PC.</li>
 <li>Monitor the waterfall and the SoundModem window. After a few minutes, there should be packets appearing in the application window.</li>
 </ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Here are settings for the SoundModemn application:</p>
+<p>Sound Card<br> <em>Output device</em>: <code>USB Audio CODEC</code><br> <em>Input device</em>: <code>USB Audio CODEC</code><br></p>
+<p>PTT Port<br> <em>Select PTT port</em>: <code>CAT</code></p>
+<p>Then under Advanced PTT Settings<br> <em>Radio</em>: <code>IC7300</code> <em>COM port</em>: <code>COM3</code> for Windows 11 on Parallels via MacBook Pro<br> <em>Baudrate</em>: <code>19200</code><br> <em>Data bits</em>: <code>8</code><br> <em>Parity</em>: <code>None</code><br> <em>Stop bits</em>: <code>1</code><br> <em>DTR</em>: <code>Off</code><br> <em>RTS</em>: <code>Off</code></p>
+</div>
+</div>
 </section>
 <section id="direwolf-aprs" class="level3">
 <h3 class="anchored" data-anchor-id="direwolf-aprs">Direwolf APRS</h3>
