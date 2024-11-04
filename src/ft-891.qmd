@@ -1,10 +1,30 @@
 ---
-title: "FT-891"
+title: "Yaesu FT-891"
 ---
+
+## Manuals
+
+PDF manuals for the FT-891 are here:
+
+- [Basic](pdf/yaesu-ft-891-manual.pdf)
+- [Advanced](pdf/yaesu-ft-891-advanced.pdf)
 
 ## Digital operations
 
 ### Hardware
+
+```{mermaid}
+%%| title: "FT-891 Connections"
+%%| fig-cap: "FT-891 Block Diagram"
+flowchart TD
+  B[Evolve III PC]---|USB|F[Digirig]
+  B---|USB|A
+  A[FT-891]---|RTTY/DATA|F
+  A --- I[Mic]
+  A---|Power Poles|C[Power Supply]
+  A---|Coax|D[LDG Antenna Tuner]
+  D---|Coax|E[Antenna]
+```
 
 #### Rig
 
@@ -15,20 +35,20 @@ title: "FT-891"
 ::: {.callout-note}
 
 Here are the parameter settings on the rig interface.
-A long press on the `F` button brings up the extended menu.
+A long press on the 'F' button brings up the extended menu.
 
-`08-01 Data Mode`: others</br>
-`08-02 PSK Tone`: 1500</br>
-`08-03 Other Disp`: 1500</br>
-`08-04 Other Shift`: 1500</br>
-`08-06 Data LCUT Freq`: 100</br>
-`08-07 Data HCUT Freq`: 3000</br>
-`08-09 Data In Select`: Rear</br>
-`08-10 Data PTT Select`: DAKY</br>
-`08-11 Data Out Level`: 50</br>
-`08-12 Data BFO: USB`</br>
-`16-03 HF PWR`: 30</br>
-`16-10 Data Mic Gain`: 50</br>
+'08-01 Data Mode': others</br>
+'08-02 PSK Tone': 1500</br>
+'08-03 Other Disp': 1500</br>
+'08-04 Other Shift': 1500</br>
+'08-06 Data LCUT Freq': 100</br>
+'08-07 Data HCUT Freq': 3000</br>
+'08-09 Data In Select': Rear</br>
+'08-10 Data PTT Select': DAKY</br>
+'08-11 Data Out Level': 50</br>
+'08-12 Data BFO': USB</br>
+'16-03 HF PWR': 30</br>
+'16-10 Data Mic Gain': 50</br>
 
 *Front panel menu settings*:
 
@@ -49,7 +69,7 @@ Front Meter (MTR): ALC^[For testing, I often like to use PO]
 
 - Suitable for band
 
-### Software
+### Software ';;''''';''' 
 
 #### PC System
 
@@ -57,11 +77,11 @@ Front Meter (MTR): ALC^[For testing, I often like to use PO]
 
 Right click on Start Menu to open Device Manager.
 
-*Check `Ports (COM and LPT)`*
+*Check 'Ports (COM and LPT)'*
 
 There should be two Silicon Labs Dual CP2105 USB to UART Bridge ports, one labelled Standard, the other labelled Enhanced. The enhanced gives CAT control. Note the number. The default is COM 10.
 
-*Check `Audio inputs and outputs`*
+*Check 'Audio inputs and outputs'*
 
 There should be two Digirig (USB Audio Devices).
 
@@ -70,7 +90,7 @@ There should be two Digirig (USB Audio Devices).
 1. Power up the rig, if it's not already powered up.
 
 a. Tune to digital mode frequency, e.g. 7.070 MHz (PSK31).
-b. Confirm that mode is USB Data (`D-U`).
+b. Confirm that mode is USB Data ('D-U').
 
 2. Open fldigi.
 
@@ -80,15 +100,15 @@ a. Confirm that flrig launches, that fldigi launches, and that the frequency of 
 
 *Flrig settings:*
 
-`Configure menu / Setup / Transceiver`
+'Configure menu / Setup / Transceiver'
 
-`Rig`: FT-891</br>
-Port: COM10</br>
-`Baud`: 9600 (note this is controlled on rig under menu `05-06 CAT RATE`)
+'Rig': FT-891</br>
+'Port': COM10</br>
+'Baud': 9600 (note this is controlled on rig under menu '05-06 CAT RATE')
 
-Is flrig connected to rig? If so, `Connected` light will be green.
+Is flrig connected to rig? If so, 'Connected' light will be green.
 
-If not, press `Init` button to initiate/test connection.
+If not, press 'Init' button to initiate/test connection.
 
 :::
 
@@ -98,15 +118,15 @@ b. Confirm/edit fldigi settings
 
 ::: {.callout-note}
 
-`Configure menu / Configure dialog / Soundcard / Devices`
+'Configure menu / Configure dialog / Soundcard / Devices'
 
-`PortAudio`: Checked</br>
-`Capture`: Digirig (USB Audio interface)</br>
-`Playback`: Digirig (USB Audio interface)
+'PortAudio': Checked</br>
+'Capture': Digirig (USB Audio interface)</br>
+'Playback': Digirig (USB Audio interface)
 
-`Audio device shared by Audio Alerts and Rx Monitor`:
+'Audio device shared by Audio Alerts and Rx Monitor':
 
-`Enable`: If checked, select `Speakers` as output so as not to transmit system audio over the air.
+'Enable': If checked, select 'Speakers' as output so as not to transmit system audio over the air.
 
 :::
 
@@ -114,16 +134,16 @@ b. Confirm/edit fldigi settings
 
 ::: {.callout-note}
 
-`Enable flrig xcvr control with fldigi as client`: Checked</br>
-`Shutdown flrig with fldigi`: Checked</br>
+'Enable flrig xcvr control with fldigi as client': Checked</br>
+'Shutdown flrig with fldigi': Checked</br>
 
 :::
 
-3. Test transmit by pressing `TUNE`
+3. Test transmit by pressing 'TUNE'
 
-Monitor output on rig with `F / MTR / PO`. Power output on power meter should be comparable to output set on rig (~5-50 W). Rig menu is `16-03 HF PWR`. 
+Monitor output on rig with 'F / MTR / PO'. Power output on power meter should be comparable to output set on rig (~5-50 W). Rig menu is '16-03 HF PWR'. 
 
-Adjust the output level by switching to `F / MTR / ALC`. Press tune. Then use the `sndvol` applet on the PC to reduce the speaker output until the ALC is at a minimum. To launch `sndvol` type it into the search bar and press enter.
+Adjust the output level by switching to 'F / MTR / ALC'. Press tune. Then use the 'sndvol' applet on the PC to reduce the speaker output until the ALC is at a minimum. To launch 'sndvol' type it into the search bar and press enter.
 
 ::: {.callout-warning}
 
@@ -133,7 +153,7 @@ Because digital modes are high duty-cycle modes, it's best to use less than the 
 
 It can be useful to monitor the input (mic) and output (speaker) audio device levels on the PC.
 
-Type "Control Panel" in the search bar. Open `Hardware and Sound` and open the Digirig output (from PC) or Speaker panel or the Digirig input (to PC) or Mic panel. 
+Type "Control Panel" in the search bar. Open 'Hardware and Sound' and open the Digirig output (from PC) or Speaker panel or the Digirig input (to PC) or Mic panel. 
 
 Per Digirig instructions, the PC Speaker output is initially set at ~80%. But I have found that to reduce the ALC to a minimum means that my speaker level is ~15%.
 
@@ -142,6 +162,8 @@ The Mic level can be adjusted to achieve ideal "input" levels for a digital mode
 Full RF Gain results when the outer RF Gain knob on the rig is turned fully clockwise (to the right).
 
 ::: 
+
+#### Winlink
 
 
 

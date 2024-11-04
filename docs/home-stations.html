@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W3TM - Home Stations</title>
+<title>W3TM Shack - Home Stations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./stations.html">Stations</a></li><li class="breadcrumb-item"><a href="./home-stations.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Home Stations</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./stations.html">Stations</a></li><li class="breadcrumb-item"><a href="./home-stations.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Home Stations</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -93,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">W3TM</a> 
+      <a href="./">W3TM Shack</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -106,11 +106,6 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">About</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./preface.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -196,31 +191,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ft-891.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">FT-891</span></a>
+  <a href="./ft-891.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Yaesu FT-891</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ic-9700.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IC-9700</span></a>
+  <a href="./flex-6400.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Flex-6400</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ic-705.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IC-705</span></a>
+  <a href="./ic-705.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Icom IC-705</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ic-9700.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Icom IC-9700</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kx2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Elecraft KX2</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./engagement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Engagement</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./workbench.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Workbench</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -295,7 +290,7 @@ ul.task-list li input[type="checkbox"] {
 <pre class="mermaid mermaid-js">flowchart TD
   A[Flex 6400] --- B[Acer PC]
   A --- E(SmartControl)
-  A --- F[SPE Linear]
+  A --- F[SPE Linear Src 1]
   A --- C(Network Switch)
   C --- D(Wifi Router)
 </pre>
@@ -316,10 +311,11 @@ ul.task-list li input[type="checkbox"] {
   A[IC-7300] --- B[Acer PC]
   A --- H(Straight Key)
   A --- I(Heil Proset iC Headphones)
+  A --- J(DX Engineering PTT Footswitch)
   A --- C[Alinco 12V Power Supply]
   C --- D(Surge Protector)
   D --- E(120V outlet)
-  A --- F[SPE Linear]
+  A --- F[SPE Linear Src 2]
   F --- G(220V outlet)
 </pre>
 </div>
@@ -334,12 +330,35 @@ ul.task-list li input[type="checkbox"] {
 <p>I have a home office that I also use as an operating position.</p>
 <section id="hf-3-qrpvhfuhf" class="level3">
 <h3 class="anchored" data-anchor-id="hf-3-qrpvhfuhf">HF 3 (QRP/VHF/UHF)</h3>
-<p>A third HF station is located in my office. I’m running the <a href="./rigs.html#icom-ic-705">IC-705</a>. At the moment, the HF capability is receive-only, as I have a <a href="https://www.w6lvp.com/product/w6lvp-amplified-receive-only-magnetic-loop-antenna/">W6LVP</a> receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer.</p>
+<p>A third HF station is located in my office. I’m running the <a href="./rigs.html#icom-ic-705">IC-705</a>. At the moment, the HF capability is receive-only, as I have a <a href="https://www.w6lvp.com/product/w6lvp-amplified-receive-only-magnetic-loop-antenna/">W6LVP</a> receive only magnetic loop for the HF antenna. The VHF/UHF side of the rig is connected to a slim jim antenna. Both antennas connect via a diplexer to the sole IC-705 antenna port.</p>
+<div class="cell" title="HF-3 Connections">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+  A[IC-705]---|USB|B[Macbook Pro 15]
+  A --- I[Mic]
+  A --- C[Wall AC Adapter]
+  A---|Coax|D[HF/VHF + UHF Diplexer]
+  D---|Coax|E[W6LVP Preamp]
+  E---|Coax|H[W6LVP HF Loop]
+  E --- G[Wall AC Adapter]
+  D---|Coax|F[Slim Jim]
+</pre>
+</div>
+<p>HF-3 Block Diagram</p>
+</div>
+</div>
+</div>
+<section id="hf-1-remote" class="level4">
+<h4 class="anchored" data-anchor-id="hf-1-remote">HF 1 (remote)</h4>
+<p>I have been experimenting with <a href="./flex-6400.html">remote control over HF 1</a> using Windows 11 running on a Macbook Pro and Chrome Remote Desktop.</p>
+</section>
 </section>
 <section id="allstar-node" class="level3">
 <h3 class="anchored" data-anchor-id="allstar-node">Allstar node</h3>
 <p>I have a <a href="https://www.node-ventures.com/buy-clearnode/">ClearNode</a> UHF Allstar node on 51401. The node also supports EchoLink (W3TM-L).</p>
-<p>I used this node for the K3P Special Event station in June 2023. At least two hams connected via the node to participate in the event.</p>
+<p>I used this node for the <a href="https://w3tm.org/events.html#pride-k3p">K3P Special Event</a> station in June 2023. At least two hams connected via the node to participate in the event.</p>
 
 
 </section>

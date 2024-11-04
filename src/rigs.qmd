@@ -57,6 +57,11 @@ Show me a ham who loves the hobby who doesn't.
 
 In the Winter of 2020, a group of club members built the [QRP Labs](https://qrp-labs.com) QCX+ CW transceivers for the 40 m band.
 
+### Yaesu FT-891
+
+![Yaesu FT-891](https://static.dxengineering.com/global/images/prod/xlarge/ysu-ft-891_oh_xl.jpg)
+This is a popular POTA radio, and for good reason. It forms the core of my portable HF operation.
+
 ## VHF/UHF
 
 ### ICOM IC-9700

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W3TM - IC-705</title>
+<title>W3TM Shack - Icom IC-705</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +64,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./engagement.html" rel="next">
-<link href="./ic-9700.html" rel="prev">
+<link href="./ic-9700.html" rel="next">
+<link href="./flex-6400.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -75,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./ic-705.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">IC-705</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./ic-705.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Icom IC-705</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -90,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">W3TM</a> 
+      <a href="./">W3TM Shack</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -103,11 +137,6 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">About</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./preface.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -193,31 +222,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ft-891.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">FT-891</span></a>
+  <a href="./ft-891.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Yaesu FT-891</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ic-9700.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">IC-9700</span></a>
+  <a href="./flex-6400.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Flex-6400</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./ic-705.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">IC-705</span></a>
+  <a href="./ic-705.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Icom IC-705</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./ic-9700.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Icom IC-9700</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./kx2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Elecraft KX2</span></a>
   </div>
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./engagement.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Engagement</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./workbench.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Workbench</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -228,7 +257,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#digitalpacket-modes" id="toc-digitalpacket-modes" class="nav-link active" data-scroll-target="#digitalpacket-modes">Digital/Packet modes</a>
+  <li><a href="#manuals" id="toc-manuals" class="nav-link active" data-scroll-target="#manuals">Manuals</a></li>
+  <li><a href="#digitalpacket-modes" id="toc-digitalpacket-modes" class="nav-link" data-scroll-target="#digitalpacket-modes">Digital/Packet modes</a>
   <ul class="collapse">
   <li><a href="#winlinkvara" id="toc-winlinkvara" class="nav-link" data-scroll-target="#winlinkvara">Winlink/VARA</a></li>
   <li><a href="#packet-radio" id="toc-packet-radio" class="nav-link" data-scroll-target="#packet-radio">Packet radio</a></li>
@@ -244,7 +274,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">IC-705</span></h1>
+<h1 class="title"><span class="chapter-title">Icom IC-705</span></h1>
 </div>
 
 
@@ -260,16 +290,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>This chapter describes some specific steps used with the IC-705.</p>
+<section id="manuals" class="level2">
+<h2 class="anchored" data-anchor-id="manuals">Manuals</h2>
+<p>PDF versions of the manuals can be found here:</p>
+<ul>
+<li><a href="pdf/IC-705_ENG_Basic_6.pdf">Basic</a></li>
+<li><a href="pdf/IC-705_ENG_Advanced_3.pdf">Advanced</a></li>
+</ul>
+</section>
 <section id="digitalpacket-modes" class="level2">
 <h2 class="anchored" data-anchor-id="digitalpacket-modes">Digital/Packet modes</h2>
 <section id="winlinkvara" class="level3">
 <h3 class="anchored" data-anchor-id="winlinkvara">Winlink/VARA</h3>
 <ol type="1">
-<li>Connect the Evolve III laptop (or the MacBook Pro) via USB.</li>
-<li>Select the APRS/Packet Memory Group.</li>
-<li>Tune to 145.090 MHz (W3SWL-10).</li>
-<li>Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is <em>unload</em> it.</li>
-<li>Start Winlink on the PC (Parallels on the Mac).</li>
+<li>Connect the Evolve III laptop via USB. If using the MacBook Pro, connect the rig, start Parallels and log in to Windows 11.</li>
+<li>Turn the IC-705 on ([POWER]).</li>
+<li>Select the APRS/Packet Memory Group (04) on the IC-705.
+<ul>
+<li>Press MEMO on the touchscreen, then GROUP.</li>
+<li>Rotate the MULTI knob to ‘04: APRS/Packet’.</li>
+<li>Press the highlighted row ‘04: APRS/Packet’.</li>
+</ul></li>
+<li>Use the MULTI knob to tune to 145.090 MHz (the frequency for the W3SWL-10 Winlink node).</li>
+<li>Check whether the VHF Packet Preset Memory is in use
+<ul>
+<li>[MENU]/PRESET.</li>
+<li>Use the MULTI knob to select ‘4: VHF Packet’.</li>
+<li>If ‘4: VHF Packet’ is loaded, press UNLOAD.</li>
+</ul></li>
+<li>Start Winlink on the PC.</li>
 <li>Open the VARA FM connector.</li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -319,9 +368,10 @@ Note
 <section id="packet-radio" class="level3">
 <h3 class="anchored" data-anchor-id="packet-radio">Packet radio</h3>
 <ol type="1">
-<li>Connect the Evolve III laptop (or the MacBook Pro) via USB.</li>
-<li>Select the APRS/Packet Memory Group.</li>
-<li>Tune to 145.030 MHz (W3YA-3 and W3PHB-3 packet nodes).</li>
+<li>Start with the IC-705 <em>off</em>, especially if you are using the MacBookPro and Parallels.</li>
+<li>Connect the Evolve III laptop via USB. If using the MacBook Pro, connect the rig, start Parallels and log in to Windows 11.</li>
+<li>Select the APRS/Packet Memory Group on the rig.</li>
+<li>Tune to 145.030 MHz (W3YA-1 and W3PHB-1 packet nodes).</li>
 <li>Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is <em>not</em>, <em>load</em> it.</li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -334,7 +384,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This preset primarily changes the radio’s CI-V port from the default for the IC-705 (A4) to 94, the value used for the IC-7300. The SoundModem application recognizes the IC-7300 CI-V value, but not the IC-705.</p>
+<p>The VHF Packet preset primarily changes the radio’s CI-V port from the default for the IC-705 (A4) to 94, the value used for the IC-7300. The SoundModem application recognizes the IC-7300 CI-V value, but not the IC-705.</p>
 </div>
 </div>
 <ol start="5" type="1">
@@ -360,13 +410,97 @@ Note
 </section>
 <section id="direwolf-aprs" class="level3">
 <h3 class="anchored" data-anchor-id="direwolf-aprs">Direwolf APRS</h3>
+<section id="evolve-iii-laptop" class="level4">
+<h4 class="anchored" data-anchor-id="evolve-iii-laptop">Evolve III laptop</h4>
 <ol type="1">
-<li>Connect the Evolve III laptop via USB.</li>
-<li>Select the APRS/Packet Memory Group.</li>
+<li>Connect the Evolve III laptop via USB. If using the MacBook Pro, connect the rig, start Parallels and log in to Windows 11.</li>
+<li>Select the APRS/Packet Memory Group on the rig.</li>
 <li>Tune to 144.390 MHz.</li>
 <li>Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is <em>unload</em> it.</li>
 <li>Open the Direwolf configuration file and check that the settings are appropriate for the IC-705.</li>
 </ol>
+</section>
+<section id="macbook-pro-running-parallels" class="level4">
+<h4 class="anchored" data-anchor-id="macbook-pro-running-parallels">MacBook Pro (running Parallels)</h4>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Since I run a receive-only I-Gate that transmits received packets to APRS-IS already, I do not typically enable APRS-IS digipeating or beaconing on the IC-705/MacBook Pro set-up from my home office.</p>
+<p>This means that the station can usually only hear received RF packets, and does not transmit via RF or forward received packets via the Internet to APRS.IS.</p>
+<p>As a result, most of the APRS digipeater parameters in <code>direwolf.conf</code> are commented out.</p>
+<p>Also, if I’m using APRSIS32 to view packets, I <em>disable</em> ‘APRS-IS Enabled’ and ‘Beaconing Enabled’ under the Enables menu:</p>
+<p><img src="img/aprsis32-aprsis-enables-menu.png" class="img-fluid"></p>
+</div>
+</div>
+<ol type="1">
+<li>Start Parallels (Windows 11).</li>
+<li>Select the APRS/Packet Memory Group (04) on the IC-705.</li>
+<li>Tune to 144.390 MHz; FM-D mode.</li>
+<li>Check whether the VHF Packet Preset Memory is in use (Menu/Preset). If it is <em>unload</em> it.</li>
+<li>Open the Direwolf configuration file and check that the settings are appropriate for the IC-705.</li>
+</ol>
+<p>These parameters are the minimum needed for a receive only station (no IGate, no APRS-IS, no beaconing):</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>ADEVICE USB 0 0</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>AGWPORT 8000</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>KISSPORT 8001</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>To IGate heard packets to APRS-IS, we need the following:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>MYCALL W3TM-&lt;SSID&gt;</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>IGSERVER noam.aprs2.net</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>IGLOGIN W3TM-&lt;SSID&gt; &lt;APRS-pascode&gt;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>To beacon via RF, we need the following:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>PTT COM4 RTS</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>PBEACON delay=1  every=30 overlay=S symbol="dot" lat=40^47.87N long=077^30.95W power=10 height=10 gain=1 comment="State College PA" via=WIDE1-1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>To digipeat heard packets, we set the following:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>#DIGIPEAT 0 0 ^WIDE[3-7]-[1-7]$|^TEST$ ^WIDE[12]-[12]$</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="6" type="1">
+<li>Start Direwolf (<code>This PC\Local Disk(C:)\direwolf-1.7.0-9807304-_i686</code>)</li>
+</ol>
+<p>The following start-up text should be shown in the Direwolf window.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>Dire Wolf version 1.7</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>Includes optional support for:  cm108-ptt</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>Reading config file direwolf.conf</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>Available audio input devices for receive (*=selected):</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a> *  0: Microphone (3- USB Audio CODEC    (channel 0)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>    1: Microphone (High Definition Aud</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>Available audio output devices for transmit (*=selected):</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a> *  0: Speakers (3- USB Audio CODEC )   (channel 0)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    1: Speakers (High Definition Audio</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>Channel 0: 1200 baud, AFSK 1200 &amp; 2200 Hz, A+, 44100 sample rate.</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>Note: PTT not configured for channel 0. (Ignore this if using VOX.)</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>Ready to accept AGW client application 0 on port 8000 ...</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>Ready to accept KISS TCP client application 0 on port 8001 ...</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Adjust the Sound/Mic levels so that the strongest signals have <code>audio level = 50</code> or so.</p>
+<p>With the IC-705 setting as follows:</p>
+<p>‘Menu/Set/Connectors/MOD Input/USB MOD Level’ = 70%</p>
+<p>Setting the virtual PC mic level to ~80 seems to work well.</p>
+</div>
+</div>
+<ol start="7" type="1">
+<li>Launch APRSIS-32</li>
+</ol>
+<p>Here are the parameters for the Direwolf port using the AGW engine:</p>
+<p><img src="img/aprsis-direwolf-agw-params.png" class="img-fluid"> And here are the parameters for the APRS-IS port:</p>
+<p><img src="img/aprsis32-aprsis-port-params.png" class="img-fluid"></p>
+<p><em>Note</em>: This port is disabled under the current scheme.</p>
+</section>
 </section>
 </section>
 <section id="local-vhfuhf-phone-operations" class="level2">
@@ -648,13 +782,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./ic-9700.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">IC-9700</span></span>
+      <a href="./flex-6400.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Flex-6400</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./engagement.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Engagement</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./ic-9700.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Icom IC-9700</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

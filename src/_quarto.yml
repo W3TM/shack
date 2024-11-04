@@ -3,13 +3,11 @@ project:
   output-dir: "../docs"
 
 book:
-  title: "W3TM"
+  title: "W3TM Shack"
   author: "Rick Gilmore"
-  date: "2024-03-01"
   cover-image: img/transylvania-epic-2023.jpeg
   chapters:
     - index.qmd
-    - preface.qmd
     - part: stations.qmd
       chapters:
       - home-stations.qmd
@@ -27,16 +25,12 @@ book:
     - part: operating.qmd
       chapters: 
       - ft-891.qmd
-      - ic-9700.qmd
+      - flex-6400.qmd
       - ic-705.qmd
-    - engagement.qmd
-    - workbench.qmd
-
-
+      - ic-9700.qmd
+      - kx2.qmd
 format:
   html:
-    theme: cosmo
+    theme: default
     number-sections: false
     fig-align: center
-    
-    
