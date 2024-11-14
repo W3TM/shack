@@ -13,6 +13,62 @@ PDF versions of the manuals can be found here:
 
 ## Digital/Packet modes
 
+### DigiPi
+
+As of 2024-11-13, I have been testing a Raspberry Pi Zero 2W running [DigiPi](https://digipi.org) 1.91.
+
+Here is the initial configuration procedure:
+
+1. Flash the software on a microSD card.
+2. Install the microSD card into the Pi.
+3. Connect the Pi to power via the USB micro port farthest from the microSD card.
+4. When the Pi boots, it will create a DigiPi hotspot.
+
+![DigiPi hotspot](img/digipi-hotspot.png)
+
+5. Open a browser and visit http://10.0.0.5/wifi.php
+6. Enter your wifi credentials and save them.
+7. Reboot the Pi.
+8. After the Pi reboots, open a configuration panel by visiting http://digipi.local/.
+
+![Initialization screen](img/digipi-initialize-screen.png)
+
+9. Complete parameters, especially Callsign, [Winlink](https://winlink.org) Password, APRS [passcode](http://n5dux.com/ham/aprs-passcode/), Grid Square, Latitude and Longitude (thanks https://grid.radio). For IC-705 via USB, select USB-Connected Radio for Radio Interface. The default parameters (Rig number 3085; Device file ttyACM0, and Baud rate 115200) work well.
+10. Press the initialize button, and then the Reboot button to save the changes and reboot the Pi.
+11. After the Pi reboots, visit http://digipi.local/.
+12. Click on the Screen item below the list of services.
+
+![](img/digipi-display-window.png)
+
+13. Tune the rig to an APRS frequency (e.g., 144.390 MHz). When you hear packets, you should see callsigns in the window.
+14. To test Winlink, turn the Pat Winlink Email Client *on*. The Pat Winlink Email indicator should turn green and so should the Rig Control Daemon.
+
+![](img/digipi-service-pat.png)
+
+15. Click on the Pat Email link. The Pat mailbox opens.
+16. Click on the Ready indicator to the right of your callsign.
+17. A Connect to remote node... window will open.
+18. Select "Telnet" for the transport: protocol. Monitor the console to confirm that the DigiPi connected to the default telnet (internet) Winlink server.
+
+
+::: {.callout-important}
+
+I tried connecting to W3SWL-10 on 145.090 MHz using the AX.25 transport protocol.
+
+I got the following error message at the console:
+
+![](img/digipi-winlink-packet-error.png)
+
+**It worked when I started the Linux Node AX.25 service AND the Pat Winlink Email Client.**
+
+:::
+
+19. To test APRS Web Chat, click on Webchat. This will open a DigiPi APRS WebChat window.
+  - Get a weather forecast by messaging WXYO with the message 24 (for 24 hours). Or send your zip code to WXBOT.
+  - Here are some other bots to try: WHO-IS ISS CQSVR ANSRVR EMAIL WXBOT
+
+![APRS WebChat](img/digipi-webchat.png)
+
 ### Winlink/VARA
 
 1. Start with the IC-705 *off*.

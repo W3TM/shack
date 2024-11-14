@@ -260,6 +260,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#manuals" id="toc-manuals" class="nav-link active" data-scroll-target="#manuals">Manuals</a></li>
   <li><a href="#digitalpacket-modes" id="toc-digitalpacket-modes" class="nav-link" data-scroll-target="#digitalpacket-modes">Digital/Packet modes</a>
   <ul class="collapse">
+  <li><a href="#digipi" id="toc-digipi" class="nav-link" data-scroll-target="#digipi">DigiPi</a></li>
   <li><a href="#winlinkvara" id="toc-winlinkvara" class="nav-link" data-scroll-target="#winlinkvara">Winlink/VARA</a></li>
   <li><a href="#packet-radio" id="toc-packet-radio" class="nav-link" data-scroll-target="#packet-radio">Packet radio</a></li>
   <li><a href="#direwolf-aprs" id="toc-direwolf-aprs" class="nav-link" data-scroll-target="#direwolf-aprs">Direwolf APRS</a></li>
@@ -300,6 +301,82 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="digitalpacket-modes" class="level2">
 <h2 class="anchored" data-anchor-id="digitalpacket-modes">Digital/Packet modes</h2>
+<section id="digipi" class="level3">
+<h3 class="anchored" data-anchor-id="digipi">DigiPi</h3>
+<p>As of 2024-11-13, I have been testing a Raspberry Pi Zero 2W running <a href="https://digipi.org">DigiPi</a> 1.91.</p>
+<p>Here is the initial configuration procedure:</p>
+<ol type="1">
+<li>Flash the software on a microSD card.</li>
+<li>Install the microSD card into the Pi.</li>
+<li>Connect the Pi to power via the USB micro port farthest from the microSD card.</li>
+<li>When the Pi boots, it will create a DigiPi hotspot.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/digipi-hotspot.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">DigiPi hotspot</figcaption>
+</figure>
+</div>
+<ol start="5" type="1">
+<li>Open a browser and visit http://10.0.0.5/wifi.php</li>
+<li>Enter your wifi credentials and save them.</li>
+<li>Reboot the Pi.</li>
+<li>After the Pi reboots, open a configuration panel by visiting http://digipi.local/.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/digipi-initialize-screen.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Initialization screen</figcaption>
+</figure>
+</div>
+<ol start="9" type="1">
+<li>Complete parameters, especially Callsign, <a href="https://winlink.org">Winlink</a> Password, APRS <a href="http://n5dux.com/ham/aprs-passcode/">passcode</a>, Grid Square, Latitude and Longitude (thanks https://grid.radio). For IC-705 via USB, select USB-Connected Radio for Radio Interface. The default parameters (Rig number 3085; Device file ttyACM0, and Baud rate 115200) work well.</li>
+<li>Press the initialize button, and then the Reboot button to save the changes and reboot the Pi.</li>
+<li>After the Pi reboots, visit http://digipi.local/.</li>
+<li>Click on the Screen item below the list of services.</li>
+</ol>
+<p><img src="img/digipi-display-window.png" class="img-fluid"></p>
+<ol start="13" type="1">
+<li>Tune the rig to an APRS frequency (e.g., 144.390 MHz). When you hear packets, you should see callsigns in the window.</li>
+<li>To test Winlink, turn the Pat Winlink Email Client <em>on</em>. The Pat Winlink Email indicator should turn green and so should the Rig Control Daemon.</li>
+</ol>
+<p><img src="img/digipi-service-pat.png" class="img-fluid"></p>
+<ol start="15" type="1">
+<li>Click on the Pat Email link. The Pat mailbox opens.</li>
+<li>Click on the Ready indicator to the right of your callsign.</li>
+<li>A Connect to remote node… window will open.</li>
+<li>Select “Telnet” for the transport: protocol. Monitor the console to confirm that the DigiPi connected to the default telnet (internet) Winlink server.</li>
+</ol>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I tried connecting to W3SWL-10 on 145.090 MHz using the AX.25 transport protocol.</p>
+<p>I got the following error message at the console:</p>
+<p><img src="img/digipi-winlink-packet-error.png" class="img-fluid"></p>
+<p><strong>It worked when I started the Linux Node AX.25 service AND the Pat Winlink Email Client.</strong></p>
+</div>
+</div>
+<ol start="19" type="1">
+<li>To test APRS Web Chat, click on Webchat. This will open a DigiPi APRS WebChat window.</li>
+</ol>
+<ul>
+<li>Get a weather forecast by messaging WXYO with the message 24 (for 24 hours). Or send your zip code to WXBOT.</li>
+<li>Here are some other bots to try: WHO-IS ISS CQSVR ANSRVR EMAIL WXBOT</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/digipi-webchat.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">APRS WebChat</figcaption>
+</figure>
+</div>
+</section>
 <section id="winlinkvara" class="level3">
 <h3 class="anchored" data-anchor-id="winlinkvara">Winlink/VARA</h3>
 <ol type="1">
