@@ -1,0 +1,68 @@
+---
+title: "FX-4CR"
+---
+
+## Video
+
+{{< video https://youtu.be/_GS6oAWgm58?si=na1ucIupyi26mmyt >}}
+
+## Phone operations
+
+```{mermaid}
+%%| title: "FX-4CR Connections Phone"
+%%| fig-cap: "FX-4CR block diagram for phone ops"
+flowchart TD
+  B[Evolve III PC]---|USB|A[FX4CR]
+  A---|Coax|G[Antenna]
+  F[Mic]---A
+  A---C[Battery]
+```
+
+## CW Operations
+
+```{mermaid}
+%%| title: "FX-4CR Connections CW"
+%%| fig-cap: "FX-4CR block diagram for CW ops"
+flowchart TD
+  B[Evolve III PC]---|USB|A[FX4CR]
+  A---|Coax|G[Antenna]
+  F[key/paddles]---A
+  A---C[Battery]
+```
+
+## Digital operations
+
+### Hardware
+
+```{mermaid}
+%%| title: "FX-4CR Connections Digital"
+%%| fig-cap: "FX-4CR block diagram for digital ops"
+flowchart TD
+  B[Evolve III PC]---|USB|A[FX4CR]
+  A---|Coax|G[Antenna]
+  A---C[Battery]
+```
+
+#### Antenna
+
+- Suitable for band
+- BNC connector on rig
+
+### Software
+
+#### PC System
+
+1. Check ports and devices.
+
+Right click on Start Menu to open Device Manager.
+
+*Check 'Ports (COM and LPT)'*
+
+There should be two Silicon Labs Dual CP2105 USB to UART Bridge ports, one labelled Standard, the other labelled Enhanced. The enhanced gives CAT control. Note the number.
+
+*Check 'Audio inputs and outputs'*
+
+There should be two USB Audio Devices.
+
+#### Winlink
+

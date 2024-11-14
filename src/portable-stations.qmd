@@ -7,6 +7,10 @@ title: "Portable Stations"
 I primarily use the [FT-891](rigs.qmd#yaesu-ft-891) when I operate Winter Field Day or the occasional POTA activation.
 It is also useful for HF Winlink operations for Emergency Communications when paired with a lightweight laptop like the Evolve III.
 
+## FX-4CR
+
+In October 2024 I purchased an [FX-4CR](fx4cr.qmd).
+
 ## VHF/UHF Go-box
 
 I have a [Tytera TYT-8600](rigs.qmd#tytera-tyt-th-8600) radio in a small go-box configuration with an included 12 Ah Bioenno $LiFePO_4$ battery.

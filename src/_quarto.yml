@@ -29,6 +29,7 @@ book:
       - ic-705.qmd
       - ic-9700.qmd
       - kx2.qmd
+      - fx4cr.qmd
 format:
   html:
     theme: default
