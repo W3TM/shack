@@ -14,6 +14,7 @@ book:
       - mobile-stations.qmd
       - portable-stations.qmd
       - remote-stations.qmd
+      - software.qmd
     - part: gear.qmd
       chapters:
       - rigs.qmd

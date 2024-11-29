@@ -9,7 +9,7 @@ There are separate sections for HF rigs, VHF/UHF rigs, HTs, hotspots, and specia
 
 ### FlexRadio 6400
 
-![Flex-6400](https://edge.flexradio.com/www/offload/20221117142900/FlexRadio_products-2020_6400_45-left_9040-2400x2400px__08082.1594670218.1280.1280__62153.1668463138.1280.1280.jpg){.fig-center width=60%}
+![Flex-6400](https://edge.flexradio.com/www/offload/20221117142900/FlexRadio_products-2020_6400_45-left_9040-2400x2400px__08082.1594670218.1280.1280__62153.1668463138.1280.1280.jpg){.fig-center width=60% #fig-flex-6400}
 
 I acquired this radio used in the summer of 2021. It has the internal antenna tuning unit (ATU).
 
@@ -17,7 +17,7 @@ It connects to an [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expert-lin
 
 ### ICOM IC-7300
 
-![ICOM IC-7300](https://static.dxengineering.com/global/images/prod/xlarge/ico-ic-7300_it_xl.jpg){.fig-center width=60%}
+![ICOM IC-7300](https://static.dxengineering.com/global/images/prod/xlarge/ico-ic-7300_it_xl.jpg){.fig-center width=60% #fig-ic-7300}
 
 This radio was new when I bought it in the summer of 2016.
 
@@ -25,30 +25,30 @@ It also connects to the [SPE Expert Linear 1K amplifier](amplifiers.qmd#spe-expe
 
 ### ICOM IC-705
 
-![ICOM IC-705](https://static.dxengineering.com/global/images/prod/xlarge/ico-ic-705_xl.jpg){.fig-center width=60%}
+![ICOM IC-705](https://static.dxengineering.com/global/images/prod/xlarge/ico-ic-705_xl.jpg){.fig-center width=60% #fig-ic-705}
 
 I bought this radio new in the fall of 2020. This radio currently sits on my desk in my upstairs office.
 
 ### Elecraft KX2
 
-![Elecraft KX2](https://cdn.shopify.com/s/files/1/2029/4979/products/kx2-product-hero_530x@2x.jpg?v=1549861527){.fig-center width=60%}
+![Elecraft KX2](https://cdn.shopify.com/s/files/1/2029/4979/products/kx2-product-hero_530x@2x.jpg?v=1549861527){.fig-center width=60% #fig-elecraft-kx2}
 
 I bought the Elecraft KX2 used in the summer of 2022.
 
 ### QCX+ 
 
-![QCX+](https://qrp-labs.com/images/qcxp/0/20200621_012756.jpg){.fig-center width=60%}
+![QCX+](https://qrp-labs.com/images/qcxp/0/20200621_012756.jpg){.fig-center width=60% #fig-qcx-plus}
 
 In the Winter of 2020, a group of club members built the [QRP Labs](https://qrp-labs.com) QCX+ CW transceivers for the 40 m band.
 
 ### Yaesu FT-891
 
-![Yaesu FT-891](https://static.dxengineering.com/global/images/prod/xlarge/ysu-ft-891_oh_xl.jpg)
+![Yaesu FT-891](https://static.dxengineering.com/global/images/prod/xlarge/ysu-ft-891_oh_xl.jpg){#fig-yaesu-ft-891}
 This is a popular POTA radio, and for good reason. It forms the core of my portable HF operation.
 
 ### FX-4CR
 
-![FX-4CR](https://i0.wp.com/qrper.com/wp-content/uploads/2022/10/FX-4CR.webp?resize=768%2C512&ssl=1)
+![FX-4CR](https://i0.wp.com/qrper.com/wp-content/uploads/2022/10/FX-4CR.webp?resize=768%2C512&ssl=1){#fig-fx4cr}
 
 This is a new rig in the shack as of October 2024.
 
@@ -56,7 +56,7 @@ This is a new rig in the shack as of October 2024.
 
 ### ICOM IC-9700
 
-![](https://www.gigaparts.com/media/catalog/product/cache/dfaec006bd6782dbad92b9435baa8bcf/i/c/ic_9700.jpg){.fig-center width=60%}
+![ICOM IC-9700](https://www.gigaparts.com/media/catalog/product/cache/dfaec006bd6782dbad92b9435baa8bcf/i/c/ic_9700.jpg){.fig-center width=60% #fig-ic-9700}
 
 The IC-9700 is the newest rig in the shack.
 I'm planning some additional VHF and UHF work with it, including satellites, and possibly a future APRStt project.
@@ -71,35 +71,41 @@ More details about specific uses of the IC-9700 can be found [here](ic-9700.qmd)
 ![ICOM IC-705](https://static.dxengineering.com/global/images/prod/xlarge/ico-ic-705_xl.jpg){.fig-center width=60%}
 
 The IC-705 is also capable of VHF and UHF operations at up to 10 W.
-I use this rig to monitor the local VHF and UHF repeaters and to connect to the [W3SWL-10](https://aprs.fi/info/a/W3SWL-10) Winlink node.
+I use this rig to monitor the local VHF and UHF repeaters and to connect to the [W3SWL-10](https://aprs.fi/info/a/W3SWL-10) Winlink node using either a Parallels instance of Windows 11 running on my MacBook Pro or a DigiPi.
 
-### Kenwood TM-710GA {}
+### Kenwood TM-710GA
 
-![Kenwood TM-710G](https://kasc.kenwood.com/files/website/categories/11/comm/amateur-vhf_uhf_mobiles2.png){.fig-center width=60%}
+![Kenwood TM-710G](https://kasc.kenwood.com/files/website/categories/11/comm/amateur-vhf_uhf_mobiles2.png){.fig-center width=60% #fig-tm-710g}
 
 This VHF (2 m)/UHF (70 cm) transceiver was purchased new in the summer of 2016.
-It is installed in our Kia Forte.
-I usually beacon APRS packets when I am mobile under the callsign [W3TM-1](https://aprs.fi/info/a/W3TM-1).
+It was installed in our Kia Forte, but is now installed in my shack.
+
+### Yaesu FTM-300DR
+
+![Yaesu FTM-300DR](https://www.gigaparts.com/media/catalog/product/cache/b941578d537b70abcd974c527f3ebed5/f/t/ftm-300dr_front.jpg){#fig-yaesu-ftm-300}
+
+This radio is installed in our Honda Civic.
+Look for APRS beacons when I am mobile from [W3TM-7](https://aprs.fi/info/a/W3TM-7).
 
 ### Yaesu FTM-400XDR
 
-![Yaesu FTM-400XDR](https://www.yaesu.com/ProductImages/FTM-400DRXDR_thumb.jpg){.fig-center width=60%}
+![Yaesu FTM-400XDR](https://www.yaesu.com/ProductImages/FTM-400DRXDR_thumb.jpg){.fig-center width=60% #fig-yaesu-ftm-400}
 
 I bought the FTM-400 new in the box from K3ARL in the summer of 2022. 
 He had bought it as a gift for his business partner and friend, Eric Brooks N3EB.
 Sadly, N3EB died in the fall of 2021, and never got to enjoy the radio.
 N3EB was one of my Elmers, and so I am glad that I get to enjoy this rig and remember Eric.
-I use this rig to beacon APRS packets under [W3TM-2](https://aprs.fi/info/a/W3TM-2).
+I have used this rig to beacon APRS packets under [W3TM-2](https://aprs.fi/info/a/W3TM-2), but as of Fall 2024, it is off the air.
 
 ### Kenwood TM-281A
 
-![Kenwood TM-281A](https://i.ebayimg.com/images/g/u1YAAOSwMvFivUWN/s-l500.jpg){.fig-center width=60%}
+![Kenwood TM-281A](https://i.ebayimg.com/images/g/u1YAAOSwMvFivUWN/s-l500.jpg){.fig-center width=60% #fig-tm-281a}
 
-The Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my [W3TM-11 I-Gate](https://aprs.fi/info/a/W3TM-11).
+The Kenwood TM-281A is a mobile radio, but I use it in my home shack to support my [W3TM-10 I-Gate](https://aprs.fi/info/a/W3TM-10).
 
 ### Tytera TYT TH-8600
 
-![Tytera TYT TH-8600](https://m.media-amazon.com/images/I/61d1V-d4B4L._AC_SX679_.jpg){.fig-center width=60%}
+![Tytera TYT TH-8600](https://m.media-amazon.com/images/I/61d1V-d4B4L._AC_SX679_.jpg){.fig-center width=60% #fig-tytera-th-8600}
 
 This radio is the core of a go-box I use in mobile/portable operations.
 
@@ -107,15 +113,15 @@ This radio is the core of a go-box I use in mobile/portable operations.
 
 ### ICOM ID-51A
 
-![ICOM ID-51A](https://static.dxengineering.com/global/images/prod/xlarge/ico-id51aplus2bk_us_xl.jpg){.fig-center width=60%}
+![ICOM ID-51A](https://static.dxengineering.com/global/images/prod/xlarge/ico-id51aplus2bk_us_xl.jpg){.fig-center width=60% #fig-id-51a}
 
 ### Yaesu FT-70D
 
-![Yaesu FT-70D](https://www.yaesu.com/ProductImages/FT-70DR_thumb.jpg){.fig-center}
+![Yaesu FT-70D](https://www.yaesu.com/ProductImages/FT-70DR_thumb.jpg){.fig-center #fig-yaesu-ft-70d}
 
 ### Kenwood TH-72A
 
-![Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/images/image_product01_big.jpg){.fig-center}
+![Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/images/image_product01_big.jpg){.fig-center #fig-kenwood-th-72a}
 
 I bought the [Kenwood TH-72A](https://www.kenwood.com/usa/com/amateur/th-d72a/) used several years ago.
 This rigs are notable for supporting full duplex, a desirable characteristic for FM satellite work.

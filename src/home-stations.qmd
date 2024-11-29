@@ -84,6 +84,8 @@ flowchart TD
   E---|Coax|H[W6LVP HF Loop]
   E --- G[Wall AC Adapter]
   D---|Coax|F[Slim Jim]
+  A ---|USB|K[Raspberry Pi 3B]
+  K ---|USB|J[USB Battery]
 ```
 
 #### HF 1 (remote)
@@ -93,7 +95,7 @@ I have been experimenting with [remote control over HF 1](flex-6400.qmd) using W
 ### Allstar node
 
 I have a [ClearNode](https://www.node-ventures.com/buy-clearnode/) UHF Allstar node on 51401.
-The node also supports EchoLink (W3TM-L).
+The node supports EchoLink (W3TM-L), and as of 2024-11-28 it connects to the Brandmeister DMR network.
 
 I used this node for the [K3P Special Event](https://w3tm.org/events.html#pride-k3p) station in June 2023. 
 At least two hams connected via the node to participate in the event.
