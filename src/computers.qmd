@@ -2,6 +2,8 @@
 title: "Computers"
 format: html
 editor: source
+params:
+  software_fn: "w3tm-shack-software"
 ---
 
 Computers are an integral part of amateur radio.
@@ -9,7 +11,7 @@ Here are some descriptions of the computers and software I use in my operations.
 
 ## Windows
 
-I have an Acer laptop in my home shack that is the main control computer for the Flex-6400 and logging computer for the Flex-6400 and the IC-7300.
+I have Beelink PC in my home shack that is the main control computer for the Flex-6400 and logging computer for the Flex-6400 and the IC-7300.
 
 I have an Evolve III netbook that I use for portable operations and to retrieve Winlink messages when I am at home using the IC-705 and the W3SWL-10 VHF Winlink node.
 
@@ -49,6 +51,35 @@ My HamClock application runs on a dedicated Raspberry Pi 3B+ with a 7" touchscre
 My [NodeRed server](workbench.qmd#nodered) runs on a Raspberry Pi, but is currently offline.
 
 ## Software
+
+In 2024, I started keeping track of the software versions used on the Nittany Amateur Radio Club's mountaintop club station using a Google Sheet.
+I update the sheet anytime I upgrade software versions.
+Then, I can download the update log and present it in the club's operating manual.
+I use a similar workflow here.
+
+```{r}
+#| label: retrieve-software-version-file
+#| echo: false
+#| message: false
+
+csv_path <- file.path("include", "csv")
+if (!dir.exists(csv_path)) {
+  assertthat::is.writeable(csv_path)
+  message("Creating missing file path: ", csv_path)
+  dir.create(csv_path)
+}
+
+options(gargle_oauth_email = Sys.getenv("GMAIL_ACCT"))
+googledrive::drive_auth()
+
+assertthat::is.string(params$software_fn)
+googledrive::drive_download(
+  params$software_fn,
+  path = file.path("include/csv", "w3tm-software-versions.csv"),
+  type = "csv",
+  overwrite = TRUE
+)
+```
 
 ### Logging
 
