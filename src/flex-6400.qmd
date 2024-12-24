@@ -1,5 +1,7 @@
 ---
 title: "Flex-6400"
+params:
+  software_data: "include/csv/w3tm-software-versions.csv"
 ---
 
 This chapter describes some specific steps used with the Flex 6400.
@@ -9,6 +11,78 @@ This chapter describes some specific steps used with the Flex 6400.
 - SmartSDR [manual](pdf/SmartSDR-Software-User-Guide.pdf)
 - Flex-6400 [manual](pdf/FLEX-6400-and-FLEX-6600-Hardware-Reference-Manual.pdf)
 
+## Setup
+
+Load the software database.
+
+```{r}
+#| label: load-software-data
+#| echo: false
+
+assertthat::is.readable(params$software_data)
+sw <- readr::read_csv(file = params$software_data, show_col_types = FALSE)
+
+# Select Beelink software
+pc <- sw |>
+  dplyr::filter(machine == "Beelink")
+```
+
+## VarAC
+
+### Hardware
+
+#### PC
+
+- Beelink Windows 11
+
+#### Antenna
+
+- Comet antenna mounted externally
+- Connected via coax patch panel
+
+### Software
+
+```{r}
+#| label: select-vara-sw
+#| echo: false
+
+vara <- pc |>
+  dplyr::filter(package %in% c('VARA HF', 'VarAC'))
+```
+
+The packages used with VarAC are as follows:
+
+```{r}
+#| label: tbl-varac-packages
+#| echo: false
+#| tbl-caption: "Packages used with VarAC"
+
+vara |>
+  dplyr::select(package, version) |>
+  kableExtra::kable(format = 'html') |>
+  kableExtra::kable_classic()
+```
+
+#### Package settings
+
+Here are screenshots of settings for VarAC.
+
+![VarAC Rig Settings for Flex 6400](include/img/varac-settings-rig.png){#fig-varac-settings-rig}
+
+![VarAC VARA settings for Flex 6400](include/img/varac-settings-vara.png){#fig-varac-settings-vara}
+
+Here are the settings for VARA HF:
+
+![VARA HF setup](include/img/vara-hf-settings-setup.png){#fig-vara-hf-settings-setup}
+
+![VARA HF soundcard settings for Flex 6400](include/img/vara-hf-settings-soundcard.png){#fig-vara-hf-settings-soundcard}
+
+### Operating
+
+1. Select Global Profile "Shack digital 45W"
+  - This disables AGC and any RX or TX filters
+  - The mode is DIGU
+  
 ## Digital modes
 
 ### fldigi (remote via Chrome Remote Desktop)

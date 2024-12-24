@@ -328,7 +328,7 @@ PTT Port Function: 'PTT Input + SEND Output`
 
 #### PC
 
-- Acer Windows 10 laptop
+- Beelink Windows 11
 
 #### Antenna
 
@@ -413,3 +413,5 @@ TNC Setup: Paclen: `80`
 7. Select target from 'CallTo' menu, usually `W3YA-3` or `W3PHB-3`
 8. Press the 'Connect' button to connect.
 7. Turn up AF gain to monitor QSO. You will hear sound from the packet BBS, but not your own output (unless you have turned up the monitor level on the rig).
+
+

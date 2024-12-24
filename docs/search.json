@@ -123,14 +123,22 @@
     "href": "software.html#operating-system",
     "title": "Software",
     "section": "Operating System",
-    "text": "Operating System\n\n\n\n\n\nmachine\nversion\ndate\n\n\n\n\nmacbook-pro\n14.4\n2024-11-29"
+    "text": "Operating System\n\n\n\n\n\nmachine\nversion\ndate\n\n\n\n\nmacbook-pro\n6.2.113\n2024-11-29\n\n\nmacbook-pro\n20.1.1\n2024-11-29",
+    "crumbs": [
+      "Stations",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Software</span>"
+    ]
   },
   {
     "objectID": "software.html#macbook-pro",
     "href": "software.html#macbook-pro",
     "title": "Software",
     "section": "MacBook Pro",
-    "text": "MacBook Pro"
+    "text": "MacBook Pro",
+    "crumbs": [
+      "Stations",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Software</span>"
+    ]
   },
   {
     "objectID": "gear.html",
@@ -360,15 +368,23 @@
     "objectID": "flex-6400.html#manuals",
     "href": "flex-6400.html#manuals",
     "title": "Flex-6400",
-    "section": "Manuals",
-    "text": "Manuals\n\nSmartSDR manual\nFlex-6400 manual"
+    "section": "",
+    "text": "SmartSDR manual\nFlex-6400 manual",
+    "crumbs": [
+      "Operating",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Flex-6400</span>"
+    ]
   },
   {
     "objectID": "flex-6400.html#digital-modes",
     "href": "flex-6400.html#digital-modes",
     "title": "Flex-6400",
     "section": "Digital modes",
-    "text": "Digital modes\n\nfldigi (remote via Chrome Remote Desktop)\n\nFrom Kasa, power-up the Alinco power supply and the Flex radio.\nConnnect to the Acer PC via Chrome Remote Desktop\nStart SmartSDR v3.7.3\nSelect Profiles/Global/Shack-fldigi\n\nThe rig should switch to the appropriate mode (DIGU) and the PaNBEMS Sunday morning net frequency (3.583 MHz).\n\nConfirm that the current slice has DAX selected and that the SmartSDR DAX panel shows audio from that slice.\nOpen fldigi (v4.2.03)\n\nfldigi should open to 3.583 MHz and show signals in the waterfall.\n\n\n\n\n\n\nTip\n\n\n\nfldigi uses Hamlib for rig control. Here are the key settings under Configure/Rig Control/Hamlib:\n\n\n\nYou may need to manually set the mode, such as to THOR22.\n\nTo shut down:\n\n\nClose fldigi\nClose/quit SmartSDR\nClose Chrome Remote Desktop\nFrom Kasa:\n\nTurn off FlexRadio\nTurn off Acer monitor\nWait 10s\nTurn off Alinco power supply (also grounds antennas)"
+    "text": "Digital modes\n\nfldigi (remote via Chrome Remote Desktop)\n\nFrom Kasa, power-up the Alinco power supply and the Flex radio.\nConnnect to the Acer PC via Chrome Remote Desktop\nStart SmartSDR v3.7.3\nSelect Profiles/Global/Shack-fldigi\n\nThe rig should switch to the appropriate mode (DIGU) and the PaNBEMS Sunday morning net frequency (3.583 MHz).\n\nConfirm that the current slice has DAX selected and that the SmartSDR DAX panel shows audio from that slice.\nOpen fldigi (v4.2.03)\n\nfldigi should open to 3.583 MHz and show signals in the waterfall.\n\n\n\n\n\n\nTip\n\n\n\nfldigi uses Hamlib for rig control. Here are the key settings under Configure/Rig Control/Hamlib:\n\n\n\nYou may need to manually set the mode, such as to THOR22.\n\nTo shut down:\n\n\nClose fldigi\nClose/quit SmartSDR\nClose Chrome Remote Desktop\nFrom Kasa:\n\nTurn off FlexRadio\nTurn off Acer monitor\nWait 10s\nTurn off Alinco power supply (also grounds antennas)",
+    "crumbs": [
+      "Operating",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Flex-6400</span>"
+    ]
   },
   {
     "objectID": "ic-705.html#manuals",
@@ -436,7 +452,7 @@
     "href": "ic-9700.html#packet",
     "title": "Icom IC-9700",
     "section": "Packet",
-    "text": "Packet\n\nRig\n\nIC-9700\nUSB A/B cable\n\n\n\n\n\n\n\nNote\n\n\n\nFrequency: 145.030 MHz (this frequency is stored in one of the memories) Mode: FM-D (digital)\nThe following settings do not change from Winlink or APRS-tt (via Direwolf)\nConnectors/ USB AF/IF Output/Output Select: AF USB AF/IF Output/AF Output Level: 50% MOD Input/DATA MOD: USB USB Send/KEYING/USB SEND: USB (A) RTS USB Send/KEYING/Inhibit Timer at USB Connection: ON CI-V/CI-V DATA Echo Back: ON PTT Port Function: ’PTT Input + SEND Output`\n\n\n\n\nPC\n\nAcer Windows 10 laptop\n\n\n\nAntenna\n\nComet antenna mounted externally\nConnected via coax patch panel\n\n\n\nSoftware\n\nPC System Settings\n\n\n\n\n\n\nNote\n\n\n\nAs of 2024-12-xx, the IC-9700 audio devices have been renamed to “IC-9700-microphone (5- USB Audio CODEC)” and “IC-9700-speakers (5- USB Audio CODEC)”\n# Right click Windows icon; select ‘Device Manager’; Select ‘Ports (COM & LPT)’ Silicon Labs SP210x USB to UART Bridge (COM10) and Silicon Labs SP210x USB to UART Bridge (COM11) are the COM ports for the IC-9700\n# Enter ‘control panel’ in search window; Open ‘Hardware and Sound’; Select ‘Sound’\n# Under ‘Recording’ tab 1. Confirm that Microphone IC-9700-speakers (5- USB Audio CODEC) is not default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)\n# Under ‘Playback’ tab 1. Confirm that IC-9700 is not default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%\n\n\n\n\nApplication\n\nUZ7HO version 1.13 SoundModem\n\n\n\n\n\n\n\nNote\n\n\n\nSoundModem parameters.\n# Settings menu: Devices Sound Card: Output device: IC-9700-microphone (5- USB Audio CODEC Sound Card: Input device: IC-9700-speakers (5- USB Audio CODEC Sound Card: Single channel output Sound Card: Color waterfall\nServer setup: AGWPE Server Port: 8000 and Enabled Server setup: KISS Server Port: 8001\nPTT Port: Select PTT port: COM4\n# Settings menu: Modems\n\n\n\nEasyTerm by UZ7HO Version 0.49b\n\n\n\n\n\n\n\nNote\n\n\n\nEasyTerm parameters.\n# Settings menu: Station Setup Terminal Callsign: W3TM\nBeacon Setup: Destination: BEACON Beacon Setup: Interval: 30 Beacon Setup: Ports: `1’\nTNC Setup: Host: 127.0.0.1 TNC Setup: Port: 8000 TNC Setup: Paclen: 80\n\n\n\n\n\nOperating\n\nSwitch to memory channel 7 (145.030 MHz, W3YA-3 Packet), FM-D mode\nLaunch SoundModem.\nLaunch EasyTerm\nCheck rig RF power (10W is more than sufficient)\nW3YA-3 and W3PHB-3 beacon regularly, so it’s good to see if you can decode them.\nWhen the channel is clear, press the ‘Connect’ button\nSelect target from ‘CallTo’ menu, usually W3YA-3 or W3PHB-3\nPress the ‘Connect’ button to connect.\nTurn up AF gain to monitor QSO. You will hear sound from the packet BBS, but not your own output (unless you have turned up the monitor level on the rig).",
+    "text": "Packet\n\nRig\n\nIC-9700\nUSB A/B cable\n\n\n\n\n\n\n\nNote\n\n\n\nFrequency: 145.030 MHz (this frequency is stored in one of the memories) Mode: FM-D (digital)\nThe following settings do not change from Winlink or APRS-tt (via Direwolf)\nConnectors/ USB AF/IF Output/Output Select: AF USB AF/IF Output/AF Output Level: 50% MOD Input/DATA MOD: USB USB Send/KEYING/USB SEND: USB (A) RTS USB Send/KEYING/Inhibit Timer at USB Connection: ON CI-V/CI-V DATA Echo Back: ON PTT Port Function: ’PTT Input + SEND Output`\n\n\n\n\nPC\n\nBeelink Windows 11\n\n\n\nAntenna\n\nComet antenna mounted externally\nConnected via coax patch panel\n\n\n\nSoftware\n\nPC System Settings\n\n\n\n\n\n\nNote\n\n\n\nAs of 2024-12-xx, the IC-9700 audio devices have been renamed to “IC-9700-microphone (5- USB Audio CODEC)” and “IC-9700-speakers (5- USB Audio CODEC)”\n# Right click Windows icon; select ‘Device Manager’; Select ‘Ports (COM & LPT)’ Silicon Labs SP210x USB to UART Bridge (COM10) and Silicon Labs SP210x USB to UART Bridge (COM11) are the COM ports for the IC-9700\n# Enter ‘control panel’ in search window; Open ‘Hardware and Sound’; Select ‘Sound’\n# Under ‘Recording’ tab 1. Confirm that Microphone IC-9700-speakers (5- USB Audio CODEC) is not default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)\n# Under ‘Playback’ tab 1. Confirm that IC-9700 is not default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%\n\n\n\n\nApplication\n\nUZ7HO version 1.13 SoundModem\n\n\n\n\n\n\n\nNote\n\n\n\nSoundModem parameters.\n# Settings menu: Devices Sound Card: Output device: IC-9700-microphone (5- USB Audio CODEC Sound Card: Input device: IC-9700-speakers (5- USB Audio CODEC Sound Card: Single channel output Sound Card: Color waterfall\nServer setup: AGWPE Server Port: 8000 and Enabled Server setup: KISS Server Port: 8001\nPTT Port: Select PTT port: COM4\n# Settings menu: Modems\n\n\n\nEasyTerm by UZ7HO Version 0.49b\n\n\n\n\n\n\n\nNote\n\n\n\nEasyTerm parameters.\n# Settings menu: Station Setup Terminal Callsign: W3TM\nBeacon Setup: Destination: BEACON Beacon Setup: Interval: 30 Beacon Setup: Ports: `1’\nTNC Setup: Host: 127.0.0.1 TNC Setup: Port: 8000 TNC Setup: Paclen: 80\n\n\n\n\n\nOperating\n\nSwitch to memory channel 7 (145.030 MHz, W3YA-3 Packet), FM-D mode\nLaunch SoundModem.\nLaunch EasyTerm\nCheck rig RF power (10W is more than sufficient)\nW3YA-3 and W3PHB-3 beacon regularly, so it’s good to see if you can decode them.\nWhen the channel is clear, press the ‘Connect’ button\nSelect target from ‘CallTo’ menu, usually W3YA-3 or W3PHB-3\nPress the ‘Connect’ button to connect.\nTurn up AF gain to monitor QSO. You will hear sound from the packet BBS, but not your own output (unless you have turned up the monitor level on the rig).",
     "crumbs": [
       "Operating",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Icom IC-9700</span>"
@@ -573,6 +589,61 @@
     "crumbs": [
       "Operating",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Icom IC-9700</span>"
+    ]
+  },
+  {
+    "objectID": "flex-6400.html",
+    "href": "flex-6400.html",
+    "title": "Flex-6400",
+    "section": "",
+    "text": "Manuals",
+    "crumbs": [
+      "Operating",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Flex-6400</span>"
+    ]
+  },
+  {
+    "objectID": "flex-6400.html#setup",
+    "href": "flex-6400.html#setup",
+    "title": "Flex-6400",
+    "section": "Setup",
+    "text": "Setup\nLoad the software database.\n\n\n[1] TRUE",
+    "crumbs": [
+      "Operating",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Flex-6400</span>"
+    ]
+  },
+  {
+    "objectID": "flex-6400.html#varac",
+    "href": "flex-6400.html#varac",
+    "title": "Flex-6400",
+    "section": "VarAC",
+    "text": "VarAC\n\nHardware\n\nPC\n\nBeelink Windows 11\n\n\n\nAntenna\n\nComet antenna mounted externally\nConnected via coax patch panel\n\n\n\n\nSoftware\nThe packages used with VarAC are as follows:\n\n\n\n\n\npackage\nversion\n\n\n\n\nVARA HF\n4.8.7\n\n\nVarAC\n9.2.3\n\n\n\n\n\n\n\n\nPackage settings\nHere are screenshots of settings for VarAC.\n\n\n\n\n\n\nFigure 14.1: VarAC Rig Settings for Flex 6400\n\n\n\n\n\n\n\n\n\nFigure 14.2: VarAC VARA settings for Flex 6400\n\n\n\nHere are the settings for VARA HF:\n\n\n\n\n\n\nFigure 14.3: VARA HF setup\n\n\n\n\n\n\n\n\n\nFigure 14.4: VARA HF soundcard settings for Flex 6400\n\n\n\n\n\n\nOperating\n\nSelect Global Profile “Shack digital 45W”\n\n\nThis disables AGC and any RX or TX filters\nThe mode is DIGU",
+    "crumbs": [
+      "Operating",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Flex-6400</span>"
+    ]
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Set-up\nThe following code downloads that file.\n[1] TRUE\n\n\n[1] TRUE\nThen, we import the downloaded data.",
+    "crumbs": [
+      "Stations",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Software</span>"
+    ]
+  },
+  {
+    "objectID": "software.html#summary",
+    "href": "software.html#summary",
+    "title": "Software",
+    "section": "Summary",
+    "text": "Summary\n\nsoftware_versions |&gt;\n  dplyr::select(machine, package, type) |&gt;\n  dplyr::arrange(machine, type, package) |&gt;\n  knitr::kable(format = 'html') |&gt;\n  kableExtra::kable_material()\n\n\n\n\nmachine\npackage\ntype\n\n\n\n\nBeelink\nCwSkimmer\naccessory\n\n\nBeelink\nRM Noise\naccessory\n\n\nBeelink\nGridTracker\ndigital\n\n\nBeelink\nJS8Call\ndigital\n\n\nBeelink\nOutpost PMM\ndigital\n\n\nBeelink\nSoundModem\ndigital\n\n\nBeelink\nVARA FM\ndigital\n\n\nBeelink\nVARA HF\ndigital\n\n\nBeelink\nVarAC\ndigital\n\n\nBeelink\nWSJT-X\ndigital\n\n\nBeelink\nWinlink Express\ndigital\n\n\nBeelink\ndirewolf\ndigital\n\n\nBeelink\nflamp\ndigital\n\n\nBeelink\nflarq\ndigital\n\n\nBeelink\nfldigi\ndigital\n\n\nBeelink\nflmsg\ndigital\n\n\nBeelink\nflrig\ndigital\n\n\nBeelink\nflwrap\ndigital\n\n\nBeelink\nAmateur Contact Log\nlogging\n\n\nBeelink\nTQSL\nlogging\n\n\nBeelink\nWindows 11\nos\n\n\nBeelink\nRealVNC\nremote\n\n\nBeelink\nSmartSDR\nremote\n\n\nBeelink\nwfview\nremote\n\n\nmacbook-pro\nParallels Desktop\nremote\n\n\nmacbook-pro\nSmartSDR\nremote\n\n\nmacbook-pro\nVNC Viewer\nremote",
+    "crumbs": [
+      "Stations",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Software</span>"
     ]
   }
 ]

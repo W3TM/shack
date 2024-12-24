@@ -1,5 +1,0 @@
-date,machine,os,software,version,type,action,comments
-2024-11-29,macbook-pro,macos-14.4,SmartSDR,2.9.45,remote,check version,Connect to Flex 6400
-2024-11-29,macbook-pro,macos-14.4,VNC Viewer,6.2.113,remote,check version,Monitor APRS iGate
-2024-11-29,macbook-pro,macos-14.4,MacOS,14.4,os,check version,
-2024-11-29,macbook-pro,macos-14.4,Parallels Desktop,20.1.1,remote,upgrade,
