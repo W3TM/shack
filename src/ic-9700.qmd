@@ -1,5 +1,7 @@
 ---
 title: "Icom IC-9700"
+params:
+  software_data: "include/csv/w3tm-software-versions.csv"
 ---
 
 This page describes some mode-specific settings for the IC-9700 station.
@@ -11,7 +13,23 @@ Manuals for the IC-9700 can be found here:
 - [Basic](pdf/icom-IC-9700_ENG_Basic_3.pdf)
 - [Advanced](pdf/icom-IC-9700_ENG_AM_1.pdf)
 
-## APRS-tt
+## Setup
+
+Load the software database.
+
+```{r}
+#| label: load-software-data
+#| echo: false
+
+assertthat::is.readable(params$software_data)
+sw <- readr::read_csv(file = params$software_data, show_col_types = FALSE)
+
+# Select Beelink software
+pc <- sw |>
+  dplyr::filter(machine == "Beelink")
+```
+
+## APRS
 
 ### Hardware
 
@@ -21,9 +39,9 @@ Manuals for the IC-9700 can be found here:
 - USB A/B cable
 
 ::: {.callout-note}
-
-Frequency: 146.580 MHz</br>
-Mode: FM-D (digital)
+Frequency: 144.390 MHz</br>
+Mode: FM-D (digital)</br>
+FIL1
 
 *Connectors/*</br>
 USB AF/IF Output/Output Select: `AF`</br>
@@ -31,112 +49,126 @@ USB AF/IF Output/AF Output Level: `50%`</br>
 MOD Input/DATA MOD: `USB`</br>
 USB Send/KEYING/USB SEND: `USB (A) RTS`</br>
 USB Send/KEYING/Inhibit Timer at USB Connection: `ON`</br>
-CI-V/CI-V DATA Echo Back: `ON`</br>
+CI-V/CI-V DATA Echo Back: `OFF`</br>
 PTT Port Function: `PTT Input + SEND Output`
-
 :::
 
 #### PC
 
-- Acer Windows 10 laptop
+- Beelink Windows 11 PC
 
 #### Antenna
 
 - Comet antenna mounted externally
 - Connected via coax patch panel
 
+```{mermaid}
+%%| label: fig-IC-9700-connections
+flowchart LR
+  A[IC-9700] ---|USB| B[Beelink PC]
+  A ---|Coax 2m| C[Diamond MX3000N Triplexer]
+  A ---|Coax 70cm| C
+  A ---|Coax 23cm| C
+  C ---|Coax| D[Comet Vertical 2m/70cm]
+```
+
 ### Software
+
 
 #### PC System Settings
 
 ::: {.callout-note}
+As of 2024-12-xx, the IC-9700 audio devices have been renamed to "IC-9700-microphone (5- USB Audio CODEC)" and "IC-9700-speakers (5- USB Audio CODEC)"
 
-\# Right click Windows icon; select 'Device Manager'; Select 'Ports (COM & LPT)'</br>
-`Silicon Labs SP210x USB to UART Bridge (COM4)`</br>
+- Right click Windows icon; select 'Device Manager'; Select 'Ports (COM & LPT)'</br>
+`Silicon Labs SP210x USB to UART Bridge (COM10)` and `Silicon Labs SP210x USB to UART Bridge (COM11)` are the COM ports for the IC-9700</br>
 
-\# Right click Windows icon; select 'Device Manager'; Select 'Audio inputs and outputs'</br>
-`IC-9700 (4- USB Audio CODEC)`</br>
-`Microphone (4- USB Audio CODEC)`
-
-\# Enter 'control panel' in search window; Open 'Hardware and Sound'; Select 'Sound'
-
-\# Under 'Recording' tab
-1. Confirm that Microphone (4- USB Audio CODEC) is *not* default device
-2. Click Properties button; select Levels tab
-3. Set Microphone level to ~65% (adjust as needed)
-
-#\ Under 'Playback' tab
-1. Confirm that IC-9700 is *not* default device
-2. Click Properties button; select Levels tab
-3. Set Speakers slider to ~50%
-
+- Enter 'control panel' in search window; Open 'Hardware and Sound'; Select 'Sound'
+  - Under 'Recording' tab
+    - 1. Confirm that Microphone `IC-9700-speakers (5- USB Audio CODEC)` is *not* default device
+    - 2. Click Properties button; select Levels tab
+    - 3. Set Microphone level to ~65% (adjust as needed)
+  - Under 'Playback' tab
+    - 1. Confirm that IC-9700 is *not* default device
+    - 2. Click Properties button; select Levels tab
+    - 3. Set Speakers slider to ~50%
 ::: 
 
 #### Application
 
-- Direwolf 1.7
+```{r}
+#| label: select-aprs-sw
+#| echo: false
+
+aprs <- pc |>
+  dplyr::filter(package %in% c('direwolf'))
+```
+
+I am running `{r} aprs$package` version `{r} aprs$version`.
+
+`C:\Users\rick\OneDrive\Documents\direwolf-1.7.0-9807304_i686`
 
 ::: {.callout-note}
+### APRS-only (non-TT) params
 
-Parameters in `direwolf.conf`
+Parameters in `C:\Users\rick\OneDrive\Documents\direwolf.conf`
 
-ADEVICE (4- USB
+ADEVICE IC-9700
 
 CHANNEL 0
 
-MYCALL W3TM-8
+MYCALL W3TM-1
 
 MODEM 1200
 
 DTMF
 
-PTT COM4 RTS
+#PTT COM4 RTS
 
 AGWPORT 8000</br>
 KISSPORT 8001
 
-CBEACON every=10 dest="MORSE-6" info="de W3TM-tt"
+#CBEACON every=10 dest="MORSE-6" info="de W3TM-tt"
 
 IGSERVER noam.aprs2.net
 
 \# Logged-in to APRS-IS to send packets.</br>
-IGLOGIN W3TM-8 28828
+IGLOGIN W3TM-1 28828
 
 IGTXLIMIT 6 10
 
-TTPOINT B001 40.7177087 -77.891919  # mountaintop</br>
-TTPOINT B002 40.7753191 -77.8561127 # South Hills</br>
-TTPOINT B003 40.8055434 -77.88982   # Hoss'</br>
-TTPOINT B085 40.753017  -77.760620  # Little Flat 85</br>
-TTPOINT B076 40.9123402 -78.019739  # Rattlesnake 76</br>
+#TTPOINT B001 40.7177087 -77.891919  # mountaintop</br>
+#TTPOINT B002 40.7753191 -77.8561127 # South Hills</br>
+#TTPOINT B003 40.8055434 -77.88982   # Hoss'</br>
+#TTPOINT B085 40.753017  -77.760620  # Little Flat 85</br>
+#TTPOINT B076 40.9123402 -78.019739  # Rattlesnake 76</br>
 
-TTAMBIG BAx
+#TTAMBIG BAx
 
 \# W3TM</br>
-TTMACRO 001xx AC9386001109*AB{dot}*B0xx*BA1</br>
+#TTMACRO 001xx AC9386001109*AB{dot}*B0xx*BA1</br>
 \# W3EDP ------------------------------------</br>
-TTMACRO 011xx AC9333701173*AB{dot}*B0xx*BA1</br>
+#TTMACRO 011xx AC9333701173*AB{dot}*B0xx*BA1</br>
 \# N3LI ------------------------------------</br>
-TTMACRO 021xx AC6354002293*AB{dot}*B0xx*BA1</br>
+#TTMACRO 021xx AC6354002293*AB{dot}*B0xx*BA1</br>
 \# W3SWL</br>
-TTMACRO 031xx AC9379501245*AB{dot}*B0xx*BA1</br>
+#TTMACRO 031xx AC9379501245*AB{dot}*B0xx*BA1</br>
 \# WA7HUB</br>
-TTMACRO 041xx AC9274821322*AB{dot}*B0xx*BA1</br>
+#TTMACRO 041xx AC9274821322*AB{dot}*B0xx*BA1</br>
 
-TTOBJ 0 IG</br>
-CHANNEL 0</br>
-DWAIT 100</br>
+#TTOBJ 0 IG</br>
+#CHANNEL 0</br>
+#DWAIT 100</br>
 
 :::
 
 ### Operating
 
-1. Switch to 145.80 MHz, FM-D mode. **Note:** Memory channel 10 has this frequency but not FM-D stored!
+1. Switch to 145.390 MHz, FM-D mode. **Note:** Memory channel 10 has this frequency but not FM-D stored!
 2. Launch Direwolf from desktop
 3. Confirm that Direwolf has connected to audio devices.
-4. Enter DTMF tones to test or switch to 144.390 MHz to ensure that packets are being decoded.
 
-## Winlink
+## Winlink Express
 
 #### Rig
 
@@ -160,7 +192,7 @@ PTT Port Function: `PTT Input + SEND Output`
 
 #### PC
 
-- Acer Windows 10 laptop
+- Beelink Windows 11 PC
 
 #### Antenna
 
@@ -172,37 +204,48 @@ PTT Port Function: `PTT Input + SEND Output`
 #### PC System Settings
 
 ::: {.callout-note}
+As of 2024-12-xx, the IC-9700 audio devices have been renamed to "IC-9700-microphone (5- USB Audio CODEC)" and "IC-9700-speakers (5- USB Audio CODEC)"
 
-\# Right click Windows icon; select Device Manager; Select Ports (COM & LPT)
-`Silicon Labs SP210x USB to UART Bridge (COM4)`</br>
+\# Right click Windows icon; select 'Device Manager'; Select 'Ports (COM & LPT)'</br>
+`Silicon Labs SP210x USB to UART Bridge (COM10)` and `Silicon Labs SP210x USB to UART Bridge (COM11)` are the COM ports for the IC-9700</br>
 
-\# Right click Windows icon; select Device Manager; Select Audio inputs and outputs
-`IC-9700 (4- USB Audio CODEC)`</br>
-`Microphone (4- USB Audio CODEC)`
+\# Enter 'control panel' in search window; Open 'Hardware and Sound'; Select 'Sound'
 
-\# Enter 'control panel' in search window; Open Hardware and Sound; Select Sound
-
-\# Under Recording tab
-1. Confirm that Microphone (4- USB Audio CODEC) is *not* default device
+\# Under 'Recording' tab
+1. Confirm that Microphone `IC-9700-speakers (5- USB Audio CODEC)` is *not* default device
 2. Click Properties button; select Levels tab
 3. Set Microphone level to ~65% (adjust as needed)
 
-#\ Under Playback tab
+#\ Under 'Playback' tab
 1. Confirm that IC-9700 is *not* default device
 2. Click Properties button; select Levels tab
 3. Set Speakers slider to ~50%
+:::  
 
-::: 
+#### Application(s)
 
-#### Application
+```{r}
+#| label: select-winlink-sw
+#| echo: false
 
-- Winlink Express 1.7.12.0
+winlink <- pc |>
+  dplyr::filter(package %in% c('VARA FM', 'Winlink Express'))
+```
+
+```{r}
+#| label: tbl-winlink-packages
+#| tbl-cap: "Winlink Express packages"
+#| echo: false
+winlink |>
+  dplyr::select(package, version) |>
+  kableExtra::kable(format = 'html') |>
+  kableExtra::kable_classic()
+```
+
 
 ::: {.callout-note}
+### Winlink Express parameters.
 
-Winlink Express parameters.
-
-\# Settings : Winlink Express Setup</br>
 My Callsign: `W3TM`</br>
 My Password: `*******`</br>
 Password recovery email: `rogilmore@mac.com`
@@ -210,14 +253,14 @@ My Grid Square `FN10BT`</br>
 Winlink Express registration key: `HIDDEN`</br>
 
 There are many other parameters but these are the most important ones.
-
 :::
 
 - VARA FM
 
 ::: {.callout-note}
+### VARA FM Settings
 
-\# Under Settings
+*Under Settings*
 **VARA Setup...**</br>
 TCP Ports: Command: `8300`</br>
 TCP Ports: Data: `8301`</br>
@@ -237,14 +280,17 @@ Device Output: `IC-9700 (4- USB Audio CODEC)`
 **PTT...**</br>
 PTT Via: `CAT'</br>
 Brand: `Icom`</br>
-Port: `COM4`</br>
+Port: `COM10`</br>
 Model: `IC-9700`</br>
 Baud: `19200`</br>
 CI-V Address: `A2`
 
 Oddly enough, RTS is *unchecked*.
-
 :::
+
+![VARA FM SoundCard](include/img/vara-fm-soundcard-params.png)
+
+![VARA FM PTT](include/img/vara-fm-ptt-params.png)
 
 ### Operating
 
@@ -294,31 +340,27 @@ PTT Port Function: 'PTT Input + SEND Output`
 #### PC System Settings
 
 ::: {.callout-note}
+As of 2024-12-xx, the IC-9700 audio devices have been renamed to "IC-9700-microphone (5- USB Audio CODEC)" and "IC-9700-speakers (5- USB Audio CODEC)"
 
-The following settings should not change from those for Winlink Express or APRS-tt.
+\# Right click Windows icon; select 'Device Manager'; Select 'Ports (COM & LPT)'</br>
+`Silicon Labs SP210x USB to UART Bridge (COM10)` and `Silicon Labs SP210x USB to UART Bridge (COM11)` are the COM ports for the IC-9700</br>
 
-\# Right click Windows icon; select Device Manager; Select Ports (COM & LPT)
-`Silicon Labs SP210x USB to UART Bridge (COM4)`</br>
+\# Enter 'control panel' in search window; Open 'Hardware and Sound'; Select 'Sound'
 
-\# Right click Windows icon; select Device Manager; Select Audio inputs and outputs
-`IC-9700 (4- USB Audio CODEC)`</br>
-`Microphone (4- USB Audio CODEC)`
-
-\# Enter 'control panel' in search window; Open Hardware and Sound; Select Sound
-
-\# Under Recording tab
-1. Confirm that Microphone (4- USB Audio CODEC) is *not* default device
+\# Under 'Recording' tab
+1. Confirm that Microphone `IC-9700-speakers (5- USB Audio CODEC)` is *not* default device
 2. Click Properties button; select Levels tab
 3. Set Microphone level to ~65% (adjust as needed)
 
-#\ Under Playback tab
+#\ Under 'Playback' tab
 1. Confirm that IC-9700 is *not* default device
 2. Click Properties button; select Levels tab
 3. Set Speakers slider to ~50%
-
 ::: 
 
 #### Application
+
+
 
 - UZ7HO version 1.13 SoundModem
 
@@ -327,8 +369,8 @@ The following settings should not change from those for Winlink Express or APRS-
 SoundModem parameters.
 
 \# Settings menu: Devices
-Sound Card: Output device: `IC-9700 (4-USB Audio CODEC)`</br>
-Sound Card: Input device: `Microphone (4-USB Audio CODEC)`</br>
+Sound Card: Output device: `IC-9700-microphone (5- USB Audio CODEC`</br>
+Sound Card: Input device: `IC-9700-speakers (5- USB Audio CODEC`</br>
 Sound Card: Single channel output</br>
 Sound Card: Color waterfall</br>
 

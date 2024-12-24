@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>W3TM Shack - Icom IC-9700</title>
+<title>Icom IC-9700 – W3TM Shack</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,29 +62,36 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 
 </head>
 
 <body class="nav-sidebar floating">
 
-
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./ic-9700.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Icom IC-9700</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./ic-9700.html"><span class="chapter-title">Icom IC-9700</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -87,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">W3TM Shack</a> 
@@ -109,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./stations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Stations</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -145,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./gear.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gear</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -186,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./operating.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Operating</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -226,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -234,13 +247,14 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#manuals" id="toc-manuals" class="nav-link active" data-scroll-target="#manuals">Manuals</a></li>
-  <li><a href="#aprs-tt" id="toc-aprs-tt" class="nav-link" data-scroll-target="#aprs-tt">APRS-tt</a>
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
+  <li><a href="#aprs" id="toc-aprs" class="nav-link" data-scroll-target="#aprs">APRS</a>
   <ul class="collapse">
   <li><a href="#hardware" id="toc-hardware" class="nav-link" data-scroll-target="#hardware">Hardware</a></li>
   <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
   <li><a href="#operating" id="toc-operating" class="nav-link" data-scroll-target="#operating">Operating</a></li>
   </ul></li>
-  <li><a href="#winlink" id="toc-winlink" class="nav-link" data-scroll-target="#winlink">Winlink</a>
+  <li><a href="#winlink-express" id="toc-winlink-express" class="nav-link" data-scroll-target="#winlink-express">Winlink Express</a>
   <ul class="collapse">
   <li><a href="#software-1" id="toc-software-1" class="nav-link" data-scroll-target="#software-1">Software</a></li>
   <li><a href="#operating-1" id="toc-operating-1" class="nav-link" data-scroll-target="#operating-1">Operating</a></li>
@@ -256,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./operating.html">Operating</a></li><li class="breadcrumb-item"><a href="./ic-9700.html"><span class="chapter-title">Icom IC-9700</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-title">Icom IC-9700</span></h1>
 </div>
@@ -271,7 +285,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>This page describes some mode-specific settings for the IC-9700 station.</p>
 <section id="manuals" class="level2">
@@ -282,8 +298,17 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="pdf/icom-IC-9700_ENG_AM_1.pdf">Advanced</a></li>
 </ul>
 </section>
-<section id="aprs-tt" class="level2">
-<h2 class="anchored" data-anchor-id="aprs-tt">APRS-tt</h2>
+<section id="setup" class="level2">
+<h2 class="anchored" data-anchor-id="setup">Setup</h2>
+<p>Load the software database.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] TRUE</code></pre>
+</div>
+</div>
+</section>
+<section id="aprs" class="level2">
+<h2 class="anchored" data-anchor-id="aprs">APRS</h2>
 <section id="hardware" class="level3">
 <h3 class="anchored" data-anchor-id="hardware">Hardware</h3>
 <section id="rig" class="level4">
@@ -302,15 +327,15 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Frequency: 146.580 MHz<br> Mode: FM-D (digital)</p>
-<p><em>Connectors/</em><br> USB AF/IF Output/Output Select: <code>AF</code><br> USB AF/IF Output/AF Output Level: <code>50%</code><br> MOD Input/DATA MOD: <code>USB</code><br> USB Send/KEYING/USB SEND: <code>USB (A) RTS</code><br> USB Send/KEYING/Inhibit Timer at USB Connection: <code>ON</code><br> CI-V/CI-V DATA Echo Back: <code>ON</code><br> PTT Port Function: <code>PTT Input + SEND Output</code></p>
+<p>Frequency: 144.390 MHz<br> Mode: FM-D (digital)<br> FIL1</p>
+<p><em>Connectors/</em><br> USB AF/IF Output/Output Select: <code>AF</code><br> USB AF/IF Output/AF Output Level: <code>50%</code><br> MOD Input/DATA MOD: <code>USB</code><br> USB Send/KEYING/USB SEND: <code>USB (A) RTS</code><br> USB Send/KEYING/Inhibit Timer at USB Connection: <code>ON</code><br> CI-V/CI-V DATA Echo Back: <code>OFF</code><br> PTT Port Function: <code>PTT Input + SEND Output</code></p>
 </div>
 </div>
 </section>
 <section id="pc" class="level4">
 <h4 class="anchored" data-anchor-id="pc">PC</h4>
 <ul>
-<li>Acer Windows 10 laptop</li>
+<li>Beelink Windows 11 PC</li>
 </ul>
 </section>
 <section id="antenna" class="level4">
@@ -319,6 +344,28 @@ Note
 <li>Comet antenna mounted externally</li>
 <li>Connected via coax patch panel</li>
 </ul>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-IC-9700-connections" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-IC-9700-connections-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-IC-9700-connections">flowchart LR
+  A[IC-9700] ---|USB| B[Beelink PC]
+  A ---|Coax 2m| C[Diamond MX3000N Triplexer]
+  A ---|Coax 70cm| C
+  A ---|Coax 23cm| C
+  C ---|Coax| D[Comet Vertical 2m/70cm]
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-IC-9700-connections-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;16.1
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="software" class="level3">
@@ -335,45 +382,70 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p># Right click Windows icon; select ‘Device Manager’; Select ‘Ports (COM &amp; LPT)’<br> <code>Silicon Labs SP210x USB to UART Bridge (COM4)</code><br></p>
-<p># Right click Windows icon; select ‘Device Manager’; Select ‘Audio inputs and outputs’<br> <code>IC-9700 (4- USB Audio CODEC)</code><br> <code>Microphone (4- USB Audio CODEC)</code></p>
-<p># Enter ‘control panel’ in search window; Open ‘Hardware and Sound’; Select ‘Sound’</p>
-<p># Under ‘Recording’ tab 1. Confirm that Microphone (4- USB Audio CODEC) is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)</p>
-<p>#&nbsp;Under ‘Playback’ tab 1. Confirm that IC-9700 is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%</p>
+<p>As of 2024-12-xx, the IC-9700 audio devices have been renamed to “IC-9700-microphone (5- USB Audio CODEC)” and “IC-9700-speakers (5- USB Audio CODEC)”</p>
+<ul>
+<li><p>Right click Windows icon; select ‘Device Manager’; Select ‘Ports (COM &amp; LPT)’<br> <code>Silicon Labs SP210x USB to UART Bridge (COM10)</code> and <code>Silicon Labs SP210x USB to UART Bridge (COM11)</code> are the COM ports for the IC-9700<br></p></li>
+<li><p>Enter ‘control panel’ in search window; Open ‘Hardware and Sound’; Select ‘Sound’</p>
+<ul>
+<li>Under ‘Recording’ tab
+<ul>
+<li><ol type="1">
+<li>Confirm that Microphone <code>IC-9700-speakers (5- USB Audio CODEC)</code> is <em>not</em> default device</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Click Properties button; select Levels tab</li>
+</ol></li>
+<li><ol start="3" type="1">
+<li>Set Microphone level to ~65% (adjust as needed)</li>
+</ol></li>
+</ul></li>
+<li>Under ‘Playback’ tab
+<ul>
+<li><ol type="1">
+<li>Confirm that IC-9700 is <em>not</em> default device</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li>Click Properties button; select Levels tab</li>
+</ol></li>
+<li><ol start="3" type="1">
+<li>Set Speakers slider to ~50%</li>
+</ol></li>
+</ul></li>
+</ul></li>
+</ul>
 </div>
 </div>
 </section>
 <section id="application" class="level4">
 <h4 class="anchored" data-anchor-id="application">Application</h4>
-<ul>
-<li>Direwolf 1.7</li>
-</ul>
+<p>I am running direwolf version 1.7.</p>
+<p><code>C:\Users\rick\OneDrive\Documents\direwolf-1.7.0-9807304_i686</code></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+APRS-only (non-TT) params
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Parameters in <code>direwolf.conf</code></p>
-<p>ADEVICE (4- USB</p>
+<p>Parameters in <code>C:\Users\rick\OneDrive\Documents\direwolf.conf</code></p>
+<p>ADEVICE IC-9700</p>
 <p>CHANNEL 0</p>
-<p>MYCALL W3TM-8</p>
+<p>MYCALL W3TM-1</p>
 <p>MODEM 1200</p>
 <p>DTMF</p>
-<p>PTT COM4 RTS</p>
+<p>#PTT COM4 RTS</p>
 <p>AGWPORT 8000<br> KISSPORT 8001</p>
-<p>CBEACON every=10 dest=“MORSE-6” info=“de W3TM-tt”</p>
+<p>#CBEACON every=10 dest=“MORSE-6” info=“de W3TM-tt”</p>
 <p>IGSERVER noam.aprs2.net</p>
-<p># Logged-in to APRS-IS to send packets.<br> IGLOGIN W3TM-8 28828</p>
+<p># Logged-in to APRS-IS to send packets.<br> IGLOGIN W3TM-1 28828</p>
 <p>IGTXLIMIT 6 10</p>
-<p>TTPOINT B001 40.7177087 -77.891919 # mountaintop<br> TTPOINT B002 40.7753191 -77.8561127 # South Hills<br> TTPOINT B003 40.8055434 -77.88982 # Hoss’<br> TTPOINT B085 40.753017 -77.760620 # Little Flat 85<br> TTPOINT B076 40.9123402 -78.019739 # Rattlesnake 76<br></p>
-<p>TTAMBIG BAx</p>
-<p># W3TM<br> TTMACRO 001xx AC9386001109<em>AB{dot}</em>B0xx<em>BA1<br> # W3EDP ————————————<br> TTMACRO 011xx AC9333701173</em>AB{dot}<em>B0xx</em>BA1<br> # N3LI ————————————<br> TTMACRO 021xx AC6354002293<em>AB{dot}</em>B0xx<em>BA1<br> # W3SWL<br> TTMACRO 031xx AC9379501245</em>AB{dot}<em>B0xx</em>BA1<br> # WA7HUB<br> TTMACRO 041xx AC9274821322<em>AB{dot}</em>B0xx*BA1<br></p>
-<p>TTOBJ 0 IG<br> CHANNEL 0<br> DWAIT 100<br></p>
+<p>#TTPOINT B001 40.7177087 -77.891919 # mountaintop<br> #TTPOINT B002 40.7753191 -77.8561127 # South Hills<br> #TTPOINT B003 40.8055434 -77.88982 # Hoss’<br> #TTPOINT B085 40.753017 -77.760620 # Little Flat 85<br> #TTPOINT B076 40.9123402 -78.019739 # Rattlesnake 76<br></p>
+<p>#TTAMBIG BAx</p>
+<p># W3TM<br> #TTMACRO 001xx AC9386001109<em>AB{dot}</em>B0xx<em>BA1<br> # W3EDP ————————————<br> #TTMACRO 011xx AC9333701173</em>AB{dot}<em>B0xx</em>BA1<br> # N3LI ————————————<br> #TTMACRO 021xx AC6354002293<em>AB{dot}</em>B0xx<em>BA1<br> # W3SWL<br> #TTMACRO 031xx AC9379501245</em>AB{dot}<em>B0xx</em>BA1<br> # WA7HUB<br> #TTMACRO 041xx AC9274821322<em>AB{dot}</em>B0xx*BA1<br></p>
+<p>#TTOBJ 0 IG<br> #CHANNEL 0<br> #DWAIT 100<br></p>
 </div>
 </div>
 </section>
@@ -381,15 +453,14 @@ Note
 <section id="operating" class="level3">
 <h3 class="anchored" data-anchor-id="operating">Operating</h3>
 <ol type="1">
-<li>Switch to 145.80 MHz, FM-D mode. <strong>Note:</strong> Memory channel 10 has this frequency but not FM-D stored!</li>
+<li>Switch to 145.390 MHz, FM-D mode. <strong>Note:</strong> Memory channel 10 has this frequency but not FM-D stored!</li>
 <li>Launch Direwolf from desktop</li>
 <li>Confirm that Direwolf has connected to audio devices.</li>
-<li>Enter DTMF tones to test or switch to 144.390 MHz to ensure that packets are being decoded.</li>
 </ol>
 </section>
 </section>
-<section id="winlink" class="level2">
-<h2 class="anchored" data-anchor-id="winlink">Winlink</h2>
+<section id="winlink-express" class="level2">
+<h2 class="anchored" data-anchor-id="winlink-express">Winlink Express</h2>
 <section id="rig-1" class="level4">
 <h4 class="anchored" data-anchor-id="rig-1">Rig</h4>
 <ul>
@@ -414,7 +485,7 @@ Note
 <section id="pc-1" class="level4">
 <h4 class="anchored" data-anchor-id="pc-1">PC</h4>
 <ul>
-<li>Acer Windows 10 laptop</li>
+<li>Beelink Windows 11 PC</li>
 </ul>
 </section>
 <section id="antenna-1" class="level4">
@@ -438,31 +509,60 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p># Right click Windows icon; select Device Manager; Select Ports (COM &amp; LPT) <code>Silicon Labs SP210x USB to UART Bridge (COM4)</code><br></p>
-<p># Right click Windows icon; select Device Manager; Select Audio inputs and outputs <code>IC-9700 (4- USB Audio CODEC)</code><br> <code>Microphone (4- USB Audio CODEC)</code></p>
-<p># Enter ‘control panel’ in search window; Open Hardware and Sound; Select Sound</p>
-<p># Under Recording tab 1. Confirm that Microphone (4- USB Audio CODEC) is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)</p>
-<p>#&nbsp;Under Playback tab 1. Confirm that IC-9700 is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%</p>
+<p>As of 2024-12-xx, the IC-9700 audio devices have been renamed to “IC-9700-microphone (5- USB Audio CODEC)” and “IC-9700-speakers (5- USB Audio CODEC)”</p>
+<p># Right click Windows icon; select ‘Device Manager’; Select ‘Ports (COM &amp; LPT)’<br> <code>Silicon Labs SP210x USB to UART Bridge (COM10)</code> and <code>Silicon Labs SP210x USB to UART Bridge (COM11)</code> are the COM ports for the IC-9700<br></p>
+<p># Enter ‘control panel’ in search window; Open ‘Hardware and Sound’; Select ‘Sound’</p>
+<p># Under ‘Recording’ tab 1. Confirm that Microphone <code>IC-9700-speakers (5- USB Audio CODEC)</code> is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)</p>
+<p>#&nbsp;Under ‘Playback’ tab 1. Confirm that IC-9700 is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%</p>
 </div>
 </div>
 </section>
-<section id="application-1" class="level4">
-<h4 class="anchored" data-anchor-id="application-1">Application</h4>
-<ul>
-<li>Winlink Express 1.7.12.0</li>
-</ul>
+<section id="applications" class="level4">
+<h4 class="anchored" data-anchor-id="applications">Application(s)</h4>
+<div class="cell">
+<div id="tbl-winlink-packages" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-winlink-packages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;16.1: Winlink Express packages
+</figcaption>
+<div aria-describedby="tbl-winlink-packages-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="lightable-classic do-not-create-environment cell caption-top table table-sm table-striped small" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">package</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">version</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Winlink Express</td>
+<td style="text-align: left;">1.7.20.0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">VARA FM</td>
+<td style="text-align: left;">4.3.8</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</figure>
+</div>
+</div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+Winlink Express parameters.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Winlink Express parameters.</p>
-<p># Settings : Winlink Express Setup<br> My Callsign: <code>W3TM</code><br> My Password: <code>*******</code><br> Password recovery email: <code>rogilmore@mac.com</code> My Grid Square <code>FN10BT</code><br> Winlink Express registration key: <code>HIDDEN</code><br></p>
+<p>My Callsign: <code>W3TM</code><br> My Password: <code>*******</code><br> Password recovery email: <code>rogilmore@mac.com</code> My Grid Square <code>FN10BT</code><br> Winlink Express registration key: <code>HIDDEN</code><br></p>
 <p>There are many other parameters but these are the most important ones.</p>
 </div>
 </div>
@@ -475,17 +575,29 @@ Note
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+VARA FM Settings
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p># Under Settings <strong>VARA Setup…</strong><br> TCP Ports: Command: <code>8300</code><br> TCP Ports: Data: <code>8301</code><br></p>
+<p><em>Under Settings</em> <strong>VARA Setup…</strong><br> TCP Ports: Command: <code>8300</code><br> TCP Ports: Data: <code>8301</code><br></p>
 <p>FM System: <code>NARROW</code><br> Digipeater: <br> Retries: <code>2</code><br></p>
 <p>VARA Licenses:<br> Callsign: <code>W3TM</code><br> Registration Key: <code>*******</code></p>
 <p><strong>Soundcard…</strong><br> Device Input: <code>Microphone (4- USB Audio CODEC)</code><br> Device Output: <code>IC-9700 (4- USB Audio CODEC)</code></p>
-<p><strong>PTT…</strong><br> PTT Via: <code>CAT'&lt;/br&gt; Brand:</code>Icom<code>&lt;/br&gt; Port:</code>COM4<code>&lt;/br&gt; Model:</code>IC-9700<code>&lt;/br&gt; Baud:</code>19200<code>&lt;/br&gt; CI-V Address:</code>A2`</p>
+<p><strong>PTT…</strong><br> PTT Via: <code>CAT'&lt;/br&gt; Brand:</code>Icom<code>&lt;/br&gt; Port:</code>COM10<code>&lt;/br&gt; Model:</code>IC-9700<code>&lt;/br&gt; Baud:</code>19200<code>&lt;/br&gt; CI-V Address:</code>A2`</p>
 <p>Oddly enough, RTS is <em>unchecked</em>.</p>
 </div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="include/img/vara-fm-soundcard-params.png" class="img-fluid figure-img"></p>
+<figcaption>VARA FM SoundCard</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="include/img/vara-fm-ptt-params.png" class="img-fluid figure-img"></p>
+<figcaption>VARA FM PTT</figcaption>
+</figure>
 </div>
 </section>
 </section>
@@ -553,17 +665,16 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The following settings should not change from those for Winlink Express or APRS-tt.</p>
-<p># Right click Windows icon; select Device Manager; Select Ports (COM &amp; LPT) <code>Silicon Labs SP210x USB to UART Bridge (COM4)</code><br></p>
-<p># Right click Windows icon; select Device Manager; Select Audio inputs and outputs <code>IC-9700 (4- USB Audio CODEC)</code><br> <code>Microphone (4- USB Audio CODEC)</code></p>
-<p># Enter ‘control panel’ in search window; Open Hardware and Sound; Select Sound</p>
-<p># Under Recording tab 1. Confirm that Microphone (4- USB Audio CODEC) is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)</p>
-<p>#&nbsp;Under Playback tab 1. Confirm that IC-9700 is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%</p>
+<p>As of 2024-12-xx, the IC-9700 audio devices have been renamed to “IC-9700-microphone (5- USB Audio CODEC)” and “IC-9700-speakers (5- USB Audio CODEC)”</p>
+<p># Right click Windows icon; select ‘Device Manager’; Select ‘Ports (COM &amp; LPT)’<br> <code>Silicon Labs SP210x USB to UART Bridge (COM10)</code> and <code>Silicon Labs SP210x USB to UART Bridge (COM11)</code> are the COM ports for the IC-9700<br></p>
+<p># Enter ‘control panel’ in search window; Open ‘Hardware and Sound’; Select ‘Sound’</p>
+<p># Under ‘Recording’ tab 1. Confirm that Microphone <code>IC-9700-speakers (5- USB Audio CODEC)</code> is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Microphone level to ~65% (adjust as needed)</p>
+<p>#&nbsp;Under ‘Playback’ tab 1. Confirm that IC-9700 is <em>not</em> default device 2. Click Properties button; select Levels tab 3. Set Speakers slider to ~50%</p>
 </div>
 </div>
 </section>
-<section id="application-2" class="level4">
-<h4 class="anchored" data-anchor-id="application-2">Application</h4>
+<section id="application-1" class="level4">
+<h4 class="anchored" data-anchor-id="application-1">Application</h4>
 <ul>
 <li>UZ7HO version 1.13 SoundModem</li>
 </ul>
@@ -578,7 +689,7 @@ Note
 </div>
 <div class="callout-body-container callout-body">
 <p>SoundModem parameters.</p>
-<p># Settings menu: Devices Sound Card: Output device: <code>IC-9700 (4-USB Audio CODEC)</code><br> Sound Card: Input device: <code>Microphone (4-USB Audio CODEC)</code><br> Sound Card: Single channel output<br> Sound Card: Color waterfall<br></p>
+<p># Settings menu: Devices Sound Card: Output device: <code>IC-9700-microphone (5- USB Audio CODEC</code><br> Sound Card: Input device: <code>IC-9700-speakers (5- USB Audio CODEC</code><br> Sound Card: Single channel output<br> Sound Card: Color waterfall<br></p>
 <p>Server setup: AGWPE Server Port: <code>8000</code> and <code>Enabled</code> Server setup: KISS Server Port: <code>8001</code></p>
 <p>PTT Port: Select PTT port: <code>COM4</code></p>
 <p># Settings menu: Modems</p>
@@ -659,18 +770,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -702,11 +802,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -716,8 +855,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -729,7 +877,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -773,6 +1044,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -798,6 +1070,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -859,17 +1157,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./ic-705.html" class="pagination-link">
+      <a href="./ic-705.html" class="pagination-link" aria-label="Icom IC-705">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Icom IC-705</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./kx2.html" class="pagination-link">
+      <a href="./kx2.html" class="pagination-link" aria-label="Elecraft KX2">
         <span class="nav-page-text"><span class="chapter-title">Elecraft KX2</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
